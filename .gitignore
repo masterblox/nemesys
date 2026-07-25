@@ -1,0 +1,10 @@
+cli/node_modules/
+.nemesys/
+node_modules/
+.next/
+.vercel/
+.env
+.env.local
+coverage/
+*.tsbuildinfo
+.playwright-mcp/
