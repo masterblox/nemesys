@@ -4,6 +4,8 @@ import { getSkill } from "@/lib/catalog";
 import { deterministicAssessment } from "@/lib/compatibility";
 import { hostedAssessment } from "@/lib/hosted-assessor";
 import { consumeAssessment } from "@/lib/rate-limit";
+import { signAssessmentReceipt } from "@/lib/assessment-receipt";
+import { trustedClientIp } from "@/lib/client-ip";
 import { randomToken, signDeviceId, verifyDeviceId } from "@/lib/security";
 
 const requestSchema = z.object({
@@ -25,24 +27,35 @@ export async function POST(request: NextRequest) {
 
   const existingCookie = request.cookies.get("atlantys_device")?.value;
   const deviceId = verifyDeviceId(existingCookie) || randomToken(18);
-  const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "local";
+  const ip = trustedClientIp(request);
+  if (process.env.NODE_ENV === "production" && !ip) {
+    return NextResponse.json({ error: "Assessment proxy protection is not configured." }, { status: 503 });
+  }
   const limit = await consumeAssessment(deviceId, ip);
   if (!limit.allowed) {
-    return NextResponse.json(
+    const response = NextResponse.json(
       { error: "Three daily checks used. Your portal reopens after the reset.", resetAt: limit.resetAt },
       { status: 429 }
     );
+    setDeviceCookie(response, existingCookie, deviceId);
+    return response;
   }
   const base = deterministicAssessment(skill, parsed.data.fleet);
   const assessment = await hostedAssessment(skill, parsed.data.fleet, base);
-  const response = NextResponse.json({ assessment, remaining: limit.remaining, resetAt: limit.resetAt });
+  const receipt = await signAssessmentReceipt(skill, assessment.verdict);
+  const response = NextResponse.json({ assessment, receipt, remaining: limit.remaining, resetAt: limit.resetAt });
+  setDeviceCookie(response, existingCookie, deviceId);
+  return response;
+}
+
+function setDeviceCookie(response: NextResponse, existingCookie: string | undefined, deviceId: string) {
   if (!verifyDeviceId(existingCookie)) {
     response.cookies.set("atlantys_device", signDeviceId(deviceId), {
       httpOnly: true,
       sameSite: "lax",
       secure: process.env.NODE_ENV === "production",
+      path: "/",
       maxAge: 60 * 60 * 24 * 365
     });
   }
-  return response;
 }

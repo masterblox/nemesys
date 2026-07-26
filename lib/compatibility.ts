@@ -31,9 +31,21 @@ export function deterministicAssessment(skill: Skill, fleet: FleetSelection): As
   const missingTools = requiredTools.filter((tool) => !fleetTools.includes(tool));
   if (missingTools.length) incompatibilities.push(`Missing tools: ${missingTools.join(", ")}`);
   if (!skill.runtime.length) missingInformation.push("Runtime compatibility is not declared.");
+  if (!skill.models.length) missingInformation.push("Model compatibility is not declared.");
+  if (!skill.tools.length) missingInformation.push("Tool requirements are not declared.");
   if (!skill.audits.length) missingInformation.push("No public security audit is available.");
+  if (!skill.permissions.length) missingInformation.push("Required permissions are not declared.");
 
   const failedAudit = skill.audits.some((audit) => audit.status === "fail") || skill.auditStatus === "fail";
+  const concerningAudit = skill.audits.some(
+    (audit) =>
+      audit.status === "warn" ||
+      audit.status === "unknown" ||
+      audit.riskLevel === "medium" ||
+      audit.riskLevel === "high" ||
+      audit.riskLevel === "critical" ||
+      audit.riskLevel === "unknown"
+  );
   const strictPolicyConflict =
     fleet.policy === "strict" &&
     (skill.riskLevel === "high" || skill.riskLevel === "critical" || permissionConcerns.length > 0);
@@ -42,8 +54,8 @@ export function deterministicAssessment(skill: Skill, fleet: FleetSelection): As
   if (failedAudit || incompatibilities.length > 0 || strictPolicyConflict) verdict = "blocked";
   else if (
     skill.auditStatus !== "pass" ||
-    skill.riskLevel === "medium" ||
-    skill.riskLevel === "high" ||
+    !["none", "low"].includes(skill.riskLevel) ||
+    concerningAudit ||
     missingInformation.length > 0 ||
     permissionConcerns.length > 0
   ) {
@@ -75,12 +87,26 @@ export function deterministicAssessment(skill: Skill, fleet: FleetSelection): As
 }
 
 export function enforceHardRules(base: Assessment, candidate: Partial<Assessment>): Assessment {
-  const cannotDowngrade = base.verdict === "blocked";
-  const verdict = cannotDowngrade ? "blocked" : candidate.verdict || base.verdict;
+  const severity: Record<Verdict, number> = { fits: 0, review: 1, blocked: 2 };
+  const candidateVerdict = candidate.verdict || base.verdict;
+  const verdict = severity[candidateVerdict] < severity[base.verdict] ? base.verdict : candidateVerdict;
+  const safetyCopy: Record<Exclude<Verdict, "fits">, Pick<Assessment, "explanation" | "recommendedAction">> = {
+    review: {
+      explanation: "The skill may run on your fleet, but incomplete or elevated-risk evidence needs a human check.",
+      recommendedAction: "Inspect the flagged permissions and test in an isolated workspace."
+    },
+    blocked: {
+      explanation: "A declared incompatibility, failed audit, or policy boundary prevents a safe recommendation.",
+      recommendedAction: "Do not install until the blocking requirement or audit issue is resolved."
+    }
+  };
   return {
     ...base,
     ...candidate,
     verdict,
+    explanation: verdict === "fits" ? candidate.explanation || base.explanation : safetyCopy[verdict].explanation,
+    recommendedAction:
+      verdict === "fits" ? candidate.recommendedAction || base.recommendedAction : safetyCopy[verdict].recommendedAction,
     incompatibilities: [...new Set([...base.incompatibilities, ...(candidate.incompatibilities || [])])],
     permissionConcerns: [...new Set([...base.permissionConcerns, ...(candidate.permissionConcerns || [])])],
     missingInformation: [...new Set([...base.missingInformation, ...(candidate.missingInformation || [])])],

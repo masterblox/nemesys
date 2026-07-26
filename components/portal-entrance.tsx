@@ -9,6 +9,8 @@ export function PortalEntrance() {
   const [ready, setReady] = useState(false);
   const [leaving, setLeaving] = useState(false);
   const skipButton = useRef<HTMLButtonElement>(null);
+  const portal = useRef<HTMLDivElement>(null);
+  const leaveTimer = useRef<number>(undefined);
 
   useEffect(() => {
     const url = new URL(window.location.href);
@@ -25,7 +27,10 @@ export function PortalEntrance() {
       setReady(true);
     };
     window.addEventListener("atlantys:open-gate", replay);
-    return () => window.removeEventListener("atlantys:open-gate", replay);
+    return () => {
+      window.removeEventListener("atlantys:open-gate", replay);
+      if (leaveTimer.current) window.clearTimeout(leaveTimer.current);
+    };
   }, []);
 
   useEffect(() => {
@@ -40,6 +45,28 @@ export function PortalEntrance() {
         element.setAttribute("aria-hidden", "true");
       });
       skipButton.current?.focus();
+      const handleKey = (event: KeyboardEvent) => {
+        if (event.key === "Escape") {
+          enter();
+          return;
+        }
+        if (event.key !== "Tab" || !portal.current) return;
+        const controls = [...portal.current.querySelectorAll<HTMLButtonElement>("button:not(:disabled)")];
+        const first = controls[0];
+        const last = controls.at(-1);
+        if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault();
+          last?.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault();
+          first?.focus();
+        }
+      };
+      document.addEventListener("keydown", handleKey);
+      return () => {
+        document.removeEventListener("keydown", handleKey);
+        restore();
+      };
     } else {
       restore();
     }
@@ -47,20 +74,24 @@ export function PortalEntrance() {
   }, [open, ready]);
 
   function enter() {
+    if (leaving) return;
     sessionStorage.setItem(sessionKey, "true");
     setLeaving(true);
-    window.setTimeout(() => {
+    const reduceMotion = typeof window.matchMedia === "function" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const delay = reduceMotion ? 160 : 850;
+    leaveTimer.current = window.setTimeout(() => {
       setOpen(false);
       setLeaving(false);
       document.querySelector("#surface")?.scrollIntoView({ block: "start" });
       window.requestAnimationFrame(() => document.querySelector<HTMLElement>("#main")?.focus());
-    }, 850);
+    }, delay);
   }
 
   if (!open) return null;
 
   return (
-    <div className={`portal-entrance ${ready ? "is-ready" : "is-pending"} ${leaving ? "is-leaving" : ""}`} role="dialog" aria-modal="true" aria-labelledby="portal-title">
+    <div ref={portal} className={`portal-entrance ${ready ? "is-ready" : "is-pending"} ${leaving ? "is-leaving" : ""}`} role="dialog" aria-modal="true" aria-labelledby="portal-title">
       <button className="portal-skip" ref={skipButton} type="button" onClick={enter}>Skip intro</button>
       <div className="portal-copy">
         <span>Public agent registry · gateway D-137</span>
