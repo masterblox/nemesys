@@ -41,7 +41,7 @@ body {
   transition: background-color 420ms ease;
 }
 
-body.world--atlantis {
+body.world--atlantys {
   background: var(--ocean);
   font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
 }
@@ -162,7 +162,7 @@ svg {
     linear-gradient(180deg, rgba(10, 11, 26, 0.1), rgba(10, 11, 26, 0.52));
 }
 
-.world--atlantis .world-texture {
+.world--atlantys .world-texture {
   opacity: 1;
   background:
     linear-gradient(180deg, rgba(3, 15, 28, 0.25), rgba(3, 9, 20, 0.7) 55%, rgba(3, 8, 20, 0.9)),
@@ -334,7 +334,7 @@ svg {
   transition: background 400ms ease, border-color 400ms ease;
 }
 
-.world--atlantis .world-nav {
+.world--atlantys .world-nav {
   background: rgba(5, 19, 34, 0.94);
   border-color: rgba(0, 212, 255, 0.22);
 }
@@ -1160,16 +1160,16 @@ svg {
   color: var(--portal);
 }
 
-/* SCENARIO 2 — Atlantis */
+/* SCENARIO 2 — Atlantys */
 
-.atlantis-world {
+.atlantys-world {
   position: relative;
   min-height: calc(100svh - var(--ticker-h) - var(--nav-h));
   padding: 4rem max(1rem, calc((100vw - var(--page)) / 2)) 6rem;
   overflow: hidden;
 }
 
-.atlantis-world::after {
+.atlantys-world::after {
   position: absolute;
   z-index: 1;
   top: 31rem;
@@ -1190,7 +1190,7 @@ svg {
   50% { transform: translate(-1rem, -2rem) rotate(2deg); }
 }
 
-.atlantis-world::before {
+.atlantys-world::before {
   position: absolute;
   z-index: -1;
   inset: 0;
@@ -1231,7 +1231,7 @@ svg {
   50% { transform: translateX(3%) scaleY(0.78); border-radius: 42%; }
 }
 
-.atlantis-hero {
+.atlantys-hero {
   position: relative;
   z-index: 3;
   display: grid;
@@ -1241,7 +1241,7 @@ svg {
   min-height: 28rem;
 }
 
-.atlantis-hero__copy h1 {
+.atlantys-hero__copy h1 {
   max-width: 11ch;
   font-family: Didot, "Bodoni 72", Georgia, serif;
   font-size: clamp(4rem, 8vw, 8.6rem);
@@ -1252,12 +1252,12 @@ svg {
   text-shadow: 0 0 2rem rgba(0, 212, 255, 0.23);
 }
 
-.atlantis-hero__copy h1 em {
+.atlantys-hero__copy h1 em {
   color: var(--nimbus);
   font-style: italic;
 }
 
-.atlantis-hero__copy > p {
+.atlantys-hero__copy > p {
   max-width: 41rem;
   margin-top: 1.5rem;
   color: #a8c6ce;
@@ -1265,7 +1265,7 @@ svg {
   line-height: 1.6;
 }
 
-.atlantis-hero__copy code {
+.atlantys-hero__copy code {
   color: #69eaff;
   font-family: "SFMono-Regular", Consolas, monospace;
 }
@@ -1489,7 +1489,7 @@ svg {
   white-space: nowrap;
 }
 
-.atlantis-grid {
+.atlantys-grid {
   position: relative;
   z-index: 3;
   display: grid;
@@ -2537,7 +2537,7 @@ svg {
     width: min(21rem, 37vw);
   }
 
-  .atlantis-grid {
+  .atlantys-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -2636,11 +2636,11 @@ svg {
     display: none;
   }
 
-  .atlantis-hero {
+  .atlantys-hero {
     grid-template-columns: 1fr;
   }
 
-  .atlantis-hero__copy {
+  .atlantys-hero__copy {
     position: relative;
     z-index: 4;
   }
@@ -2762,20 +2762,20 @@ svg {
     animation: none;
   }
 
-  .atlantis-world,
+  .atlantys-world,
   .cable-world {
     padding: 4rem 0.6rem 5rem;
   }
 
-  .atlantis-hero {
+  .atlantys-hero {
     gap: 1rem;
   }
 
-  .atlantis-hero__copy {
+  .atlantys-hero__copy {
     text-align: center;
   }
 
-  .atlantis-hero__copy h1 {
+  .atlantys-hero__copy h1 {
     font-size: clamp(3.7rem, 18vw, 5.6rem);
   }
 
@@ -2814,7 +2814,7 @@ svg {
     flex: none;
   }
 
-  .atlantis-grid {
+  .atlantys-grid {
     grid-template-columns: 1fr;
   }
 
@@ -2912,7 +2912,7 @@ svg {
     #080b10;
 }
 
-.world--atlantis .world-texture {
+.world--atlantys .world-texture {
   opacity: 1;
   background: #061a2a;
 }
@@ -3198,15 +3198,15 @@ svg {
 
 /* The shell court to trench descent. */
 
-.atlantis-world {
+.atlantys-world {
   min-height: 100svh;
   padding: 0;
   overflow: clip;
   background: #061a2a;
 }
 
-.atlantis-world::before,
-.atlantis-world::after {
+.atlantys-world::before,
+.atlantys-world::after {
   display: none;
 }
 
@@ -3222,7 +3222,7 @@ svg {
   background:
     linear-gradient(90deg, rgba(2, 16, 28, 0.92) 0 25%, rgba(2, 16, 28, 0.48) 43%, transparent 65%),
     linear-gradient(180deg, transparent 55%, rgba(4, 20, 31, 0.4) 83%, #061a2a 100%),
-    url("./assets/atlantis-shell-court.webp") center / cover no-repeat;
+    url("./assets/atlantys-shell-court.webp") center / cover no-repeat;
 }
 
 .shell-court__copy {
@@ -3383,7 +3383,7 @@ svg {
   isolation: isolate;
   background:
     linear-gradient(180deg, rgba(2, 17, 31, 0.35), rgba(2, 13, 26, 0.72) 56%, rgba(2, 9, 19, 0.92)),
-    url("./assets/atlantis-trench-registry.webp") center top / cover no-repeat;
+    url("./assets/atlantys-trench-registry.webp") center top / cover no-repeat;
 }
 
 .trench-registry__header {
@@ -3521,13 +3521,13 @@ svg {
     #070907;
 }
 
-.portal-swipe[data-transition="portal-to-atlantis"] {
+.portal-swipe[data-transition="portal-to-atlantys"] {
   background:
     radial-gradient(circle at 50% 42%, transparent 0 12%, rgba(0, 212, 255, 0.28) 13% 23%, transparent 24%),
     linear-gradient(180deg, #78d9ef 0 32%, #00a4c7 32% 48%, #06314d 70%, #061523);
 }
 
-.portal-swipe[data-transition="portal-to-atlantis"]::before {
+.portal-swipe[data-transition="portal-to-atlantys"]::before {
   inset: 16%;
   border-color: rgba(183, 251, 255, 0.72);
   border-width: 0.35rem;
@@ -3581,7 +3581,7 @@ svg {
     padding-top: 5rem;
     background:
       linear-gradient(180deg, rgba(2, 16, 28, 0.82) 0 27%, transparent 56%, rgba(4, 20, 31, 0.2) 83%, #061a2a 100%),
-      url("./assets/atlantis-shell-court-mobile.webp") center top / cover no-repeat;
+      url("./assets/atlantys-shell-court-mobile.webp") center top / cover no-repeat;
   }
 
   .shell-court__copy {
@@ -3596,7 +3596,7 @@ svg {
   .trench-registry {
     background:
       linear-gradient(180deg, rgba(2, 17, 31, 0.35), rgba(2, 13, 26, 0.68) 56%, rgba(2, 9, 19, 0.9)),
-      url("./assets/atlantis-trench-registry-mobile.webp") center top / cover no-repeat;
+      url("./assets/atlantys-trench-registry-mobile.webp") center top / cover no-repeat;
   }
 
   .trench-registry__header {
@@ -3727,7 +3727,7 @@ svg {
   }
 }
 
-/* Atlantis canonical experience */
+/* Atlantys canonical experience */
 
 body.is-portal-active {
   overflow: hidden;
@@ -3738,14 +3738,14 @@ body.is-portal-active {
   scroll-margin-top: calc(var(--ticker-h) + var(--nav-h));
 }
 
-.brand--atlantis .brand__tear {
+.brand--atlantys .brand__tear {
   border-color: #00d4ff;
   border-radius: 58% 58% 38% 38% / 68% 68% 32% 32%;
   box-shadow: inset 0 0 9px rgba(0, 212, 255, 0.7), 0 0 12px rgba(0, 212, 255, 0.42);
   animation: shell-breathe 4s ease-in-out infinite;
 }
 
-.brand--atlantis .brand__tear::before {
+.brand--atlantys .brand__tear::before {
   top: 16%;
   left: calc(50% - 1px);
   width: 2px;
@@ -3755,7 +3755,7 @@ body.is-portal-active {
   transform: none;
 }
 
-.brand--atlantis .brand__tear::after {
+.brand--atlantys .brand__tear::after {
   top: auto;
   right: 18%;
   bottom: 20%;
@@ -3772,8 +3772,8 @@ body.is-portal-active {
   50% { border-radius: 51% 49% 42% 38% / 62% 64% 36% 38%; transform: translateY(-1px); }
 }
 
-.atlantis-nav > a,
-.atlantis-nav > button {
+.atlantys-nav > a,
+.atlantys-nav > button {
   position: relative;
   display: flex;
   min-height: 2.2rem;
@@ -3788,25 +3788,25 @@ body.is-portal-active {
   transition: color 140ms ease, background 140ms ease;
 }
 
-.atlantis-nav > a > span,
-.atlantis-nav > button > span {
+.atlantys-nav > a > span,
+.atlantys-nav > button > span {
   color: #00d4ff;
   font-family: "SFMono-Regular", Consolas, monospace;
   font-size: 0.52rem;
 }
 
-.atlantis-nav > a:hover,
-.atlantis-nav > button:hover {
+.atlantys-nav > a:hover,
+.atlantys-nav > button:hover {
   color: var(--ink);
   background: rgba(0, 212, 255, 0.08);
 }
 
-.atlantis-nav > button {
+.atlantys-nav > button {
   color: #d7ff81;
   border: 1px solid rgba(151, 206, 76, 0.3);
 }
 
-.ticker-station--atlantis {
+.ticker-station--atlantys {
   min-width: 17.5rem;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -3814,24 +3814,24 @@ body.is-portal-active {
   align-content: center;
 }
 
-.ticker-station--atlantis i {
+.ticker-station--atlantys i {
   grid-row: 1 / span 2;
   align-self: center;
 }
 
-.ticker-station--atlantis b,
-.ticker-station--atlantis em {
+.ticker-station--atlantys b,
+.ticker-station--atlantys em {
   display: block;
   font-style: normal;
   line-height: 1.05;
 }
 
-.ticker-station--atlantis b {
+.ticker-station--atlantys b {
   color: #d9f9fb;
   font-size: 0.48rem;
 }
 
-.ticker-station--atlantis em {
+.ticker-station--atlantys em {
   color: #00d4ff;
   font-size: 0.43rem;
   letter-spacing: 0.11em;
@@ -3867,7 +3867,7 @@ body.is-portal-active {
   background:
     linear-gradient(90deg, rgba(2, 16, 28, 0.84) 0 24%, rgba(2, 16, 28, 0.28) 49%, transparent 70%),
     linear-gradient(180deg, transparent 58%, rgba(4, 20, 31, 0.38) 84%, #061a2a 100%),
-    url("./assets/atlantis-shell-court.webp") center / cover no-repeat;
+    url("./assets/atlantys-shell-court.webp") center / cover no-repeat;
   clip-path: ellipse(0 0 at 58% 50%);
   transition: clip-path 760ms cubic-bezier(0.65, 0, 0.35, 1);
 }
@@ -3987,15 +3987,15 @@ body.is-portal-active {
 }
 
 @media (max-width: 820px) {
-  .atlantis-nav > a,
-  .atlantis-nav > button {
+  .atlantys-nav > a,
+  .atlantys-nav > button {
     justify-content: center;
   }
 
   .portal-entrance__destination {
     background:
       linear-gradient(180deg, rgba(2, 16, 28, 0.74) 0 22%, transparent 57%, rgba(4, 20, 31, 0.25) 84%, #061a2a 100%),
-      url("./assets/atlantis-shell-court-mobile.webp") center top / cover no-repeat;
+      url("./assets/atlantys-shell-court-mobile.webp") center top / cover no-repeat;
     clip-path: ellipse(0 0 at 50% 52%);
   }
 
@@ -4012,24 +4012,24 @@ body.is-portal-active {
 }
 
 @media (max-width: 600px) {
-  .ticker-station--atlantis {
+  .ticker-station--atlantys {
     min-width: 8rem;
     max-width: 8rem;
     padding: 0 0.45rem;
   }
 
-  .ticker-station--atlantis b {
+  .ticker-station--atlantys b {
     overflow: hidden;
     font-size: 0.42rem;
     text-overflow: ellipsis;
   }
 
-  .ticker-station--atlantis em {
+  .ticker-station--atlantys em {
     font-size: 0.38rem;
   }
 
-  .atlantis-nav > a,
-  .atlantis-nav > button {
+  .atlantys-nav > a,
+  .atlantys-nav > button {
     min-height: 2.8rem;
   }
 

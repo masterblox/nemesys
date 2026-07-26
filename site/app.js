@@ -1,7 +1,7 @@
 const MANIFEST_PATHS = [
-  "../packages/@demo/portal-cartographer/v1.0.0/nemesys.yml",
-  "../packages/@demo/abyssal-security-auditor/v2.1.0/nemesys.yml",
-  "../packages/@demo/cable-signal-router/v0.9.3/nemesys.yml",
+  "../packages/@demo/portal-cartographer/v1.0.0/atlantys.yml",
+  "../packages/@demo/abyssal-security-auditor/v2.1.0/atlantys.yml",
+  "../packages/@demo/cable-signal-router/v0.9.3/atlantys.yml",
 ];
 
 const CHARACTER_SPECS = {
@@ -11,8 +11,8 @@ const CHARACTER_SPECS = {
   krombopulos: { id: 196, name: "Krombopulos Michael", image: "https://rickandmortyapi.com/api/character/avatar/196.jpeg" },
 };
 
-const PORTAL_SESSION_KEY = "atlantis.portalIntroSeen.v1";
-const LEGACY_HASHES = new Set(["#/cable", "#/portal", "#/atlantis"]);
+const PORTAL_SESSION_KEY = "atlantys.portalIntroSeen.v1";
+const LEGACY_HASHES = new Set(["#/cable", "#/portal", "#/atlantys"]);
 const SUPPORTED_ANCHORS = new Set(["", "#surface", "#registry"]);
 
 const BUTTER_MESSAGES = [
@@ -179,7 +179,7 @@ function renderLoading(message = BUTTER_MESSAGES[0]) {
     <div class="character-task__copy">
       <span>PURPOSE / READ REAL MANIFESTS</span>
       <b>${esc(message)}</b>
-      <small>packages/@demo/**/nemesys.yml</small>
+      <small>packages/@demo/**/atlantys.yml</small>
     </div>`;
   wireImageFallbacks();
 }
@@ -212,18 +212,18 @@ function renderError(error) {
 }
 
 function renderChrome() {
-  document.body.className = "world world--atlantis";
+  document.body.className = "world world--atlantys";
   document.documentElement.style.setProperty("--world-accent", "#00d4ff");
   document.querySelector('meta[name="theme-color"]').setAttribute("content", "#0a0e1a");
 
   nav.innerHTML = `
     <div class="world-nav__inner">
-      <a class="brand brand--atlantis" href="#surface" aria-label="Atlantis — Public Agent Registry">
+      <a class="brand brand--atlantys" href="#surface" aria-label="Atlantys — Public Agent Registry">
         <span class="brand__tear" aria-hidden="true"></span>
-        <span>ATLANTIS</span>
+        <span>ATLANTYS</span>
         <small>PUBLIC AGENT REGISTRY</small>
       </a>
-      <nav class="dimension-nav atlantis-nav" aria-label="Atlantis sections">
+      <nav class="dimension-nav atlantys-nav" aria-label="Atlantys sections">
         <a href="#surface"><span>01</span>Shell Court</a>
         <a href="#registry"><span>02</span>Deep Registry</a>
         <button type="button" data-open-gate><span>∞</span>Open Gate</button>
@@ -231,7 +231,7 @@ function renderChrome() {
       <button class="world-nav__manifest" type="button" data-inspect="${attr(state.packages[0]?.id || "")}">
         <span>YML</span> Open manifest
       </button>
-      <button class="dimension-menu" type="button" data-menu aria-label="Toggle Atlantis navigation" aria-expanded="false">
+      <button class="dimension-menu" type="button" data-menu aria-label="Toggle Atlantys navigation" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>`;
@@ -247,7 +247,7 @@ function renderChrome() {
     </span>`).join("");
 
   ticker.innerHTML = `
-    <span class="ticker-station ticker-station--atlantis"><i></i><b>INTERDIMENSIONAL CABLE</b><em>ATLANTIS CURRENT</em></span>
+    <span class="ticker-station ticker-station--atlantys"><i></i><b>INTERDIMENSIONAL CABLE</b><em>ATLANTYS CURRENT</em></span>
     <div class="ticker-window">
       <div class="ticker-track ${state.tickerPaused ? "is-paused" : ""}">${items}${items}</div>
     </div>
@@ -257,8 +257,8 @@ function renderChrome() {
 function renderExperience() {
   resetParticles();
   renderChrome();
-  renderAtlantis();
-  document.title = "Atlantis — Public Agent Registry";
+  renderAtlantys();
+  document.title = "Atlantys — Public Agent Registry";
   root.focus({ preventScroll: true });
   wireImageFallbacks();
 }
@@ -281,7 +281,7 @@ function registryLine() {
   return "Shell court verified. Trench registry is accepting public manifests.";
 }
 
-function atlantisCard(pkg, index) {
+function atlantysCard(pkg, index) {
   const tools = pkg.requires?.tools || [];
   const models = pkg.requires?.models || [];
   return `
@@ -306,13 +306,13 @@ function atlantisCard(pkg, index) {
     </article>`;
 }
 
-function renderAtlantis() {
+function renderAtlantys() {
   const packages = filteredPackages();
   root.innerHTML = `
-    <section class="atlantis-world">
+    <section class="atlantys-world">
       <header class="shell-court" id="surface">
         <div class="shell-court__copy">
-          <span class="scenario-label">ATLANTIS / THE SHELL COURT</span>
+          <span class="scenario-label">ATLANTYS / THE SHELL COURT</span>
           <h1>Registry<br>below <em>sea level.</em></h1>
           <p>Public packages report to the shell court before descending into the Mariana archive.</p>
           <a class="action action--ocean" href="#registry">Descend to the manifests <span>↓</span></a>
@@ -340,14 +340,14 @@ function renderAtlantis() {
             <span class="scenario-label">MARIANA ARCHIVE / CONCH VAULT</span>
             <h2>Search the<br><em>deep registry.</em></h2>
           </div>
-          <p>Atlantis reads the real <code>nemesys.yml</code> manifest protocol. No mock packages crossed the pressure lock.</p>
+          <p>Atlantys reads the real <code>atlantys.yml</code> manifest protocol. No mock packages crossed the pressure lock.</p>
         </header>
 
         <div class="underwater-search shell-search">
-          <form data-atlantis-search role="search">
+          <form data-atlantys-search role="search">
             <span class="sonar-icon" aria-hidden="true"><i></i></span>
-            <label class="sr-only" for="atlantisSearch">Search package manifests</label>
-            <input id="atlantisSearch" name="q" type="search" value="${attr(state.query)}" placeholder="Ping names, runtimes, risks…">
+            <label class="sr-only" for="atlantysSearch">Search package manifests</label>
+            <input id="atlantysSearch" name="q" type="search" value="${attr(state.query)}" placeholder="Ping names, runtimes, risks…">
             <button type="submit">PING CONCH</button>
           </form>
           <div class="bubble-filters" role="group" aria-label="Filter by package risk">
@@ -359,8 +359,8 @@ function renderAtlantis() {
           <span class="current-count">${packages.length} / ${state.packages.length} specimens visible</span>
         </div>
 
-        <div class="atlantis-grid">
-          ${packages.length ? packages.map(atlantisCard).join("") : nicheEmpty("No eyeholes in this current.", "The conch returned zero public manifests. Eyehole Man is taking this personally.")}
+        <div class="atlantys-grid">
+          ${packages.length ? packages.map(atlantysCard).join("") : nicheEmpty("No eyeholes in this current.", "The conch returned zero public manifests. Eyehole Man is taking this personally.")}
         </div>
       </section>
     </section>`;
@@ -579,11 +579,11 @@ function makeParticle(index) {
 
 function drawAmbient(time) {
   context.clearRect(0, 0, window.innerWidth, window.innerHeight);
-  drawAtlantisParticles(time);
+  drawAtlantysParticles(time);
   state.frame = window.requestAnimationFrame(drawAmbient);
 }
 
-function drawAtlantisParticles(time) {
+function drawAtlantysParticles(time) {
   state.particles.forEach((particle) => {
     particle.y -= particle.speed;
     particle.x += Math.sin(time * 0.0005 + particle.phase) * 0.08 + particle.drift;
@@ -637,7 +637,7 @@ document.addEventListener("click", (event) => {
   const risk = event.target.closest("[data-risk]");
   if (risk) {
     state.risk = risk.dataset.risk;
-    renderAtlantis();
+    renderAtlantys();
     wireImageFallbacks();
     return;
   }
@@ -645,7 +645,7 @@ document.addEventListener("click", (event) => {
   if (event.target.closest("[data-reset-empty]")) {
     state.query = "";
     state.risk = "all";
-    renderAtlantis();
+    renderAtlantys();
     wireImageFallbacks();
     return;
   }
@@ -686,21 +686,21 @@ document.addEventListener("click", (event) => {
 });
 
 document.addEventListener("submit", (event) => {
-  const form = event.target.closest("[data-atlantis-search]");
+  const form = event.target.closest("[data-atlantys-search]");
   if (!form) return;
   event.preventDefault();
   state.query = new FormData(form).get("q")?.toString().trim() || "";
-  renderAtlantis();
+  renderAtlantys();
   wireImageFallbacks();
 });
 
 document.addEventListener("input", (event) => {
-  if (!event.target.matches("#atlantisSearch")) return;
+  if (!event.target.matches("#atlantysSearch")) return;
   state.query = event.target.value;
-  renderAtlantis();
+  renderAtlantys();
   wireImageFallbacks();
   requestAnimationFrame(() => {
-    const input = document.querySelector("#atlantisSearch");
+    const input = document.querySelector("#atlantysSearch");
     input?.focus();
     input?.setSelectionRange(state.query.length, state.query.length);
   });

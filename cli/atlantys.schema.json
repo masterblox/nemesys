@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atlantys.dev/schemas/atlantys.schema.json",
+  "title": "Atlantys package manifest",
+  "type": "object",
+  "required": [
+    "name",
+    "version",
+    "publisher",
+    "runtime",
+    "requires",
+    "permissions",
+    "risk_level",
+    "source",
+    "assessment"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(?:-[0-9A-Za-z.-]+)?(?:\\+[0-9A-Za-z.-]+)?$"
+    },
+    "publisher": {
+      "type": "string",
+      "pattern": "^@?[a-z0-9](?:[a-z0-9-]{0,37}[a-z0-9])?$"
+    },
+    "runtime": {
+      "type": "string",
+      "minLength": 1
+    },
+    "requires": {
+      "type": "object",
+      "required": ["models", "tools", "skills", "api_keys"],
+      "properties": {
+        "models": { "$ref": "#/$defs/stringArray" },
+        "tools": { "$ref": "#/$defs/stringArray" },
+        "skills": { "$ref": "#/$defs/stringArray" },
+        "api_keys": { "$ref": "#/$defs/stringArray" }
+      },
+      "additionalProperties": true
+    },
+    "permissions": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": ["low", "medium", "high", "critical"]
+    },
+    "source": {
+      "type": "object",
+      "required": ["type", "grabber"],
+      "properties": {
+        "type": { "type": "string", "minLength": 1 },
+        "grabber": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": true
+    },
+    "assessment": {
+      "type": "object",
+      "minProperties": 1
+    }
+  },
+  "$defs": {
+    "stringArray": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "additionalProperties": true
+}

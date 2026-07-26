@@ -20,6 +20,6 @@ source:
   grabber: nimbus-labs
 assessment:
   status: approved
-  assessed_by: atlantis-security-council
+  assessed_by: atlantys-security-council
   assessed_at: 2026-07-25
   summary: Write access is constrained to generated audit reports.

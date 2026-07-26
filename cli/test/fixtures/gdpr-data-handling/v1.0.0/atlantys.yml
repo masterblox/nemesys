@@ -1,0 +1,21 @@
+name: gdpr-data-handling
+version: 1.0.0
+publisher: wshobson
+description: Public GDPR data-handling skill used as an isolated CLI test fixture.
+runtime: agent-skills
+requires:
+  models: []
+  tools: []
+  skills: []
+  api_keys: []
+permissions:
+  - read_context
+risk_level: low
+source:
+  type: public
+  grabber: skills.sh
+assessment:
+  status: fixture-only
+  assessed_by: atlantys-tests
+  assessed_at: 2026-07-25
+  summary: Test metadata only; consult the public source for current audit results.
