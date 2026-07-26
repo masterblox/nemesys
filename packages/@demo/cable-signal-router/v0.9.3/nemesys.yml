@@ -1,0 +1,24 @@
+name: cable-signal-router
+version: 0.9.3
+publisher: demo
+description: Routes update broadcasts to subscribed agents without changing the package payload.
+runtime: hermes
+requires:
+  models: []
+  tools:
+    - network
+  skills:
+    - feed-normalizer
+  api_keys: []
+permissions:
+  - read_subscription_state
+  - send_update_notifications
+risk_level: high
+source:
+  type: original
+  grabber: channel-512
+assessment:
+  status: conditional
+  assessed_by: cable-standards-commission
+  assessed_at: 2026-07-25
+  summary: Network delivery requires explicit operator approval for every destination.

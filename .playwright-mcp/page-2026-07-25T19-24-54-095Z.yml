@@ -1,0 +1,131 @@
+- generic [ref=f4e1]:
+  - link "Skip to scenario" [ref=f4e2] [cursor=pointer]:
+    - /url: "#scenarioRoot"
+  - generic "Interdimensional Cable package ticker" [ref=f4e3]:
+    - generic [ref=f4e4]: PORTAL COORDINATES
+    - generic [ref=f4e7]:
+      - generic [ref=f4e8]:
+        - generic [ref=f4e9]: GATE OPEN
+        - generic [ref=f4e10]: "@demo/portal-cartographer"
+        - emphasis [ref=f4e11]: v1.0.0 v1.0.0 v1.0.0
+        - generic [ref=f4e12]: LOW
+        - text: ◆
+      - generic [ref=f4e13]:
+        - generic [ref=f4e14]: PUBLIC DIMENSION
+        - generic [ref=f4e15]: "@demo/abyssal-security-auditor"
+        - emphasis [ref=f4e16]: v2.1.0 v2.1.0 v2.1.0
+        - generic [ref=f4e17]: MEDIUM
+        - text: ◆
+      - generic [ref=f4e18]:
+        - generic [ref=f4e19]: COORDINATES LOCKED
+        - generic [ref=f4e20]: "@demo/cable-signal-router"
+        - emphasis [ref=f4e21]: v0.9.3 v0.9.3 v0.9.3
+        - generic [ref=f4e22]: HIGH
+        - text: ◆
+      - generic [ref=f4e23]:
+        - generic [ref=f4e24]: GATE OPEN
+        - generic [ref=f4e25]: "@demo/portal-cartographer"
+        - emphasis [ref=f4e26]: v1.0.0 v1.0.0 v1.0.0
+        - generic [ref=f4e27]: LOW
+        - text: ◆
+      - generic [ref=f4e28]:
+        - generic [ref=f4e29]: PUBLIC DIMENSION
+        - generic [ref=f4e30]: "@demo/abyssal-security-auditor"
+        - emphasis [ref=f4e31]: v2.1.0 v2.1.0 v2.1.0
+        - generic [ref=f4e32]: MEDIUM
+        - text: ◆
+      - generic [ref=f4e33]:
+        - generic [ref=f4e34]: COORDINATES LOCKED
+        - generic [ref=f4e35]: "@demo/cable-signal-router"
+        - emphasis [ref=f4e36]: v0.9.3 v0.9.3 v0.9.3
+        - generic [ref=f4e37]: HIGH
+        - text: ◆
+    - button "Pause ticker" [ref=f4e38] [cursor=pointer]: Ⅱ
+  - banner [ref=f4e39]:
+    - generic [ref=f4e40]:
+      - link "Nemesys — The Portal" [ref=f4e41] [cursor=pointer]:
+        - /url: "#/portal"
+        - generic [ref=f4e43]: NEMESYS
+        - generic [ref=f4e44]: 01 / Dimension gate
+      - navigation "Visual scenarios" [ref=f4e45]:
+        - link "01 The Portal" [ref=f4e46] [cursor=pointer]:
+          - /url: "#/portal"
+          - generic [ref=f4e47]: "01"
+          - text: The Portal
+        - link "02 Atlantis" [ref=f4e48] [cursor=pointer]:
+          - /url: "#/atlantis"
+          - generic [ref=f4e49]: "02"
+          - text: Atlantis
+        - link "03 Interdimensional Cable" [ref=f4e50] [cursor=pointer]:
+          - /url: "#/cable"
+          - generic [ref=f4e51]: "03"
+          - text: Interdimensional Cable
+      - button "YML Open manifest" [ref=f4e52] [cursor=pointer]:
+        - generic [ref=f4e53]: YML
+        - text: Open manifest
+  - main [active] [ref=f4e54]:
+    - generic [ref=f4e55]:
+      - generic [ref=f4e56]:
+        - generic [ref=f4e57]: SCENARIO 01 / THE PORTAL
+        - heading [level=1] [ref=f4e58]:
+          - text: Every skill isa
+          - emphasis [ref=f4e59]: dimension.
+        - paragraph [ref=f4e60]: Nemesys tears open the package multiverse and maps what is actually on disk. Three valid manifests. Zero mystery data.
+        - generic [ref=f4e61]:
+          - link "Enter the registry →" [ref=f4e62] [cursor=pointer]:
+            - /url: "#/atlantis"
+            - text: Enter the registry
+            - generic [ref=f4e63]: →
+          - link "Watch update channels" [ref=f4e64] [cursor=pointer]:
+            - /url: "#/cable"
+        - generic [ref=f4e65]:
+          - generic [ref=f4e66]: LIVE SOURCE
+          - code [ref=f4e67]: ../packages/@demo/**/nemesys.yml
+      - generic "Packages floating around the dimensional portal":
+        - article [ref=f4e68]:
+          - generic [ref=f4e69]: D-137
+          - generic [ref=f4e70]:
+            - generic [ref=f4e71]: "@demo"
+            - generic [ref=f4e72]: v1.0.0 v1.0.0 v1.0.0
+          - heading "portal-cartographer" [level=2] [ref=f4e73]
+          - paragraph [ref=f4e74]: Maps package dependencies across agent runtimes and flags unreachable skill coordinates.
+          - generic [ref=f4e75]:
+            - generic [ref=f4e76]: hermes
+            - generic [ref=f4e77]: low risk
+            - button "Inspect ↗" [ref=f4e78] [cursor=pointer]
+        - article [ref=f4e79]:
+          - generic [ref=f4e80]: D-274
+          - generic [ref=f4e81]:
+            - generic [ref=f4e82]: "@demo"
+            - generic [ref=f4e83]: v2.1.0 v2.1.0 v2.1.0
+          - heading "abyssal-security-auditor" [level=2] [ref=f4e84]
+          - paragraph [ref=f4e85]: Inspects agent permissions below the surface and emits a bounded security assessment.
+          - generic [ref=f4e86]:
+            - generic [ref=f4e87]: codex
+            - generic [ref=f4e88]: medium risk
+            - button "Inspect ↗" [ref=f4e89] [cursor=pointer]
+        - article [ref=f4e90]:
+          - generic [ref=f4e91]: D-411
+          - generic [ref=f4e92]:
+            - generic [ref=f4e93]: "@demo"
+            - generic [ref=f4e94]: v0.9.3 v0.9.3 v0.9.3
+          - heading "cable-signal-router" [level=2] [ref=f4e95]
+          - paragraph [ref=f4e96]: Routes update broadcasts to subscribed agents without changing the package payload.
+          - generic [ref=f4e97]:
+            - generic [ref=f4e98]: hermes
+            - generic [ref=f4e99]: high risk
+            - button "Inspect ↗" [ref=f4e100] [cursor=pointer]
+      - generic [ref=f4e101]:
+        - generic [ref=f4e102]: CURVE LIMIT
+        - generic [ref=f4e103]: ∞
+        - generic [ref=f4e104]: MANIFESTS
+        - generic [ref=f4e105]: "3"
+        - generic [ref=f4e106]: PARTICLES
+        - generic [ref=f4e107]: "68"
+  - generic [ref=f4e109]:
+    - generic "Mr. Meeseeks loading package manifests" [ref=f4e113]:
+      - img "Mr. Meeseeks loading package manifests" [ref=f4e115]
+    - generic [ref=f4e117]:
+      - generic [ref=f4e118]: TASK / READ REAL MANIFESTS
+      - generic [ref=f4e119]: Existence is pain, loading manifests…
+      - generic [ref=f4e120]: packages/@demo/**/nemesys.yml

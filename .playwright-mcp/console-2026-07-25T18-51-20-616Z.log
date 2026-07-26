@@ -1,0 +1,1 @@
+[   17442ms] [ERROR] Pattern attribute value \d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)? is not a valid regular expression: Uncaught SyntaxError: Failed to execute 'checkValidity' on 'HTMLInputElement': Invalid regular expression: /\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?/v: Invalid character in character class @ :0

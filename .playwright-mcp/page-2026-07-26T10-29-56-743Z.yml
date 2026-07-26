@@ -1,0 +1,164 @@
+- generic [ref=f1e1]:
+  - link "Skip to scenario" [ref=f1e2] [cursor=pointer]:
+    - /url: "#scenarioRoot"
+  - generic "Interdimensional Cable package ticker" [ref=f1e3]:
+    - generic [ref=f1e108]: NOW BROADCASTING
+    - generic [ref=f1e110]:
+      - generic [ref=f1e111]:
+        - generic [ref=f1e112]: LIVE
+        - generic [ref=f1e113]: "@demo/portal-cartographer"
+        - emphasis [ref=f1e114]: v1.0.0 v1.0.0 v1.0.0
+        - generic [ref=f1e115]: CH 512
+        - text: ◆
+      - generic [ref=f1e116]:
+        - generic [ref=f1e117]: SIGNAL VERIFIED
+        - generic [ref=f1e118]: "@demo/abyssal-security-auditor"
+        - emphasis [ref=f1e119]: v2.1.0 v2.1.0 v2.1.0
+        - generic [ref=f1e120]: CH 97
+        - text: ◆
+      - generic [ref=f1e121]:
+        - generic [ref=f1e122]: NO COMMERCIALS
+        - generic [ref=f1e123]: "@demo/cable-signal-router"
+        - emphasis [ref=f1e124]: v0.9.3 v0.9.3 v0.9.3
+        - generic [ref=f1e125]: CH 303
+        - text: ◆
+      - generic [ref=f1e126]:
+        - generic [ref=f1e127]: LIVE
+        - generic [ref=f1e128]: "@demo/portal-cartographer"
+        - emphasis [ref=f1e129]: v1.0.0 v1.0.0 v1.0.0
+        - generic [ref=f1e130]: CH 512
+        - text: ◆
+      - generic [ref=f1e131]:
+        - generic [ref=f1e132]: SIGNAL VERIFIED
+        - generic [ref=f1e133]: "@demo/abyssal-security-auditor"
+        - emphasis [ref=f1e134]: v2.1.0 v2.1.0 v2.1.0
+        - generic [ref=f1e135]: CH 97
+        - text: ◆
+      - generic [ref=f1e136]:
+        - generic [ref=f1e137]: NO COMMERCIALS
+        - generic [ref=f1e138]: "@demo/cable-signal-router"
+        - emphasis [ref=f1e139]: v0.9.3 v0.9.3 v0.9.3
+        - generic [ref=f1e140]: CH 303
+        - text: ◆
+    - button "Pause ticker" [ref=f1e141] [cursor=pointer]: Ⅱ
+  - banner [ref=f1e38]:
+    - generic [ref=f1e142]:
+      - link "Nemesys — Interdimensional Cable" [ref=f1e143] [cursor=pointer]:
+        - /url: "#/cable"
+        - generic [ref=f1e145]: NEMESYS
+        - generic [ref=f1e146]: 01 / Live receiver
+      - button "Toggle dimensions" [ref=f1e147] [cursor=pointer]
+  - main [active] [ref=f1e48]:
+    - generic [ref=f1e151]:
+      - generic [ref=f1e152]:
+        - generic [ref=f1e153]:
+          - generic [ref=f1e154]: SCENARIO 01 / INTERDIMENSIONAL CABLE
+          - img "Now broadcasting" [ref=f1e156]
+          - heading [level=1] [ref=f1e157]:
+            - text: Don’t adjustyour
+            - emphasis [ref=f1e158]: agent.
+          - paragraph [ref=f1e159]: The channel guide is built from the same three manifests. Version, runtime, risk, and permissions become the programming schedule.
+          - link "Tune the registry channel ◉" [ref=f1e160] [cursor=pointer]:
+            - /url: "#/portal"
+            - text: Tune the registry channel
+            - generic [ref=f1e161]: ◉
+        - generic "Feed controls" [ref=f1e162]:
+          - generic [ref=f1e163]: CHANNEL GUIDE / C-137
+          - button "MUTE ALL CHANNELS" [ref=f1e164] [cursor=pointer]
+      - generic [ref=f1e170]:
+        - generic [ref=f1e171]:
+          - generic [ref=f1e172]: TIME
+          - generic [ref=f1e173]: NOW
+          - generic [ref=f1e174]: +30 MIN
+          - generic [ref=f1e175]: +1 HR
+        - generic [ref=f1e176]:
+          - generic [ref=f1e177]: PUBLIC ACCESS
+          - generic [ref=f1e178]: 3 CHANNELS LOCKED
+          - generic [ref=f1e179]: SIGNAL STABLE
+        - generic [ref=f1e180]:
+          - article [ref=f1e181]:
+            - generic [ref=f1e182]:
+              - generic [ref=f1e183]: CHANNEL
+              - generic [ref=f1e184]: ∞
+              - generic [ref=f1e185]: LIVE
+            - generic [ref=f1e186]:
+              - generic [ref=f1e187]: CONTINUOUS JOURNEY / PUBLIC REGISTRY
+              - heading "THE DIMENSIONAL PACKAGE GATE" [level=2] [ref=f1e188]
+              - paragraph [ref=f1e189]: CRT tuning rings collapse into a stable portal, then descend to the trench archive.
+            - link "TUNE GATE →" [ref=f1e190] [cursor=pointer]:
+              - /url: "#/portal"
+          - article [ref=f1e191]:
+            - generic [ref=f1e192]:
+              - generic [ref=f1e193]: CHANNEL
+              - generic [ref=f1e194]: "512"
+              - generic [ref=f1e195]: 00:12
+            - generic [ref=f1e196]:
+              - generic [ref=f1e197]:
+                - generic [ref=f1e198]: NEW TRANSMISSION NEW TRANSMISSION NEW TRANSMISSION
+                - generic [ref=f1e199]: v1.0.0 v1.0.0 v1.0.0
+              - paragraph [ref=f1e200]: "@demo presents"
+              - heading "portal-cartographer" [level=2] [ref=f1e201]
+              - paragraph [ref=f1e202]: Maps package dependencies across agent runtimes and flags unreachable skill coordinates.
+            - generic [ref=f1e203]:
+              - generic [ref=f1e204]:
+                - generic [ref=f1e205]: RUNTIME
+                - generic [ref=f1e206]: hermes
+              - generic [ref=f1e207]:
+                - generic [ref=f1e208]: RISK
+                - generic [ref=f1e209]: low
+              - generic [ref=f1e210]:
+                - generic [ref=f1e211]: PERMISSIONS
+                - generic [ref=f1e212]: "1"
+            - generic [ref=f1e213]:
+              - button "GUIDE" [ref=f1e214] [cursor=pointer]
+              - button "TUNE IN" [ref=f1e215] [cursor=pointer]
+          - article [ref=f1e216]:
+            - generic [ref=f1e217]:
+              - generic [ref=f1e218]: CHANNEL
+              - generic [ref=f1e219]: "97"
+              - generic [ref=f1e220]: 02:41
+            - generic [ref=f1e221]:
+              - generic [ref=f1e222]:
+                - generic [ref=f1e223]: NEW TRANSMISSION NEW TRANSMISSION NEW TRANSMISSION
+                - generic [ref=f1e224]: v2.1.0 v2.1.0 v2.1.0
+              - paragraph [ref=f1e225]: "@demo presents"
+              - heading "abyssal-security-auditor" [level=2] [ref=f1e226]
+              - paragraph [ref=f1e227]: Inspects agent permissions below the surface and emits a bounded security assessment.
+            - generic [ref=f1e228]:
+              - generic [ref=f1e229]:
+                - generic [ref=f1e230]: RUNTIME
+                - generic [ref=f1e231]: codex
+              - generic [ref=f1e232]:
+                - generic [ref=f1e233]: RISK
+                - generic [ref=f1e234]: medium
+              - generic [ref=f1e235]:
+                - generic [ref=f1e236]: PERMISSIONS
+                - generic [ref=f1e237]: "2"
+            - generic [ref=f1e238]:
+              - button "GUIDE" [ref=f1e239] [cursor=pointer]
+              - button "TUNE IN" [ref=f1e240] [cursor=pointer]
+          - article [ref=f1e241]:
+            - generic [ref=f1e242]:
+              - generic [ref=f1e243]: CHANNEL
+              - generic [ref=f1e244]: "303"
+              - generic [ref=f1e245]: 05:08
+            - generic [ref=f1e246]:
+              - generic [ref=f1e247]:
+                - generic [ref=f1e248]: REPLAY
+                - generic [ref=f1e249]: v0.9.3 v0.9.3 v0.9.3
+              - paragraph [ref=f1e250]: "@demo presents"
+              - heading "cable-signal-router" [level=2] [ref=f1e251]
+              - paragraph [ref=f1e252]: Routes update broadcasts to subscribed agents without changing the package payload.
+            - generic [ref=f1e253]:
+              - generic [ref=f1e254]:
+                - generic [ref=f1e255]: RUNTIME
+                - generic [ref=f1e256]: hermes
+              - generic [ref=f1e257]:
+                - generic [ref=f1e258]: RISK
+                - generic [ref=f1e259]: high
+              - generic [ref=f1e260]:
+                - generic [ref=f1e261]: PERMISSIONS
+                - generic [ref=f1e262]: "2"
+            - generic [ref=f1e263]:
+              - button "GUIDE" [ref=f1e264] [cursor=pointer]
+              - button "TUNE IN" [ref=f1e265] [cursor=pointer]

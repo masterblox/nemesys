@@ -1,0 +1,287 @@
+- generic [ref=e1]:
+  - link "Skip to public registry" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - generic "Recent public package broadcasts" [ref=e4]:
+      - generic [ref=e903]: Interdimensional cable
+      - generic [ref=e906]:
+        - generic [ref=e907]:
+          - generic [ref=e908]: 🌀 C-137
+          - link "anthropics/skills@frontend-design" [ref=e909] [cursor=pointer]:
+            - /url: "#/search?q=anthropics%2Fskills%40frontend-design"
+          - generic [ref=e910]: NEW SIGNAL NEW SIGNAL NEW SIGNAL
+          - emphasis [ref=e911]: 703.3K
+          - text: ◈
+        - generic [ref=e912]:
+          - generic [ref=e913]: 📡 D-99
+          - link "vercel-labs/agent-browser@agent-browser" [ref=e914] [cursor=pointer]:
+            - /url: "#/search?q=vercel-labs%2Fagent-browser%40agent-browser"
+          - generic [ref=e915]: TRENDING TRENDING TRENDING
+          - emphasis [ref=e916]: 577.8K
+          - text: ◈
+        - generic [ref=e917]:
+          - generic [ref=e918]: 🛡️ F-IRE
+          - link "firebase/agent-skills@firebase-security-rules-auditor" [ref=e919] [cursor=pointer]:
+            - /url: "#/search?q=firebase%2Fagent-skills%40firebase-security-rules-auditor"
+          - generic [ref=e920]: AUDIT PASS AUDIT PASS AUDIT PASS
+          - emphasis [ref=e921]: 78K
+          - text: ◈
+        - generic [ref=e922]:
+          - generic [ref=e923]: 🧪 QA-42
+          - link "anthropics/skills@webapp-testing" [ref=e924] [cursor=pointer]:
+            - /url: "#/search?q=anthropics%2Fskills%40webapp-testing"
+          - generic [ref=e925]: INDEXED INDEXED INDEXED
+          - emphasis [ref=e926]: 121.3K
+          - text: ◈
+        - generic [ref=e927]:
+          - generic [ref=e928]: 🔐 S-256
+          - link "openai/skills@security-best-practices" [ref=e929] [cursor=pointer]:
+            - /url: "#/search?q=openai%2Fskills%40security-best-practices"
+          - generic [ref=e930]: PUBLIC PUBLIC PUBLIC
+          - emphasis [ref=e931]: 5.8K
+          - text: ◈
+        - generic [ref=e932]:
+          - generic [ref=e933]: 📚 DOC-7
+          - link "github/awesome-copilot@documentation-writer" [ref=e934] [cursor=pointer]:
+            - /url: "#/search?q=github%2Fawesome-copilot%40documentation-writer"
+          - generic [ref=e935]: UPLINK UPLINK UPLINK
+          - emphasis [ref=e936]: 23.7K
+          - text: ◈
+        - generic [ref=e937]:
+          - generic [ref=e938]: 🌀 C-137
+          - link "anthropics/skills@frontend-design" [ref=e939] [cursor=pointer]:
+            - /url: "#/search?q=anthropics%2Fskills%40frontend-design"
+          - generic [ref=e940]: NEW SIGNAL NEW SIGNAL NEW SIGNAL
+          - emphasis [ref=e941]: 703.3K
+          - text: ◈
+        - generic [ref=e942]:
+          - generic [ref=e943]: 📡 D-99
+          - link "vercel-labs/agent-browser@agent-browser" [ref=e944] [cursor=pointer]:
+            - /url: "#/search?q=vercel-labs%2Fagent-browser%40agent-browser"
+          - generic [ref=e945]: TRENDING TRENDING TRENDING
+          - emphasis [ref=e946]: 577.8K
+          - text: ◈
+        - generic [ref=e947]:
+          - generic [ref=e948]: 🛡️ F-IRE
+          - link "firebase/agent-skills@firebase-security-rules-auditor" [ref=e949] [cursor=pointer]:
+            - /url: "#/search?q=firebase%2Fagent-skills%40firebase-security-rules-auditor"
+          - generic [ref=e950]: AUDIT PASS AUDIT PASS AUDIT PASS
+          - emphasis [ref=e951]: 78K
+          - text: ◈
+        - generic [ref=e952]:
+          - generic [ref=e953]: 🧪 QA-42
+          - link "anthropics/skills@webapp-testing" [ref=e954] [cursor=pointer]:
+            - /url: "#/search?q=anthropics%2Fskills%40webapp-testing"
+          - generic [ref=e955]: INDEXED INDEXED INDEXED
+          - emphasis [ref=e956]: 121.3K
+          - text: ◈
+        - generic [ref=e957]:
+          - generic [ref=e958]: 🔐 S-256
+          - link "openai/skills@security-best-practices" [ref=e959] [cursor=pointer]:
+            - /url: "#/search?q=openai%2Fskills%40security-best-practices"
+          - generic [ref=e960]: PUBLIC PUBLIC PUBLIC
+          - emphasis [ref=e961]: 5.8K
+          - text: ◈
+        - generic [ref=e962]:
+          - generic [ref=e963]: 📚 DOC-7
+          - link "github/awesome-copilot@documentation-writer" [ref=e964] [cursor=pointer]:
+            - /url: "#/search?q=github%2Fawesome-copilot%40documentation-writer"
+          - generic [ref=e965]: UPLINK UPLINK UPLINK
+          - emphasis [ref=e966]: 23.7K
+          - text: ◈
+      - button "Pause ticker" [ref=e967] [cursor=pointer]
+    - banner [ref=e72]:
+      - generic [ref=e970]:
+        - link "Nemesys home" [ref=e971] [cursor=pointer]:
+          - /url: "#/home"
+          - generic [ref=e974]: Nemesys
+          - generic [ref=e975]: public skills
+        - navigation "Primary" [ref=e976]:
+          - link "Portal" [ref=e977] [cursor=pointer]:
+            - /url: "#/home"
+            - generic [ref=e978]: ◉
+            - text: Portal
+          - link "Cable feed" [ref=e979] [cursor=pointer]:
+            - /url: "#/feed"
+            - generic [ref=e980]: ▰
+            - text: Cable feed
+          - link "Citadel registry" [ref=e981] [cursor=pointer]:
+            - /url: "#/registry"
+            - generic [ref=e982]: ⌘
+            - text: Citadel registry
+          - link "Publish" [ref=e983] [cursor=pointer]:
+            - /url: "#/publish"
+            - generic [ref=e984]: ↥
+            - text: Publish
+        - search [ref=e985]:
+          - generic [ref=e986]: Search public skills
+          - searchbox "Search public skills" [ref=e990]
+          - generic [ref=e991]: ⌘ K
+        - link "Publish a skill" [ref=e992] [cursor=pointer]:
+          - /url: "#/publish"
+    - main [active] [ref=e88]:
+      - generic [ref=e993]:
+        - generic [ref=e994]:
+          - generic [ref=e995]: Channel 06 · live public updates
+          - heading [level=1] [ref=e996]:
+            - text: Interdimensional
+            - emphasis [ref=e997]: Cable Feed
+          - paragraph [ref=e998]: Package signals, public index changes, and audit broadcasts—surfing past in one continuous transmission.
+        - generic [ref=e1000]:
+          - generic [ref=e1002]: CH 06
+          - generic [ref=e1003]: PUBLIC SKILLS BAND
+        - generic [ref=e1006]:
+          - generic [ref=e1007]: ▰
+          - generic [ref=e1008]:
+            - generic [ref=e1009]: Interdimensional Cable
+            - generic [ref=e1010]: TV · dimension unknown
+      - generic [ref=e1011]:
+        - complementary "Cable channels" [ref=e1012]:
+          - generic [ref=e1013]: Channel surf
+          - button "06 All signals 6 broadcasts" [ref=e1014] [cursor=pointer]:
+            - generic [ref=e1015]: "06"
+            - generic [ref=e1016]:
+              - text: All signals
+              - generic [ref=e1017]: 6 broadcasts
+          - button "13 Fresh arrivals 2 broadcasts" [ref=e1018] [cursor=pointer]:
+            - generic [ref=e1019]: "13"
+            - generic [ref=e1020]:
+              - text: Fresh arrivals
+              - generic [ref=e1021]: 2 broadcasts
+          - button "42 Audit network 2 broadcasts" [ref=e1022] [cursor=pointer]:
+            - generic [ref=e1023]: "42"
+            - generic [ref=e1024]:
+              - text: Audit network
+              - generic [ref=e1025]: 2 broadcasts
+        - generic [ref=e1030]:
+          - generic [ref=e1031]:
+            - generic [ref=e1032]:
+              - generic [ref=e1034]: ON AIR
+              - generic [ref=e1035]: 62 known cable residents
+            - link "Browse source directory" [ref=e1036] [cursor=pointer]:
+              - /url: "#/registry"
+          - article [ref=e1039]:
+            - generic [ref=e1040]:
+              - generic [ref=e1041]: "01"
+              - generic "anthropics publisher avatar" [ref=e1042]:
+                - img "anthropics publisher avatar" [ref=e1044]
+            - generic [ref=e1046]:
+              - generic [ref=e1047]:
+                - generic [ref=e1048]: NEW SIGNAL NEW SIGNAL NEW SIGNAL
+                - generic [ref=e1049]: 🌀 C-137
+                - time [ref=e1050]: 12 minutes ago
+              - heading [level=2] [ref=e1051]:
+                - link "anthropics/skills@frontend-design" [ref=e1052] [cursor=pointer]:
+                  - /url: "#/package/anthropics%2Fskills%40frontend-design"
+              - paragraph [ref=e1053]: crossed 700K public installs. 703.3K installs are now tuned to this public channel.
+              - generic [ref=e1054]:
+                - generic [ref=e1055]: "Publisher signal: @anthropics"
+                - link "Inspect package" [ref=e1056] [cursor=pointer]:
+                  - /url: "#/package/anthropics%2Fskills%40frontend-design"
+          - article [ref=e1059]:
+            - generic [ref=e1060]:
+              - generic [ref=e1061]: "02"
+              - generic "vercel-labs publisher avatar" [ref=e1062]:
+                - img "vercel-labs publisher avatar" [ref=e1064]
+            - generic [ref=e1066]:
+              - generic [ref=e1067]:
+                - generic [ref=e1068]: TRENDING TRENDING TRENDING
+                - generic [ref=e1069]: 📡 D-99
+                - time [ref=e1070]: 34 minutes ago
+              - heading [level=2] [ref=e1071]:
+                - link "vercel-labs/agent-browser@agent-browser" [ref=e1072] [cursor=pointer]:
+                  - /url: "#/package/vercel-labs%2Fagent-browser%40agent-browser"
+              - paragraph [ref=e1073]: is accelerating through the browser sector. 577.8K installs are now tuned to this public channel.
+              - generic [ref=e1074]:
+                - generic [ref=e1075]: "Publisher signal: @vercel-labs"
+                - link "Inspect package" [ref=e1076] [cursor=pointer]:
+                  - /url: "#/package/vercel-labs%2Fagent-browser%40agent-browser"
+          - article [ref=e1079]:
+            - generic [ref=e1080]:
+              - generic [ref=e1081]: "03"
+              - generic "firebase publisher avatar" [ref=e1082]:
+                - img "firebase publisher avatar" [ref=e1084]
+            - generic [ref=e1086]:
+              - generic [ref=e1087]:
+                - generic [ref=e1088]: AUDIT PASS AUDIT PASS AUDIT PASS
+                - generic [ref=e1089]: 🛡️ F-IRE
+                - time [ref=e1090]: 1 hour ago
+              - heading [level=2] [ref=e1091]:
+                - link "firebase/agent-skills@firebase-security-rules-auditor" [ref=e1092] [cursor=pointer]:
+                  - /url: "#/package/firebase%2Fagent-skills%40firebase-security-rules-auditor"
+              - paragraph [ref=e1093]: transmitted a verified security signal. 78K installs are now tuned to this public channel.
+              - generic [ref=e1094]:
+                - generic [ref=e1095]: "Publisher signal: @firebase"
+                - link "Inspect package" [ref=e1096] [cursor=pointer]:
+                  - /url: "#/package/firebase%2Fagent-skills%40firebase-security-rules-auditor"
+          - article [ref=e1099]:
+            - generic [ref=e1100]:
+              - generic [ref=e1101]: "04"
+              - generic "anthropics publisher avatar" [ref=e1102]:
+                - img "anthropics publisher avatar" [ref=e1104]
+            - generic [ref=e1106]:
+              - generic [ref=e1107]:
+                - generic [ref=e1108]: INDEXED INDEXED INDEXED
+                - generic [ref=e1109]: 🧪 QA-42
+                - time [ref=e1110]: 3 hours ago
+              - heading [level=2] [ref=e1111]:
+                - link "anthropics/skills@webapp-testing" [ref=e1112] [cursor=pointer]:
+                  - /url: "#/package/anthropics%2Fskills%40webapp-testing"
+              - paragraph [ref=e1113]: entered the testing district. 121.3K installs are now tuned to this public channel.
+              - generic [ref=e1114]:
+                - generic [ref=e1115]: "Publisher signal: @anthropics"
+                - link "Inspect package" [ref=e1116] [cursor=pointer]:
+                  - /url: "#/package/anthropics%2Fskills%40webapp-testing"
+          - article [ref=e1119]:
+            - generic [ref=e1120]:
+              - generic [ref=e1121]: "05"
+              - generic "openai publisher avatar" [ref=e1122]:
+                - img "openai publisher avatar" [ref=e1124]
+            - generic [ref=e1126]:
+              - generic [ref=e1127]:
+                - generic [ref=e1128]: PUBLIC PUBLIC PUBLIC
+                - generic [ref=e1129]: 🔐 S-256
+                - time [ref=e1130]: 5 hours ago
+              - heading [level=2] [ref=e1131]:
+                - link "openai/skills@security-best-practices" [ref=e1132] [cursor=pointer]:
+                  - /url: "#/package/openai%2Fskills%40security-best-practices"
+              - paragraph [ref=e1133]: is now visible across the finite curve. 5.8K installs are now tuned to this public channel.
+              - generic [ref=e1134]:
+                - generic [ref=e1135]: "Publisher signal: @openai"
+                - link "Inspect package" [ref=e1136] [cursor=pointer]:
+                  - /url: "#/package/openai%2Fskills%40security-best-practices"
+          - article [ref=e1139]:
+            - generic [ref=e1140]:
+              - generic [ref=e1141]: "06"
+              - generic "github publisher avatar" [ref=e1142]:
+                - img "github publisher avatar" [ref=e1144]
+            - generic [ref=e1146]:
+              - generic [ref=e1147]:
+                - generic [ref=e1148]: UPLINK UPLINK UPLINK
+                - generic [ref=e1149]: 📚 DOC-7
+                - time [ref=e1150]: yesterday
+              - heading [level=2] [ref=e1151]:
+                - link "github/awesome-copilot@documentation-writer" [ref=e1152] [cursor=pointer]:
+                  - /url: "#/package/github%2Fawesome-copilot%40documentation-writer"
+              - paragraph [ref=e1153]: received a new documentation broadcast. 23.7K installs are now tuned to this public channel.
+              - generic [ref=e1154]:
+                - generic [ref=e1155]: "Publisher signal: @github"
+                - link "Inspect package" [ref=e1156] [cursor=pointer]:
+                  - /url: "#/package/github%2Fawesome-copilot%40documentation-writer"
+    - contentinfo [ref=e294]:
+      - generic [ref=e1159]:
+        - generic [ref=e1160]:
+          - link "Nemesys" [ref=e1161] [cursor=pointer]:
+            - /url: "#/home"
+          - paragraph [ref=e1165]: Public agent skills, indexed across the finite curve.
+        - generic "Footer" [ref=e1166]:
+          - link "Registry" [ref=e1167] [cursor=pointer]:
+            - /url: "#/registry"
+          - link "Feed" [ref=e1168] [cursor=pointer]:
+            - /url: "#/feed"
+          - link "Publish" [ref=e1169] [cursor=pointer]:
+            - /url: "#/publish"
+          - link "Visual DNA API" [ref=e1170] [cursor=pointer]:
+            - /url: https://rickandmortyapi.com/
+        - paragraph [ref=e1174]: Independent fan-inspired interface. Character data from The Rick and Morty API.
+  - status [ref=e311]

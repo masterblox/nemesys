@@ -1,0 +1,177 @@
+- generic [ref=e1]:
+  - link "Skip to the registry" [ref=e2] [cursor=pointer]:
+    - /url: "#registry"
+  - generic "Interdimensional Cable Atlantis package ticker" [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]: INTERDIMENSIONAL CABLE
+      - emphasis [ref=e7]: ATLANTIS CURRENT
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]: CURRENT STABLE
+        - generic [ref=e12]: "@demo/portal-cartographer"
+        - emphasis [ref=e13]: v1.0.0 v1.0.0 v1.0.0
+        - generic [ref=e14]: LOW
+        - text: ◆
+      - generic [ref=e15]:
+        - generic [ref=e16]: NIMBUS APPROVED
+        - generic [ref=e17]: "@demo/abyssal-security-auditor"
+        - emphasis [ref=e18]: v2.1.0 v2.1.0 v2.1.0
+        - generic [ref=e19]: MEDIUM
+        - text: ◆
+      - generic [ref=e20]:
+        - generic [ref=e21]: DEPTH 2,100M
+        - generic [ref=e22]: "@demo/cable-signal-router"
+        - emphasis [ref=e23]: v0.9.3 v0.9.3 v0.9.3
+        - generic [ref=e24]: HIGH
+        - text: ◆
+      - generic [ref=e25]:
+        - generic [ref=e26]: CURRENT STABLE
+        - generic [ref=e27]: "@demo/portal-cartographer"
+        - emphasis [ref=e28]: v1.0.0 v1.0.0 v1.0.0
+        - generic [ref=e29]: LOW
+        - text: ◆
+      - generic [ref=e30]:
+        - generic [ref=e31]: NIMBUS APPROVED
+        - generic [ref=e32]: "@demo/abyssal-security-auditor"
+        - emphasis [ref=e33]: v2.1.0 v2.1.0 v2.1.0
+        - generic [ref=e34]: MEDIUM
+        - text: ◆
+      - generic [ref=e35]:
+        - generic [ref=e36]: DEPTH 2,100M
+        - generic [ref=e37]: "@demo/cable-signal-router"
+        - emphasis [ref=e38]: v0.9.3 v0.9.3 v0.9.3
+        - generic [ref=e39]: HIGH
+        - text: ◆
+    - button "Pause ticker" [ref=e40] [cursor=pointer]: Ⅱ
+  - banner [ref=e41]:
+    - generic [ref=e42]:
+      - link "Atlantis — Public Agent Registry" [ref=e43] [cursor=pointer]:
+        - /url: "#surface"
+        - generic [ref=e45]: ATLANTIS
+        - generic [ref=e46]: PUBLIC AGENT REGISTRY
+      - navigation "Atlantis sections" [ref=e47]:
+        - link "01 Shell Court" [ref=e48] [cursor=pointer]:
+          - /url: "#surface"
+          - generic [ref=e49]: "01"
+          - text: Shell Court
+        - link "02 Deep Registry" [ref=e50] [cursor=pointer]:
+          - /url: "#registry"
+          - generic [ref=e51]: "02"
+          - text: Deep Registry
+        - button "∞ Open Gate" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: ∞
+          - text: Open Gate
+      - button "YML Open manifest" [ref=e54] [cursor=pointer]:
+        - generic [ref=e55]: YML
+        - text: Open manifest
+  - main [active] [ref=e56]:
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - generic [ref=e60]: ATLANTIS / THE SHELL COURT
+          - heading [level=1] [ref=e61]:
+            - text: Registrybelow
+            - emphasis [ref=e62]: sea level.
+          - paragraph [ref=e63]: Public packages report to the shell court before descending into the Mariana archive.
+          - link "Descend to the manifests ↓" [ref=e64] [cursor=pointer]:
+            - /url: "#registry"
+            - text: Descend to the manifests
+            - generic [ref=e65]: ↓
+        - generic "Ocean authority registry status" [ref=e66]:
+          - generic [ref=e71]:
+            - text: OCEAN AUTHORITY / SHELL COURT
+            - paragraph [ref=e72]: Shell court verified. Trench registry is accepting public manifests.
+      - generic [ref=e73]:
+        - generic [ref=e74]: SURFACE / 0000M
+        - generic [ref=e78]: PRESSURE LOCK
+        - generic [ref=e82]: TRENCH / 2100M
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - generic [ref=e86]: MARIANA ARCHIVE / CONCH VAULT
+            - heading [level=2] [ref=e87]:
+              - text: Search the
+              - emphasis [ref=e88]: deep registry.
+          - paragraph [ref=e89]:
+            - text: Atlantis reads the real
+            - code [ref=e90]: nemesys.yml
+            - text: manifest protocol. No mock packages crossed the pressure lock.
+        - generic [ref=e91]:
+          - search [ref=e92]:
+            - generic [ref=e95]: Search package manifests
+            - searchbox "Search package manifests" [ref=e96]
+            - button "PING CONCH" [ref=e97] [cursor=pointer]
+          - group "Filter by package risk" [ref=e98]:
+            - button "All currents" [pressed] [ref=e99] [cursor=pointer]
+            - button "low risk" [ref=e101] [cursor=pointer]
+            - button "medium risk" [ref=e103] [cursor=pointer]
+            - button "high risk" [ref=e105] [cursor=pointer]
+          - generic [ref=e107]: 3 / 3 specimens visible
+        - generic [ref=e108]:
+          - article [ref=e109]:
+            - generic [ref=e112]:
+              - generic [ref=e113]: DEPTH / 0840M
+              - generic [ref=e114]: low
+            - paragraph [ref=e115]: "@demo / hermes"
+            - heading "portal-cartographer" [level=2] [ref=e116]
+            - paragraph [ref=e117]: Maps package dependencies across agent runtimes and flags unreachable skill coordinates.
+            - generic [ref=e118]:
+              - generic [ref=e119]:
+                - generic [ref=e120]: models
+                - generic [ref=e121]: claude-sonnet
+              - generic [ref=e122]:
+                - generic [ref=e123]: tools
+                - generic [ref=e124]: filesystem
+              - generic [ref=e125]:
+                - generic [ref=e126]: permissions
+                - generic [ref=e127]: "1"
+            - generic [ref=e128]:
+              - button "Open specimen" [ref=e129] [cursor=pointer]
+              - button "Summon package" [ref=e130] [cursor=pointer]
+          - article [ref=e131]:
+            - generic [ref=e134]:
+              - generic [ref=e135]: DEPTH / 1470M
+              - generic [ref=e136]: medium
+            - paragraph [ref=e137]: "@demo / codex"
+            - heading "abyssal-security-auditor" [level=2] [ref=e138]
+            - paragraph [ref=e139]: Inspects agent permissions below the surface and emits a bounded security assessment.
+            - generic [ref=e140]:
+              - generic [ref=e141]:
+                - generic [ref=e142]: models
+                - generic [ref=e143]: gpt-5
+              - generic [ref=e144]:
+                - generic [ref=e145]: tools
+                - generic [ref=e146]: filesystem
+              - generic [ref=e147]:
+                - generic [ref=e148]: permissions
+                - generic [ref=e149]: "2"
+            - generic [ref=e150]:
+              - button "Open specimen" [ref=e151] [cursor=pointer]
+              - button "Summon package" [ref=e152] [cursor=pointer]
+          - article [ref=e153]:
+            - generic [ref=e156]:
+              - generic [ref=e157]: DEPTH / 2100M
+              - generic [ref=e158]: high
+            - paragraph [ref=e159]: "@demo / hermes"
+            - heading "cable-signal-router" [level=2] [ref=e160]
+            - paragraph [ref=e161]: Routes update broadcasts to subscribed agents without changing the package payload.
+            - generic [ref=e162]:
+              - generic [ref=e163]:
+                - generic [ref=e164]: models
+                - generic [ref=e165]: none
+              - generic [ref=e166]:
+                - generic [ref=e167]: tools
+                - generic [ref=e168]: network
+              - generic [ref=e169]:
+                - generic [ref=e170]: permissions
+                - generic [ref=e171]: "2"
+            - generic [ref=e172]:
+              - button "Open specimen" [ref=e173] [cursor=pointer]
+              - button "Summon package" [ref=e174] [cursor=pointer]
+  - generic [ref=e176]:
+    - generic "Butter Robot indexing package manifests" [ref=e180]:
+      - img "Butter Robot indexing package manifests" [ref=e182]
+    - generic [ref=e184]:
+      - generic [ref=e185]: PURPOSE / READ REAL MANIFESTS
+      - generic [ref=e186]: "Purpose: index package manifests."
+      - generic [ref=e187]: packages/@demo/**/nemesys.yml

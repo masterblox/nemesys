@@ -1,0 +1,92 @@
+- generic [active] [ref=f1e1]:
+  - link "Skip to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#view"
+  - generic [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - generic [ref=f1e5]: Interdimensional cable
+      - generic [ref=f1e9]:
+        - generic [ref=f1e10]:
+          - generic [ref=f1e11]: "@masterblox/gdpr-breach-sentinel"
+          - generic [ref=f1e12]: 2.0.0
+        - generic [ref=f1e13]:
+          - generic [ref=f1e14]: "@juridico-labs/pt-contract-review"
+          - generic [ref=f1e15]: 3.3.0
+        - generic [ref=f1e16]:
+          - generic [ref=f1e17]: "@masterblox/fleet-routing-enforce"
+          - generic [ref=f1e18]: 0.9.5
+        - generic [ref=f1e19]:
+          - generic [ref=f1e20]: "@community/changelog-linter"
+          - generic [ref=f1e21]: 1.1.0
+        - generic [ref=f1e22]:
+          - generic [ref=f1e23]: "@juridico-labs/juridico-onboarding"
+          - generic [ref=f1e24]: 2.1.2
+        - generic [ref=f1e25]:
+          - generic [ref=f1e26]: "@masterblox/gdpr-breach-sentinel"
+          - generic [ref=f1e27]: 2.0.0
+        - generic [ref=f1e28]:
+          - generic [ref=f1e29]: "@juridico-labs/pt-contract-review"
+          - generic [ref=f1e30]: 3.3.0
+        - generic [ref=f1e31]:
+          - generic [ref=f1e32]: "@masterblox/fleet-routing-enforce"
+          - generic [ref=f1e33]: 0.9.5
+        - generic [ref=f1e34]:
+          - generic [ref=f1e35]: "@community/changelog-linter"
+          - generic [ref=f1e36]: 1.1.0
+        - generic [ref=f1e37]:
+          - generic [ref=f1e38]: "@juridico-labs/juridico-onboarding"
+          - generic [ref=f1e39]: 2.1.2
+      - button "Pause the updates ticker" [ref=f1e40] [cursor=pointer]: Pause
+    - generic [ref=f1e41]:
+      - complementary [ref=f1e42]:
+        - generic [ref=f1e43]: Nemesys
+        - navigation "Primary" [ref=f1e46]:
+          - button "Feed 2" [ref=f1e938] [cursor=pointer]:
+            - generic [ref=f1e941]: Feed
+            - generic [ref=f1e942]: "2"
+          - button "Registry" [ref=f1e943] [cursor=pointer]
+          - button "My Agents 4" [ref=f1e947] [cursor=pointer]:
+            - generic [ref=f1e950]: My Agents
+            - generic [ref=f1e951]: "4"
+          - button "Settings" [ref=f1e952] [cursor=pointer]
+        - generic [ref=f1e65]:
+          - generic [ref=f1e66]: Fleet
+          - generic [ref=f1e67]:
+            - text: Agents
+            - generic [ref=f1e68]: "4"
+          - generic [ref=f1e69]:
+            - text: Packages tracked
+            - generic [ref=f1e70]: "28"
+          - generic [ref=f1e71]:
+            - text: Behind latest
+            - generic [ref=f1e72]: "3"
+      - main [ref=f1e73]:
+        - generic [ref=f1e75]:
+          - generic [ref=f1e76]:
+            - generic [ref=f1e77]: Search
+            - searchbox "Search" [ref=f1e78]
+            - generic: ⌘K
+          - generic [ref=f1e79]: State
+          - combobox "State" [ref=f1e80] [cursor=pointer]:
+            - option "Ready"
+            - option "Loading"
+            - option "Empty"
+            - option "Error" [selected]
+        - generic [ref=f1e81]:
+          - generic [ref=f1e956]:
+            - generic [ref=f1e957]:
+              - heading "Feed" [level=1] [ref=f1e958]
+              - paragraph [ref=f1e959]: Updates published to packages you subscribe to. 2 unread across 4 agents.
+            - button "Mark all read" [ref=f1e960] [cursor=pointer]
+          - group "Filter feed" [ref=f1e961]:
+            - button "All updates" [pressed] [ref=f1e962] [cursor=pointer]
+            - button "Unread" [ref=f1e963] [cursor=pointer]
+            - button "Breaking only" [ref=f1e964] [cursor=pointer]
+            - generic [ref=f1e965]: 0 shown
+          - alert [ref=f1e966]:
+            - heading "Couldn't reach the registry" [level=2] [ref=f1e968]
+            - paragraph [ref=f1e969]: Your feed could not be refreshed. Cached updates from 25 Jul, 09:12 are still shown below.
+            - paragraph [ref=f1e970]: Jerry, you broke it.
+            - generic [ref=f1e971]:
+              - button "Retry" [ref=f1e972] [cursor=pointer]
+              - button "Registry status" [ref=f1e973] [cursor=pointer]
+  - status [ref=f1e339]

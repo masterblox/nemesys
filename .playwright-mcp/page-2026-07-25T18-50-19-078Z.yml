@@ -1,0 +1,257 @@
+- generic [ref=e1]:
+  - link "Skip to public registry" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - generic "Recent public package broadcasts" [ref=e4]:
+      - generic [ref=e1175]: Interdimensional cable
+      - generic [ref=e1178]:
+        - generic [ref=e1179]:
+          - generic [ref=e1180]: 🌀 C-137
+          - link "anthropics/skills@frontend-design" [ref=e1181] [cursor=pointer]:
+            - /url: "#/search?q=anthropics%2Fskills%40frontend-design"
+          - generic [ref=e1182]: NEW SIGNAL NEW SIGNAL NEW SIGNAL
+          - emphasis [ref=e1183]: 703.3K
+          - text: ◈
+        - generic [ref=e1184]:
+          - generic [ref=e1185]: 📡 D-99
+          - link "vercel-labs/agent-browser@agent-browser" [ref=e1186] [cursor=pointer]:
+            - /url: "#/search?q=vercel-labs%2Fagent-browser%40agent-browser"
+          - generic [ref=e1187]: TRENDING TRENDING TRENDING
+          - emphasis [ref=e1188]: 577.8K
+          - text: ◈
+        - generic [ref=e1189]:
+          - generic [ref=e1190]: 🛡️ F-IRE
+          - link "firebase/agent-skills@firebase-security-rules-auditor" [ref=e1191] [cursor=pointer]:
+            - /url: "#/search?q=firebase%2Fagent-skills%40firebase-security-rules-auditor"
+          - generic [ref=e1192]: AUDIT PASS AUDIT PASS AUDIT PASS
+          - emphasis [ref=e1193]: 78K
+          - text: ◈
+        - generic [ref=e1194]:
+          - generic [ref=e1195]: 🧪 QA-42
+          - link "anthropics/skills@webapp-testing" [ref=e1196] [cursor=pointer]:
+            - /url: "#/search?q=anthropics%2Fskills%40webapp-testing"
+          - generic [ref=e1197]: INDEXED INDEXED INDEXED
+          - emphasis [ref=e1198]: 121.3K
+          - text: ◈
+        - generic [ref=e1199]:
+          - generic [ref=e1200]: 🔐 S-256
+          - link "openai/skills@security-best-practices" [ref=e1201] [cursor=pointer]:
+            - /url: "#/search?q=openai%2Fskills%40security-best-practices"
+          - generic [ref=e1202]: PUBLIC PUBLIC PUBLIC
+          - emphasis [ref=e1203]: 5.8K
+          - text: ◈
+        - generic [ref=e1204]:
+          - generic [ref=e1205]: 📚 DOC-7
+          - link "github/awesome-copilot@documentation-writer" [ref=e1206] [cursor=pointer]:
+            - /url: "#/search?q=github%2Fawesome-copilot%40documentation-writer"
+          - generic [ref=e1207]: UPLINK UPLINK UPLINK
+          - emphasis [ref=e1208]: 23.7K
+          - text: ◈
+        - generic [ref=e1209]:
+          - generic [ref=e1210]: 🌀 C-137
+          - link "anthropics/skills@frontend-design" [ref=e1211] [cursor=pointer]:
+            - /url: "#/search?q=anthropics%2Fskills%40frontend-design"
+          - generic [ref=e1212]: NEW SIGNAL NEW SIGNAL NEW SIGNAL
+          - emphasis [ref=e1213]: 703.3K
+          - text: ◈
+        - generic [ref=e1214]:
+          - generic [ref=e1215]: 📡 D-99
+          - link "vercel-labs/agent-browser@agent-browser" [ref=e1216] [cursor=pointer]:
+            - /url: "#/search?q=vercel-labs%2Fagent-browser%40agent-browser"
+          - generic [ref=e1217]: TRENDING TRENDING TRENDING
+          - emphasis [ref=e1218]: 577.8K
+          - text: ◈
+        - generic [ref=e1219]:
+          - generic [ref=e1220]: 🛡️ F-IRE
+          - link "firebase/agent-skills@firebase-security-rules-auditor" [ref=e1221] [cursor=pointer]:
+            - /url: "#/search?q=firebase%2Fagent-skills%40firebase-security-rules-auditor"
+          - generic [ref=e1222]: AUDIT PASS AUDIT PASS AUDIT PASS
+          - emphasis [ref=e1223]: 78K
+          - text: ◈
+        - generic [ref=e1224]:
+          - generic [ref=e1225]: 🧪 QA-42
+          - link "anthropics/skills@webapp-testing" [ref=e1226] [cursor=pointer]:
+            - /url: "#/search?q=anthropics%2Fskills%40webapp-testing"
+          - generic [ref=e1227]: INDEXED INDEXED INDEXED
+          - emphasis [ref=e1228]: 121.3K
+          - text: ◈
+        - generic [ref=e1229]:
+          - generic [ref=e1230]: 🔐 S-256
+          - link "openai/skills@security-best-practices" [ref=e1231] [cursor=pointer]:
+            - /url: "#/search?q=openai%2Fskills%40security-best-practices"
+          - generic [ref=e1232]: PUBLIC PUBLIC PUBLIC
+          - emphasis [ref=e1233]: 5.8K
+          - text: ◈
+        - generic [ref=e1234]:
+          - generic [ref=e1235]: 📚 DOC-7
+          - link "github/awesome-copilot@documentation-writer" [ref=e1236] [cursor=pointer]:
+            - /url: "#/search?q=github%2Fawesome-copilot%40documentation-writer"
+          - generic [ref=e1237]: UPLINK UPLINK UPLINK
+          - emphasis [ref=e1238]: 23.7K
+          - text: ◈
+      - button "Pause ticker" [ref=e1239] [cursor=pointer]
+    - banner [ref=e72]:
+      - generic [ref=e1242]:
+        - link "Nemesys home" [ref=e1243] [cursor=pointer]:
+          - /url: "#/home"
+          - generic [ref=e1246]: Nemesys
+          - generic [ref=e1247]: public skills
+        - navigation "Primary" [ref=e1248]:
+          - link "Portal" [ref=e1249] [cursor=pointer]:
+            - /url: "#/home"
+            - generic [ref=e1250]: ◉
+            - text: Portal
+          - link "Cable feed" [ref=e1251] [cursor=pointer]:
+            - /url: "#/feed"
+            - generic [ref=e1252]: ▰
+            - text: Cable feed
+          - link "Citadel registry" [ref=e1253] [cursor=pointer]:
+            - /url: "#/registry"
+            - generic [ref=e1254]: ⌘
+            - text: Citadel registry
+          - link "Publish" [ref=e1255] [cursor=pointer]:
+            - /url: "#/publish"
+            - generic [ref=e1256]: ↥
+            - text: Publish
+        - search [ref=e1257]:
+          - generic [ref=e1258]: Search public skills
+          - searchbox "Search public skills" [ref=e1262]: security
+          - generic [ref=e1263]: ⌘ K
+        - link "Publish a skill" [ref=e1264] [cursor=pointer]:
+          - /url: "#/publish"
+    - main [active] [ref=e88]:
+      - generic [ref=e1271]:
+        - generic [ref=e1272]: Central finite curve search
+        - heading "Scan the visible registry" [level=1] [ref=e1273]
+        - search [ref=e1274]:
+          - generic [ref=e1278]: Search public skills
+          - searchbox "Search public skills" [ref=e1279]: security
+          - button "Scan dimensions" [ref=e1280] [cursor=pointer]
+        - generic [ref=e1281]:
+          - generic [ref=e1282]: "Try a signal:"
+          - button "security" [ref=e1283] [cursor=pointer]
+          - button "frontend" [ref=e1284] [cursor=pointer]
+          - button "browser" [ref=e1285] [cursor=pointer]
+          - button "testing" [ref=e1286] [cursor=pointer]
+      - generic [ref=e1287]:
+        - generic [ref=e1288]:
+          - generic [ref=e1289]:
+            - generic [ref=e1290]: 4 public results
+            - heading "Signals matching “security”" [level=2] [ref=e1291]
+          - link "Open Citadel directory" [ref=e1292] [cursor=pointer]:
+            - /url: "#/registry"
+        - generic [ref=e1295]:
+          - article [ref=e1296]:
+            - generic [ref=e1297]:
+              - generic "firebase publisher channel" [ref=e1298]:
+                - img "firebase publisher channel" [ref=e1300]
+              - generic [ref=e1302]: security
+              - generic [ref=e1303]: FEATURED FEATURED FEATURED
+            - generic [ref=e1304]:
+              - paragraph [ref=e1305]: firebase/agent-skills
+              - heading [level=3] [ref=e1306]:
+                - link "firebase-security-rules-auditor" [ref=e1307] [cursor=pointer]:
+                  - /url: "#/package/firebase%2Fagent-skills%40firebase-security-rules-auditor"
+              - paragraph [ref=e1308]: Audits Firebase rules for overly broad access and authorization mistakes.
+            - generic [ref=e1309]:
+              - generic [ref=e1310]: security
+              - generic [ref=e1311]: firebase
+              - generic [ref=e1312]: audit
+            - generic [ref=e1313]:
+              - generic [ref=e1314]: 78K installs
+              - generic [ref=e1315]: audit signal
+            - generic [ref=e1316]:
+              - link "Inspect anatomy" [ref=e1317] [cursor=pointer]:
+                - /url: "#/package/firebase%2Fagent-skills%40firebase-security-rules-auditor"
+              - button "+ Subscribe to firebase-security-rules-auditor" [ref=e1320] [cursor=pointer]:
+                - text: +
+                - generic [ref=e1321]: Subscribe to firebase-security-rules-auditor
+          - article [ref=e1322]:
+            - generic [ref=e1323]:
+              - generic "better-auth publisher channel" [ref=e1324]:
+                - img "better-auth publisher channel" [ref=e1326]
+              - generic [ref=e1328]: security
+            - generic [ref=e1329]:
+              - paragraph [ref=e1330]: better-auth/skills
+              - heading [level=3] [ref=e1331]:
+                - link "better-auth-security-best-practices" [ref=e1332] [cursor=pointer]:
+                  - /url: "#/package/better-auth%2Fskills%40better-auth-security-best-practices"
+              - paragraph [ref=e1333]: Security review patterns and defensive defaults for Better Auth integrations.
+            - generic [ref=e1334]:
+              - generic [ref=e1335]: security
+              - generic [ref=e1336]: auth
+              - generic [ref=e1337]: best-practices
+            - generic [ref=e1338]:
+              - generic [ref=e1339]: 21.7K installs
+              - generic [ref=e1340]: audit signal
+            - generic [ref=e1341]:
+              - link "Inspect anatomy" [ref=e1342] [cursor=pointer]:
+                - /url: "#/package/better-auth%2Fskills%40better-auth-security-best-practices"
+              - button "+ Subscribe to better-auth-security-best-practices" [ref=e1345] [cursor=pointer]:
+                - text: +
+                - generic [ref=e1346]: Subscribe to better-auth-security-best-practices
+          - article [ref=e1347]:
+            - generic [ref=e1348]:
+              - generic "getsentry publisher channel" [ref=e1349]:
+                - img "getsentry publisher channel" [ref=e1351]
+              - generic [ref=e1353]: security
+            - generic [ref=e1354]:
+              - paragraph [ref=e1355]: getsentry/skills
+              - heading [level=3] [ref=e1356]:
+                - link "security-review" [ref=e1357] [cursor=pointer]:
+                  - /url: "#/package/getsentry%2Fskills%40security-review"
+              - paragraph [ref=e1358]: Structured security review guidance for finding risk before it reaches production.
+            - generic [ref=e1359]:
+              - generic [ref=e1360]: security
+              - generic [ref=e1361]: review
+              - generic [ref=e1362]: sentry
+            - generic [ref=e1363]:
+              - generic [ref=e1364]: 11.6K installs
+              - generic [ref=e1365]: audit signal
+            - generic [ref=e1366]:
+              - link "Inspect anatomy" [ref=e1367] [cursor=pointer]:
+                - /url: "#/package/getsentry%2Fskills%40security-review"
+              - button "+ Subscribe to security-review" [ref=e1370] [cursor=pointer]:
+                - text: +
+                - generic [ref=e1371]: Subscribe to security-review
+          - article [ref=e1372]:
+            - generic [ref=e1373]:
+              - generic "openai publisher channel" [ref=e1374]:
+                - img "openai publisher channel" [ref=e1376]
+              - generic [ref=e1378]: security
+            - generic [ref=e1379]:
+              - paragraph [ref=e1380]: openai/skills
+              - heading [level=3] [ref=e1381]:
+                - link "security-best-practices" [ref=e1382] [cursor=pointer]:
+                  - /url: "#/package/openai%2Fskills%40security-best-practices"
+              - paragraph [ref=e1383]: Secure-by-default implementation guidance for common application stacks.
+            - generic [ref=e1384]:
+              - generic [ref=e1385]: security
+              - generic [ref=e1386]: official
+              - generic [ref=e1387]: best-practices
+            - generic [ref=e1388]:
+              - generic [ref=e1389]: 5.8K installs
+              - generic [ref=e1390]: audit signal
+            - generic [ref=e1391]:
+              - link "Inspect anatomy" [ref=e1392] [cursor=pointer]:
+                - /url: "#/package/openai%2Fskills%40security-best-practices"
+              - button "+ Subscribe to security-best-practices" [ref=e1395] [cursor=pointer]:
+                - text: +
+                - generic [ref=e1396]: Subscribe to security-best-practices
+    - contentinfo [ref=e294]:
+      - generic [ref=e1397]:
+        - generic [ref=e1398]:
+          - link "Nemesys" [ref=e1399] [cursor=pointer]:
+            - /url: "#/home"
+          - paragraph [ref=e1403]: Public agent skills, indexed across the finite curve.
+        - generic "Footer" [ref=e1404]:
+          - link "Registry" [ref=e1405] [cursor=pointer]:
+            - /url: "#/registry"
+          - link "Feed" [ref=e1406] [cursor=pointer]:
+            - /url: "#/feed"
+          - link "Publish" [ref=e1407] [cursor=pointer]:
+            - /url: "#/publish"
+          - link "Visual DNA API" [ref=e1408] [cursor=pointer]:
+            - /url: https://rickandmortyapi.com/
+        - paragraph [ref=e1412]: Independent fan-inspired interface. Character data from The Rick and Morty API.
+  - status [ref=e311]

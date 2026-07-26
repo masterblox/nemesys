@@ -1,0 +1,9 @@
+[   55613ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://127.0.0.1:55080/packages/@demo/portal-cartographer/v1.0.0/nemesys.yml:0
+[   55614ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://127.0.0.1:55080/packages/@demo/abyssal-security-auditor/v2.1.0/nemesys.yml:0
+[   55614ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://127.0.0.1:55080/packages/@demo/cable-signal-router/v0.9.3/nemesys.yml:0
+[   56618ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://rickandmortyapi.com/api/character/826:0
+[   56618ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://rickandmortyapi.com/api/character/306:0
+[   56618ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://rickandmortyapi.com/api/character/121:0
+[   56618ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://rickandmortyapi.com/api/character/196:0
+[   56621ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://rickandmortyapi.com/api/character/avatar/826.jpeg:0
+[   57536ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://rickandmortyapi.com/api/character/avatar/121.jpeg:0

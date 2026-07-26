@@ -1,0 +1,69 @@
+- generic [active] [ref=f2e1]:
+  - link "Skip to content" [ref=f2e2] [cursor=pointer]:
+    - /url: "#view"
+  - generic [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - generic [ref=f2e9]:
+        - generic [ref=f2e10]:
+          - generic [ref=f2e11]: "@masterblox/gdpr-breach-sentinel"
+          - generic [ref=f2e12]: 2.0.0
+        - generic [ref=f2e13]:
+          - generic [ref=f2e14]: "@juridico-labs/pt-contract-review"
+          - generic [ref=f2e15]: 3.3.0
+        - generic [ref=f2e16]:
+          - generic [ref=f2e17]: "@masterblox/fleet-routing-enforce"
+          - generic [ref=f2e18]: 0.9.5
+        - generic [ref=f2e19]:
+          - generic [ref=f2e20]: "@community/changelog-linter"
+          - generic [ref=f2e21]: 1.1.0
+        - generic [ref=f2e22]:
+          - generic [ref=f2e23]: "@juridico-labs/juridico-onboarding"
+          - generic [ref=f2e24]: 2.1.2
+        - generic [ref=f2e25]:
+          - generic [ref=f2e26]: "@masterblox/gdpr-breach-sentinel"
+          - generic [ref=f2e27]: 2.0.0
+        - generic [ref=f2e28]:
+          - generic [ref=f2e29]: "@juridico-labs/pt-contract-review"
+          - generic [ref=f2e30]: 3.3.0
+        - generic [ref=f2e31]:
+          - generic [ref=f2e32]: "@masterblox/fleet-routing-enforce"
+          - generic [ref=f2e33]: 0.9.5
+        - generic [ref=f2e34]:
+          - generic [ref=f2e35]: "@community/changelog-linter"
+          - generic [ref=f2e36]: 1.1.0
+        - generic [ref=f2e37]:
+          - generic [ref=f2e38]: "@juridico-labs/juridico-onboarding"
+          - generic [ref=f2e39]: 2.1.2
+      - button "Pause the updates ticker" [ref=f2e40] [cursor=pointer]: Pause
+    - main [ref=f2e73]:
+      - generic [ref=f2e75]:
+        - generic [ref=f2e76]:
+          - generic [ref=f2e77]: Search
+          - searchbox "Search" [ref=f2e78]
+        - generic [ref=f2e79]: State
+        - combobox "State" [ref=f2e80] [cursor=pointer]:
+          - option "Ready"
+          - option "Loading"
+          - option "Empty" [selected]
+          - option "Error"
+      - generic [ref=f2e81]:
+        - generic [ref=f2e642]:
+          - generic [ref=f2e643]:
+            - heading "Feed" [level=1] [ref=f2e644]
+            - paragraph [ref=f2e645]: Updates published to packages you subscribe to. 2 unread across 4 agents.
+          - button "Mark all read" [ref=f2e646] [cursor=pointer]
+        - group "Filter feed" [ref=f2e647]:
+          - button "All updates" [pressed] [ref=f2e648] [cursor=pointer]
+          - button "Unread" [ref=f2e649] [cursor=pointer]
+          - button "Breaking only" [ref=f2e650] [cursor=pointer]
+        - generic [ref=f2e652]:
+          - heading "No new updates" [level=2] [ref=f2e654]
+          - paragraph [ref=f2e655]: Every package you subscribe to is on its latest version. Subscribe to more packages in the Registry to widen this feed.
+          - paragraph [ref=f2e656]: Nothing came through the cable today.
+          - button "Browse Registry" [ref=f2e658] [cursor=pointer]
+    - navigation "Primary" [ref=f2e659]:
+      - button "Feed" [ref=f2e660] [cursor=pointer]
+      - button "Registry" [ref=f2e664] [cursor=pointer]
+      - button "My Agents" [ref=f2e668] [cursor=pointer]
+      - button "Settings" [ref=f2e672] [cursor=pointer]
+  - status [ref=f2e339]

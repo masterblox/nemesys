@@ -1,0 +1,135 @@
+- generic [ref=f1e1]:
+  - link "Skip to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#view"
+  - generic [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - generic [ref=f1e5]: Interdimensional cable
+      - generic [ref=f1e9]:
+        - generic [ref=f1e10]:
+          - generic [ref=f1e11]: "@masterblox/gdpr-breach-sentinel"
+          - generic [ref=f1e12]: 2.0.0
+        - generic [ref=f1e13]:
+          - generic [ref=f1e14]: "@juridico-labs/pt-contract-review"
+          - generic [ref=f1e15]: 3.3.0
+        - generic [ref=f1e16]:
+          - generic [ref=f1e17]: "@masterblox/fleet-routing-enforce"
+          - generic [ref=f1e18]: 0.9.5
+        - generic [ref=f1e19]:
+          - generic [ref=f1e20]: "@community/changelog-linter"
+          - generic [ref=f1e21]: 1.1.0
+        - generic [ref=f1e22]:
+          - generic [ref=f1e23]: "@juridico-labs/juridico-onboarding"
+          - generic [ref=f1e24]: 2.1.2
+        - generic [ref=f1e25]:
+          - generic [ref=f1e26]: "@masterblox/gdpr-breach-sentinel"
+          - generic [ref=f1e27]: 2.0.0
+        - generic [ref=f1e28]:
+          - generic [ref=f1e29]: "@juridico-labs/pt-contract-review"
+          - generic [ref=f1e30]: 3.3.0
+        - generic [ref=f1e31]:
+          - generic [ref=f1e32]: "@masterblox/fleet-routing-enforce"
+          - generic [ref=f1e33]: 0.9.5
+        - generic [ref=f1e34]:
+          - generic [ref=f1e35]: "@community/changelog-linter"
+          - generic [ref=f1e36]: 1.1.0
+        - generic [ref=f1e37]:
+          - generic [ref=f1e38]: "@juridico-labs/juridico-onboarding"
+          - generic [ref=f1e39]: 2.1.2
+      - button "Pause the updates ticker" [ref=f1e40] [cursor=pointer]: Pause
+    - generic [ref=f1e41]:
+      - complementary [ref=f1e42]:
+        - generic [ref=f1e43]: Nemesys
+        - navigation "Primary" [ref=f1e46]:
+          - button "Feed 2" [ref=f1e465] [cursor=pointer]:
+            - generic [ref=f1e468]: Feed
+            - generic [ref=f1e469]: "2"
+          - button "Registry" [ref=f1e470] [cursor=pointer]
+          - button "My Agents 4" [ref=f1e474] [cursor=pointer]:
+            - generic [ref=f1e477]: My Agents
+            - generic [ref=f1e478]: "4"
+          - button "Settings" [ref=f1e479] [cursor=pointer]
+        - generic [ref=f1e65]:
+          - generic [ref=f1e66]: Fleet
+          - generic [ref=f1e67]:
+            - text: Agents
+            - generic [ref=f1e68]: "4"
+          - generic [ref=f1e69]:
+            - text: Packages tracked
+            - generic [ref=f1e70]: "28"
+          - generic [ref=f1e71]:
+            - text: Behind latest
+            - generic [ref=f1e72]: "3"
+      - main [ref=f1e73]:
+        - generic [ref=f1e75]:
+          - generic [ref=f1e76]:
+            - generic [ref=f1e77]: Search
+            - searchbox "Search" [ref=f1e78]
+            - generic: ⌘K
+          - generic [ref=f1e79]: State
+          - combobox "State" [ref=f1e80] [cursor=pointer]:
+            - option "Ready" [selected]
+            - option "Loading"
+            - option "Empty"
+            - option "Error"
+        - generic [ref=f1e81]:
+          - generic [ref=f1e483]:
+            - generic [ref=f1e484]:
+              - heading "My Agents" [active] [level=1] [ref=f1e485]
+              - paragraph [ref=f1e486]: Agents in your fleet and how far they have drifted from the latest published versions.
+            - button "Add agent" [ref=f1e487] [cursor=pointer]
+          - table [ref=f1e489]:
+            - caption [ref=f1e490]: Fleet agents and version drift
+            - rowgroup [ref=f1e491]:
+              - row [ref=f1e492]:
+                - columnheader "Agent" [ref=f1e493]
+                - columnheader "Status" [ref=f1e494]
+                - columnheader "Packages" [ref=f1e495]
+                - columnheader "Behind" [ref=f1e496]
+                - columnheader "Last deploy" [ref=f1e497]
+                - columnheader "Actions" [ref=f1e498]
+            - rowgroup [ref=f1e500]:
+              - row [ref=f1e501]:
+                - cell "juridico-01" [ref=f1e502]:
+                  - generic [ref=f1e503]:
+                    - generic [ref=f1e504]: J0
+                    - generic [ref=f1e506]: juridico-01
+                - cell "behind" [ref=f1e507]
+                - cell "9" [ref=f1e509]
+                - cell "2" [ref=f1e510]
+                - cell "2026-07-24" [ref=f1e511]
+                - cell [ref=f1e512]:
+                  - button "Deploy" [ref=f1e513] [cursor=pointer]
+              - row [ref=f1e514]:
+                - cell "juridico-02" [ref=f1e515]:
+                  - generic [ref=f1e516]:
+                    - generic [ref=f1e517]: J0
+                    - generic [ref=f1e519]: juridico-02
+                - cell "up to date" [ref=f1e520]
+                - cell "9" [ref=f1e522]
+                - cell "0" [ref=f1e523]
+                - cell "2026-07-25" [ref=f1e524]
+                - cell [ref=f1e525]:
+                  - button "Deploy" [disabled] [ref=f1e526]
+              - row [ref=f1e527]:
+                - cell "fleet-dispatch" [ref=f1e528]:
+                  - generic [ref=f1e529]:
+                    - generic [ref=f1e530]: FD
+                    - generic [ref=f1e532]: fleet-dispatch
+                - cell "behind" [ref=f1e533]
+                - cell "4" [ref=f1e535]
+                - cell "1" [ref=f1e536]
+                - cell "2026-07-21" [ref=f1e537]
+                - cell [ref=f1e538]:
+                  - button "Deploy" [ref=f1e539] [cursor=pointer]
+              - row [ref=f1e540]:
+                - cell "sentinel-eu" [ref=f1e541]:
+                  - generic [ref=f1e542]:
+                    - generic [ref=f1e543]: SE
+                    - generic [ref=f1e545]: sentinel-eu
+                - cell "up to date" [ref=f1e546]
+                - cell "6" [ref=f1e548]
+                - cell "0" [ref=f1e549]
+                - cell "2026-07-25" [ref=f1e550]
+                - cell [ref=f1e551]:
+                  - button "Deploy" [disabled] [ref=f1e552]
+  - status [ref=f1e339]
