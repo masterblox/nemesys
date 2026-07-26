@@ -1,0 +1,23 @@
+name: portal-cartographer
+version: 1.0.0
+publisher: demo
+description: Maps package dependencies across agent runtimes and flags unreachable skill coordinates.
+runtime: hermes
+requires:
+  models:
+    - claude-sonnet
+  tools:
+    - filesystem
+  skills: []
+  api_keys: []
+permissions:
+  - read_workspace_manifests
+risk_level: low
+source:
+  type: original
+  grabber: demo-c137
+assessment:
+  status: approved
+  assessed_by: citadel-review-board
+  assessed_at: 2026-07-25
+  summary: Read-only manifest access verified for the public smoke-test package.
