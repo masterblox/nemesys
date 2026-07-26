@@ -75,11 +75,19 @@ export function RadarDashboard({ catalog }: { catalog: CatalogSnapshot }) {
               <h3>{skill.name}</h3>
               <p>{skill.description}</p>
               {skill.revisions[0] && <div className="update-note">{skill.revisions[0].summary}</div>}
+              {skill.tags.length > 0 && (
+                <div className="card-tags" aria-label="Skill tags">
+                  {[...new Set(skill.tags)].slice(0, 3).map((tag) => (
+                    <span className="tag" key={`${skill.id}-${tag}`}>{tag}</span>
+                  ))}
+                </div>
+              )}
               <div className="skill-meta">
                 <span>{compactNumber(skill.installs)} installs</span>
                 <span>{skill.riskLevel} risk</span>
                 <span>{age(skill.updatedAt)}</span>
               </div>
+              <span className="card-cta" aria-hidden="true">Inspect anatomy <span>→</span></span>
               <Link className="card-link" href={skillPath(skill)} aria-label={`Open ${skill.name}`} />
             </article>
           ))}
