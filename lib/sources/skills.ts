@@ -74,7 +74,7 @@ async function githubRepository(source: string) {
   const response = await fetch(`https://api.github.com/repos/${source}`, {
     headers: {
       Accept: "application/vnd.github+json",
-      "User-Agent": "nemesys-radar",
+      "User-Agent": "atlantys-radar",
       ...(process.env.GITHUB_TOKEN ? { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` } : {})
     },
     cache: "no-store"
@@ -124,7 +124,7 @@ function revisionSummary(previous: string, current: string) {
   const removals = changed.filter((part) => part.removed).reduce((sum, part) => sum + part.count!, 0);
   return previous
     ? `Public skill content changed: ${additions} lines added, ${removals} removed.`
-    : "First public snapshot indexed by Nemesys.";
+    : "First public snapshot indexed by Atlantys.";
 }
 
 export async function syncPublicCatalog() {

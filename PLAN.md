@@ -1,15 +1,15 @@
-# Atlantis — Public Agent Registry
+# Atlantys — Public Agent Registry
 
 **One-liner:** Public update intelligence for agent skills across the multiverse.
 
-Atlantis is the public experience powered by the Nemesys protocol. It is a
+Atlantys is the public experience powered by the Atlantys protocol. It is a
 community product for fleet operators who want to discover public
 agent skills, understand what changed, evaluate risk and compatibility, and
 decide whether to install, watch, or skip.
 
 ## Canonical experience
 
-- `/` is the canonical Atlantis homepage.
+- `/` is the canonical Atlantys homepage.
 - A portal entrance appears once per browser session and can be replayed with
   **Open Gate**. Reduced-motion visitors receive a short static transition.
 - The shell court introduces the public intelligence surface.
@@ -18,19 +18,18 @@ decide whether to install, watch, or skip.
   revisions, creator attribution, signals, and Ask Dev entry points.
 - Interdimensional Cable is a fixed, pausable ticker sourced from current public
   catalog entries.
-- `nemesys.yml`, CLI commands, storage contracts, API routes, and package
-  identifiers retain the Nemesys name. Atlantis is the product brand, not a
-  protocol rename.
+- `atlantys.yml`, CLI commands, storage contracts, API routes, package
+  identifiers, and user-facing branding all use the Atlantys name.
 
 ## Product loop
 
-1. Atlantis discovers public skills, repositories, creators, releases, and
+1. Atlantys discovers public skills, repositories, creators, releases, and
    emerging community signals.
 2. Operators inspect source attribution, revisions, diffs, permissions, audits,
    and buzz.
 3. **Ask Dev** compares a skill with a small, browser-local set of fleet
    capabilities.
-4. Atlantis returns an explainable **Fits**, **Review**, or **Blocked** verdict.
+4. Atlantys returns an explainable **Fits**, **Review**, or **Blocked** verdict.
 5. Operators install, watch, skip, or create a privacy-safe share card.
 
 ## Public data model
@@ -74,7 +73,7 @@ enter the public catalog.
 - Full fleet scanners/importers.
 - Hermes/Conductor deployment automation.
 - Community X connections and creator claims.
-- Nemesys-native publishing.
+- Atlantys-native publishing.
 
 The CLI remains secondary tooling. Public discovery uses Skills.sh identifiers
 (`owner/repo@skill`); local search is an explicit development-only mode.

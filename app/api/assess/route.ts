@@ -23,7 +23,7 @@ export async function POST(request: NextRequest) {
   const skill = await getSkill(owner, repo, slug);
   if (!skill) return NextResponse.json({ error: "Public skill not found." }, { status: 404 });
 
-  const existingCookie = request.cookies.get("nemesys_device")?.value;
+  const existingCookie = request.cookies.get("atlantys_device")?.value;
   const deviceId = verifyDeviceId(existingCookie) || randomToken(18);
   const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "local";
   const limit = await consumeAssessment(deviceId, ip);
@@ -37,7 +37,7 @@ export async function POST(request: NextRequest) {
   const assessment = await hostedAssessment(skill, parsed.data.fleet, base);
   const response = NextResponse.json({ assessment, remaining: limit.remaining, resetAt: limit.resetAt });
   if (!verifyDeviceId(existingCookie)) {
-    response.cookies.set("nemesys_device", signDeviceId(deviceId), {
+    response.cookies.set("atlantys_device", signDeviceId(deviceId), {
       httpOnly: true,
       sameSite: "lax",
       secure: process.env.NODE_ENV === "production",

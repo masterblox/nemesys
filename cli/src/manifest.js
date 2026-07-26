@@ -105,7 +105,7 @@ export function validateManifest(manifest) {
 export function manifestPath(packagePath) {
   const resolved = path.resolve(packagePath);
   const stat = fs.existsSync(resolved) ? fs.statSync(resolved) : null;
-  return stat?.isDirectory() ? path.join(resolved, "nemesys.yml") : resolved;
+  return stat?.isDirectory() ? path.join(resolved, "atlantys.yml") : resolved;
 }
 
 export function loadManifest(packagePath) {

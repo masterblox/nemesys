@@ -23,7 +23,7 @@ export function AskDev({ skill }: { skill: Skill }) {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    const saved = localStorage.getItem("nemesys-capability-chips");
+    const saved = localStorage.getItem("atlantys-capability-chips");
     if (saved) {
       try { setFleet(JSON.parse(saved)); } catch { /* Ignore corrupt browser-local state. */ }
     }
@@ -65,7 +65,7 @@ export function AskDev({ skill }: { skill: Skill }) {
         ? current[group].filter((item) => item !== value)
         : [...current[group], value];
       const next = { ...current, [group]: selected };
-      localStorage.setItem("nemesys-capability-chips", JSON.stringify(next));
+      localStorage.setItem("atlantys-capability-chips", JSON.stringify(next));
       return next;
     });
   }
@@ -142,7 +142,7 @@ export function AskDev({ skill }: { skill: Skill }) {
                     onClick={() => {
                       const next = { ...fleet, policy: value };
                       setFleet(next);
-                      localStorage.setItem("nemesys-capability-chips", JSON.stringify(next));
+                      localStorage.setItem("atlantys-capability-chips", JSON.stringify(next));
                     }}
                     type="button"
                     key={value}

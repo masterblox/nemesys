@@ -1,10 +1,10 @@
-# Atlantis Public Agent Registry
+# Atlantys Public Agent Registry
 
-Atlantis is the public community experience powered by the Nemesys protocol.
-It indexes public agent skills and source repositories, detects content
-changes, shows readable diffs and audits, and provides a privacy-minimized
-compatibility check. Technical contracts such as `nemesys.yml`, package paths,
-CLI commands, and API routes keep the Nemesys name.
+Atlantys is a public community registry for agent skills. It indexes public
+skills and source repositories, detects content changes, shows readable diffs
+and audits, and provides a privacy-minimized compatibility check. Technical
+contracts such as `atlantys.yml`, package paths, CLI commands, and API routes
+use the same Atlantys name.
 
 ## Local development
 
@@ -50,7 +50,7 @@ openssl rand -base64 32
 ```
 
 Apply an X Developer Console spending limit before enabling bookmark sync.
-Nemesys also enforces `X_DAILY_READ_LIMIT` and records an estimated read cost.
+Atlantys also enforces `X_DAILY_READ_LIMIT` and records an estimated read cost.
 
 ## Scheduled jobs
 

@@ -22,7 +22,7 @@ describe("public source boundaries", () => {
 
   it("requests only read scopes for Carlos's X connection", () => {
     process.env.X_CLIENT_ID = "client";
-    process.env.X_REDIRECT_URI = "https://nemesys.dev/api/x/callback";
+    process.env.X_REDIRECT_URI = "https://atlantys.dev/api/x/callback";
     const url = new URL(xAuthorizationUrl("state", "challenge"));
     expect(url.searchParams.get("scope")).toBe("bookmark.read tweet.read users.read offline.access");
     expect(url.searchParams.get("scope")).not.toContain("write");

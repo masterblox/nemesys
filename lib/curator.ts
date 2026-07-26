@@ -16,7 +16,7 @@ export interface InboxItem {
 
 export async function curatorIdentity() {
   const store = await cookies();
-  return verifyCuratorSession(store.get("nemesys_curator")?.value);
+  return verifyCuratorSession(store.get("atlantys_curator")?.value);
 }
 
 export async function curatorInbox(): Promise<InboxItem[]> {

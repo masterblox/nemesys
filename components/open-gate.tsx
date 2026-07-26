@@ -2,8 +2,8 @@
 
 export function OpenGate() {
   function open() {
-    if (document.querySelector(".atlantis-home")) {
-      window.dispatchEvent(new Event("atlantis:open-gate"));
+    if (document.querySelector(".atlantys-home")) {
+      window.dispatchEvent(new Event("atlantys:open-gate"));
       return;
     }
     window.location.assign("/?gate=1");

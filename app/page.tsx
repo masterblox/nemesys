@@ -11,14 +11,14 @@ export default async function HomePage() {
   return (
     <>
       <PortalEntrance />
-      <main className="atlantis-home" id="main" tabIndex={-1}>
+      <main className="atlantys-home" id="main" tabIndex={-1}>
         <section className="shell-court" id="surface" aria-labelledby="surface-title">
           <div className="shell-court__shade" aria-hidden="true" />
           <div className="shell-court__copy">
             <span className="eyebrow">The shell court · public intelligence above the trench</span>
             <h1 id="surface-title">Updates report<br /><em>before deployment.</em></h1>
             <p>
-              Atlantis watches public skills, repositories, creators, and emerging signals. Inspect what changed, trace the source, then ask whether it fits your fleet.
+              Atlantys watches public skills, repositories, creators, and emerging signals. Inspect what changed, trace the source, then ask whether it fits your fleet.
             </p>
             <div className="hero-actions">
               <a className="primary-button ocean-button" href="#registry">Descend to the registry <span aria-hidden="true">↓</span></a>
@@ -36,7 +36,7 @@ export default async function HomePage() {
           <div>
             <span>Pressure seam / content-hash depth</span>
             <h2>Follow every change<br />to its source.</h2>
-            <p>Releases are useful. Content hashes catch the updates that tags miss. Atlantis retains readable revisions, public attribution, permissions, and audits.</p>
+            <p>Releases are useful. Content hashes catch the updates that tags miss. Atlantys retains readable revisions, public attribution, permissions, and audits.</p>
           </div>
           <div className="depth-gauge" aria-hidden="true"><i /><i /><i /><b>2,100M</b></div>
         </section>

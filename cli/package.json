@@ -1,10 +1,10 @@
 {
-  "name": "nemesys-registry-cli",
+  "name": "atlantys-registry-cli",
   "version": "0.1.0",
   "description": "GitHub-native agent update registry CLI",
   "type": "module",
   "bin": {
-    "nemesys": "./bin/nemesys.js"
+    "atlantys": "./bin/atlantys.js"
   },
   "scripts": {
     "test": "node --test"

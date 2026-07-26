@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const sessionKey = "atlantis.portalIntroSeen.v1";
+const sessionKey = "atlantys.portalIntroSeen.v1";
 
 export function PortalEntrance() {
   const [open, setOpen] = useState(true);
@@ -24,12 +24,12 @@ export function PortalEntrance() {
       setOpen(true);
       setReady(true);
     };
-    window.addEventListener("atlantis:open-gate", replay);
-    return () => window.removeEventListener("atlantis:open-gate", replay);
+    window.addEventListener("atlantys:open-gate", replay);
+    return () => window.removeEventListener("atlantys:open-gate", replay);
   }, []);
 
   useEffect(() => {
-    const background = document.querySelectorAll<HTMLElement>(".atlantis-ticker, .site-header, .atlantis-home, .site-footer");
+    const background = document.querySelectorAll<HTMLElement>(".atlantys-ticker, .site-header, .atlantys-home, .site-footer");
     const restore = () => background.forEach((element) => {
       element.inert = false;
       element.removeAttribute("aria-hidden");
@@ -65,13 +65,13 @@ export function PortalEntrance() {
       <div className="portal-copy">
         <span>Public agent registry · gateway D-137</span>
         <h1 id="portal-title">Every update is<br />a new <em>current.</em></h1>
-        <p>Cross into Atlantis to inspect public skills, revisions, audits, creator activity, and fleet compatibility.</p>
-        <button className="portal-enter" type="button" onClick={enter}>Enter Atlantis <span aria-hidden="true">→</span></button>
+        <p>Cross into Atlantys to inspect public skills, revisions, audits, creator activity, and fleet compatibility.</p>
+        <button className="portal-enter" type="button" onClick={enter}>Enter Atlantys <span aria-hidden="true">→</span></button>
       </div>
       <div className="portal-fluid" aria-hidden="true">
         <picture>
-          <source media="(prefers-reduced-motion: reduce)" srcSet="/atlantis/portal-show-poster.webp" />
-          <img src="/atlantis/portal-show-loop-12fps-480.webp" alt="" />
+          <source media="(prefers-reduced-motion: reduce)" srcSet="/atlantys/portal-show-poster.webp" />
+          <img src="/atlantys/portal-show-loop-12fps-480.webp" alt="" />
         </picture>
         <i />
         <i />

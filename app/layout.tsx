@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { AtlantisTicker } from "@/components/atlantis-ticker";
+import { AtlantysTicker } from "@/components/atlantys-ticker";
 import { OpenGate } from "@/components/open-gate";
 import { getCatalog } from "@/lib/catalog";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Atlantis — Public Agent Registry",
+  title: "Atlantys — Public Agent Registry",
   description: "Discover public agent-skill updates, inspect the evidence, and check fleet compatibility."
 };
 
@@ -16,11 +16,11 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
     <html lang="en">
       <body>
         <a className="skip-link" href="#main">Skip to content</a>
-        <AtlantisTicker skills={catalog.skills} />
+        <AtlantysTicker skills={catalog.skills} />
         <header className="site-header">
-          <Link className="brand" href="/" aria-label="Atlantis public agent registry home">
-            <span className="atlantis-mark" aria-hidden="true"><i /></span>
-            <span>ATLANTIS</span>
+          <Link className="brand" href="/" aria-label="Atlantys public agent registry home">
+            <span className="atlantys-mark" aria-hidden="true"><i /></span>
+            <span>ATLANTYS</span>
             <small>PUBLIC AGENT REGISTRY</small>
           </Link>
           <nav aria-label="Primary navigation">
@@ -33,8 +33,8 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
         </header>
         {children}
         <footer className="site-footer">
-          <p><strong>ATLANTIS</strong> indexes public sources. Verify before you install.</p>
-          <p className="mono">NEMESYS PROTOCOL · NO PRIVATE FLEET DATA IN THE CATALOG</p>
+          <p><strong>ATLANTYS</strong> indexes public sources. Verify before you install.</p>
+          <p className="mono">ATLANTYS PROTOCOL · NO PRIVATE FLEET DATA IN THE CATALOG</p>
         </footer>
       </body>
     </html>

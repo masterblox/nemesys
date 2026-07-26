@@ -17,7 +17,7 @@ export async function GET(request: NextRequest) {
     if (!allowed.includes(user.id)) return NextResponse.json({ error: "This X account is not allowlisted." }, { status: 403 });
     await saveXConnection(user, tokens);
     const response = NextResponse.redirect(new URL("/curator", request.url));
-    response.cookies.set("nemesys_curator", await signCuratorSession(user.id), {
+    response.cookies.set("atlantys_curator", await signCuratorSession(user.id), {
       httpOnly: true,
       sameSite: "lax",
       secure: process.env.NODE_ENV === "production",

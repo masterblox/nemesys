@@ -97,7 +97,7 @@ export function copyDirectory(source, destination) {
   fs.cpSync(source, destination, { recursive: true, force: true });
 }
 
-export function tempDirectory(prefix = "nemesys-") {
+export function tempDirectory(prefix = "atlantys-") {
   return fs.mkdtempSync(path.join(os.tmpdir(), prefix));
 }
 
@@ -110,7 +110,7 @@ export function publicSkillsSearch(query) {
 
 export function remoteUrl(spec) {
   const parsed = parsePackageSpec(spec);
-  const base = process.env.NEMESYS_GITHUB_BASE_URL || "https://github.com";
+  const base = process.env.ATLANTYS_GITHUB_BASE_URL || "https://github.com";
   return `${base}/${parsed.publisher}/${parsed.name}.git`;
 }
 
@@ -126,7 +126,7 @@ export function latestRemoteTag(spec) {
 }
 
 export function subscriptionFile() {
-  const home = process.env.NEMESYS_HOME || path.join(os.homedir(), ".nemesys");
+  const home = process.env.ATLANTYS_HOME || path.join(os.homedir(), ".atlantys");
   return path.join(home, "subscriptions.json");
 }
 

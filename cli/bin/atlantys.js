@@ -3,6 +3,6 @@
 import { run } from "../src/cli.js";
 
 run(process.argv.slice(2)).catch((error) => {
-  console.error(`nemesys: ${error.message}`);
+  console.error(`atlantys: ${error.message}`);
   process.exitCode = 1;
 });

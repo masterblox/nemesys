@@ -41,7 +41,7 @@ export async function verifyCuratorSession(token?: string) {
 function encryptionKey() {
   const configured = process.env.TOKEN_ENCRYPTION_KEY;
   if (!configured && process.env.NODE_ENV !== "production") {
-    return crypto.createHash("sha256").update("nemesys-development-encryption-key").digest();
+    return crypto.createHash("sha256").update("atlantys-development-encryption-key").digest();
   }
   const key = Buffer.from(secret("TOKEN_ENCRYPTION_KEY"), "base64");
   if (key.length !== 32) throw new Error("TOKEN_ENCRYPTION_KEY must decode to 32 bytes");

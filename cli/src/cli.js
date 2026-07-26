@@ -16,18 +16,18 @@ import {
 } from "./registry.js";
 import { loadManifest } from "./manifest.js";
 
-const HELP = `Nemesys — updates for your agents across the multiverse
+const HELP = `Atlantys — updates for your agents across the multiverse
 
 Usage:
-  nemesys publish <package-directory> [--no-push]
-  nemesys pull <@publisher/package> [--version <version>] [--output <directory>]
-  nemesys feed
-  nemesys search <query> [--local]
-  nemesys subscribe <@publisher/package|@publisher>
-  nemesys diff <@publisher/package> <from-version> <to-version>
-  nemesys deploy <@publisher/package> --target <directory> [--version <version>]
-  nemesys assess <package-directory>
-  nemesys validate <package-directory>
+  atlantys publish <package-directory> [--no-push]
+  atlantys pull <@publisher/package> [--version <version>] [--output <directory>]
+  atlantys feed
+  atlantys search <query> [--local]
+  atlantys subscribe <@publisher/package|@publisher>
+  atlantys diff <@publisher/package> <from-version> <to-version>
+  atlantys deploy <@publisher/package> --target <directory> [--version <version>]
+  atlantys assess <package-directory>
+  atlantys validate <package-directory>
 `;
 
 function option(args, name) {
@@ -51,7 +51,7 @@ function repositoryRoot(start) {
 
 async function publish(args) {
   const packageDirectory = fs.realpathSync(
-    path.resolve(requireArgument(args[0], "nemesys publish <package-directory> [--no-push]")),
+    path.resolve(requireArgument(args[0], "atlantys publish <package-directory> [--no-push]")),
   );
   const { manifest } = loadManifest(packageDirectory);
   const identity = manifestIdentity(manifest);
@@ -65,7 +65,7 @@ async function publish(args) {
   if (relative.startsWith("..") || path.isAbsolute(relative)) {
     throw new Error("package directory must be inside the Git repository being published");
   }
-  const tracked = exec("git", ["ls-files", "--error-unmatch", path.join(relative, "nemesys.yml")], {
+  const tracked = exec("git", ["ls-files", "--error-unmatch", path.join(relative, "atlantys.yml")], {
     cwd: root,
     allowFailure: true,
   });
@@ -88,7 +88,7 @@ async function publish(args) {
 }
 
 async function pullPackage(args) {
-  const spec = requireArgument(args[0], "nemesys pull <@publisher/package>");
+  const spec = requireArgument(args[0], "atlantys pull <@publisher/package>");
   const parsed = parsePackageSpec(spec);
   const version = option(args, "--version");
   const destination = path.resolve(option(args, "--output") || parsed.name);
@@ -108,11 +108,11 @@ async function pullPackage(args) {
   if (tag) cloneArgs.push("--branch", tag);
   cloneArgs.push(remoteUrl(spec), destination);
   exec("git", cloneArgs);
-  if (!fs.existsSync(path.join(destination, "nemesys.yml"))) {
+  if (!fs.existsSync(path.join(destination, "atlantys.yml"))) {
     const versionDirectory = tag || "";
     const nested = path.join(destination, "packages", `@${parsed.publisher}`, parsed.name, versionDirectory);
-    if (versionDirectory && fs.existsSync(path.join(nested, "nemesys.yml"))) {
-      const staging = tempDirectory("nemesys-pull-");
+    if (versionDirectory && fs.existsSync(path.join(nested, "atlantys.yml"))) {
+      const staging = tempDirectory("atlantys-pull-");
       copyDirectory(nested, staging);
       fs.rmSync(destination, { recursive: true, force: true });
       copyDirectory(staging, destination);
@@ -125,9 +125,9 @@ async function pullPackage(args) {
 }
 
 async function search(args) {
-  const query = requireArgument(args[0], "nemesys search <query>").toLowerCase();
+  const query = requireArgument(args[0], "atlantys search <query>").toLowerCase();
   if (!has(args, "--local")) {
-    if (process.env.NEMESYS_OFFLINE === "1") {
+    if (process.env.ATLANTYS_OFFLINE === "1") {
       throw new Error("public skill search is unavailable offline; use --local for private development packages");
     }
     const results = publicSkillsSearch(query);
@@ -155,7 +155,7 @@ async function search(args) {
 }
 
 async function subscribe(args) {
-  const value = requireArgument(args[0], "nemesys subscribe <@publisher/package|@publisher>");
+  const value = requireArgument(args[0], "atlantys subscribe <@publisher/package|@publisher>");
   if (!/^@[a-z0-9][a-z0-9-]*(?:\/[a-z0-9][a-z0-9-]*)?$/.test(value)) {
     throw new Error("subscription must be @publisher or @publisher/package");
   }
@@ -168,7 +168,7 @@ async function subscribe(args) {
 async function feed() {
   const subscriptions = readSubscriptions();
   if (subscriptions.length === 0) {
-    console.log("Feed is empty. Use `nemesys subscribe @publisher/package` first.");
+    console.log("Feed is empty. Use `atlantys subscribe @publisher/package` first.");
     return;
   }
   const entries = listLocalPackages().filter(({ canonical }) =>
@@ -178,7 +178,7 @@ async function feed() {
   }
   const localIdentities = new Set(entries.map(({ canonical }) => canonical));
   let remoteCount = 0;
-  if (process.env.NEMESYS_OFFLINE !== "1") {
+  if (process.env.ATLANTYS_OFFLINE !== "1") {
     for (const subscription of subscriptions) {
       if (!subscription.includes("/") || localIdentities.has(subscription)) continue;
       try {
@@ -198,9 +198,9 @@ async function feed() {
 }
 
 async function diffPackage(args) {
-  const spec = requireArgument(args[0], "nemesys diff <package> <from-version> <to-version>");
-  const fromVersion = requireArgument(args[1], "nemesys diff <package> <from-version> <to-version>");
-  const toVersion = requireArgument(args[2], "nemesys diff <package> <from-version> <to-version>");
+  const spec = requireArgument(args[0], "atlantys diff <package> <from-version> <to-version>");
+  const fromVersion = requireArgument(args[1], "atlantys diff <package> <from-version> <to-version>");
+  const toVersion = requireArgument(args[2], "atlantys diff <package> <from-version> <to-version>");
   const from = localPackage(spec, fromVersion);
   const to = localPackage(spec, toVersion);
 
@@ -211,7 +211,7 @@ async function diffPackage(args) {
     return;
   }
 
-  const temporary = tempDirectory("nemesys-diff-");
+  const temporary = tempDirectory("atlantys-diff-");
   try {
     exec("git", ["clone", "--quiet", remoteUrl(spec), temporary]);
     const result = exec("git", ["diff", `v${fromVersion.replace(/^v/, "")}`, `v${toVersion.replace(/^v/, "")}`], {
@@ -224,11 +224,11 @@ async function diffPackage(args) {
 }
 
 async function deploy(args) {
-  const spec = requireArgument(args[0], "nemesys deploy <package> --target <directory>");
+  const spec = requireArgument(args[0], "atlantys deploy <package> --target <directory>");
   const targetRoot = option(args, "--target");
   if (!targetRoot) throw new Error("deploy requires --target <directory>");
   const parsed = parsePackageSpec(spec);
-  const temporary = tempDirectory("nemesys-deploy-");
+  const temporary = tempDirectory("atlantys-deploy-");
   const pulled = path.join(temporary, parsed.name);
   try {
     await pullPackage([spec, "--output", pulled, ...(option(args, "--version") ? ["--version", option(args, "--version")] : [])]);
@@ -241,7 +241,7 @@ async function deploy(args) {
 }
 
 async function assess(args) {
-  const target = requireArgument(args[0], "nemesys assess <package-directory>");
+  const target = requireArgument(args[0], "atlantys assess <package-directory>");
   const { manifest } = loadManifest(target);
   console.log(`${manifestIdentity(manifest)}@${manifest.version}`);
   console.log(`Risk: ${manifest.risk_level}`);
@@ -250,7 +250,7 @@ async function assess(args) {
 }
 
 async function validate(args) {
-  const target = requireArgument(args[0], "nemesys validate <package-directory>");
+  const target = requireArgument(args[0], "atlantys validate <package-directory>");
   const { file, manifest } = loadManifest(target);
   console.log(`Valid: ${file} (${manifestIdentity(manifest)}@${manifest.version})`);
 }

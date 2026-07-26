@@ -10,7 +10,7 @@ import { validateManifest } from "../src/manifest.js";
 
 const cliRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const repositoryRoot = path.resolve(cliRoot, "..");
-const executable = path.join(cliRoot, "bin", "nemesys.js");
+const executable = path.join(cliRoot, "bin", "atlantys.js");
 const sample = path.join(cliRoot, "test", "fixtures", "gdpr-data-handling", "v1.0.0");
 
 function temporaryDirectory(prefix) {
@@ -21,14 +21,14 @@ function runCli(args, { cwd = repositoryRoot, env = {}, expectedStatus = 0 } = {
   const result = spawnSync(process.execPath, [executable, ...args], {
     cwd,
     encoding: "utf8",
-    env: { ...process.env, NEMESYS_OFFLINE: "1", ...env },
+    env: { ...process.env, ATLANTYS_OFFLINE: "1", ...env },
   });
   assert.equal(result.status, expectedStatus, `stderr:\n${result.stderr}\nstdout:\n${result.stdout}`);
   return result;
 }
 
 test("sample manifest validates against the Phase 1 contract", () => {
-  const manifest = YAML.parse(fs.readFileSync(path.join(sample, "nemesys.yml"), "utf8"));
+  const manifest = YAML.parse(fs.readFileSync(path.join(sample, "atlantys.yml"), "utf8"));
   assert.deepEqual(validateManifest(manifest), { valid: true, errors: [] });
 });
 
@@ -51,7 +51,7 @@ test("validator reports every required top-level field", () => {
 });
 
 test("validator rejects an invalid risk type", () => {
-  const manifest = YAML.parse(fs.readFileSync(path.join(sample, "nemesys.yml"), "utf8"));
+  const manifest = YAML.parse(fs.readFileSync(path.join(sample, "atlantys.yml"), "utf8"));
   manifest.risk_level = 1;
   const result = validateManifest(manifest);
   assert.equal(result.valid, false);
@@ -59,7 +59,7 @@ test("validator rejects an invalid risk type", () => {
 });
 
 test("search, pull, subscribe, feed, assess, validate, diff, and deploy work locally", () => {
-  const sandbox = temporaryDirectory("nemesys-cli-");
+  const sandbox = temporaryDirectory("atlantys-cli-");
   const registry = path.join(sandbox, "registry");
   const packageRoot = path.join(registry, "packages", "@wshobson", "gdpr-data-handling");
   const v100 = path.join(packageRoot, "v1.0.0");
@@ -68,7 +68,7 @@ test("search, pull, subscribe, feed, assess, validate, diff, and deploy work loc
   fs.mkdirSync(registry, { recursive: true });
   fs.cpSync(sample, v100, { recursive: true });
   fs.cpSync(sample, v110, { recursive: true });
-  const nextManifestPath = path.join(v110, "nemesys.yml");
+  const nextManifestPath = path.join(v110, "atlantys.yml");
   const nextManifest = YAML.parse(fs.readFileSync(nextManifestPath, "utf8"));
   nextManifest.version = "1.1.0";
   nextManifest.assessment.summary = "Second human review.";
@@ -85,17 +85,17 @@ test("search, pull, subscribe, feed, assess, validate, diff, and deploy work loc
     runCli(["pull", "@wshobson/gdpr-data-handling", "--version", "1.0.0", "--output", pulled], { cwd: registry }).stdout,
     /Pulled .*@1\.0\.0/,
   );
-  assert.ok(fs.existsSync(path.join(pulled, "nemesys.yml")));
+  assert.ok(fs.existsSync(path.join(pulled, "atlantys.yml")));
 
   assert.match(
     runCli(["subscribe", "@wshobson/gdpr-data-handling"], {
       cwd: registry,
-      env: { NEMESYS_HOME: state },
+      env: { ATLANTYS_HOME: state },
     }).stdout,
     /Subscribed/,
   );
   assert.match(
-    runCli(["feed"], { cwd: registry, env: { NEMESYS_HOME: state } }).stdout,
+    runCli(["feed"], { cwd: registry, env: { ATLANTYS_HOME: state } }).stdout,
     /@wshobson\/gdpr-data-handling@1\.1\.0 — risk low/,
   );
 
@@ -111,11 +111,11 @@ test("search, pull, subscribe, feed, assess, validate, diff, and deploy work loc
     }).stdout,
     /Deployed .*@1\.0\.0/,
   );
-  assert.ok(fs.existsSync(path.join(fleet, "gdpr-data-handling", "nemesys.yml")));
+  assert.ok(fs.existsSync(path.join(fleet, "gdpr-data-handling", "atlantys.yml")));
 });
 
 test("publish validates, creates an annotated tag, and pushes it to origin", () => {
-  const sandbox = temporaryDirectory("nemesys-publish-");
+  const sandbox = temporaryDirectory("atlantys-publish-");
   const remoteBase = path.join(sandbox, "github");
   const remote = path.join(remoteBase, "wshobson", "gdpr-data-handling.git");
   const repository = path.join(sandbox, "repository");
@@ -124,7 +124,7 @@ test("publish validates, creates an annotated tag, and pushes it to origin", () 
 
   assert.equal(spawnSync("git", ["init", "--bare", remote]).status, 0);
   assert.equal(spawnSync("git", ["init"], { cwd: repository }).status, 0);
-  for (const [key, value] of [["user.name", "Nemesys Test"], ["user.email", "nemesys@example.invalid"]]) {
+  for (const [key, value] of [["user.name", "Atlantys Test"], ["user.email", "atlantys@example.invalid"]]) {
     assert.equal(spawnSync("git", ["config", key, value], { cwd: repository }).status, 0);
   }
   assert.equal(spawnSync("git", ["remote", "add", "origin", remote], { cwd: repository }).status, 0);
@@ -143,19 +143,19 @@ test("publish validates, creates an annotated tag, and pushes it to origin", () 
   assert.match(
     runCli(["pull", "@wshobson/gdpr-data-handling", "--output", pulled], {
       cwd: sandbox,
-      env: { NEMESYS_GITHUB_BASE_URL: remoteBase },
+      env: { ATLANTYS_GITHUB_BASE_URL: remoteBase },
     }).stdout,
     /Pulled .*@1\.0\.0/,
   );
-  assert.ok(fs.existsSync(path.join(pulled, "nemesys.yml")));
+  assert.ok(fs.existsSync(path.join(pulled, "atlantys.yml")));
 });
 
 test("publish refuses an invalid manifest before tagging", () => {
-  const sandbox = temporaryDirectory("nemesys-invalid-");
+  const sandbox = temporaryDirectory("atlantys-invalid-");
   const repository = path.join(sandbox, "repository");
   const packageDirectory = path.join(repository, "packages", "@example", "broken", "v1.0.0");
   fs.mkdirSync(packageDirectory, { recursive: true });
-  fs.writeFileSync(path.join(packageDirectory, "nemesys.yml"), "name: broken\nversion: nope\n");
+  fs.writeFileSync(path.join(packageDirectory, "atlantys.yml"), "name: broken\nversion: nope\n");
   spawnSync("git", ["init"], { cwd: repository });
   const result = runCli(["publish", packageDirectory, "--no-push"], {
     cwd: repository,

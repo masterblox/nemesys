@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://nemesys.dev/schemas/nemesys.schema.json",
-  "title": "Nemesys package manifest",
+  "$id": "https://atlantys.dev/schemas/atlantys.schema.json",
+  "title": "Atlantys package manifest",
   "type": "object",
   "required": [
     "name",

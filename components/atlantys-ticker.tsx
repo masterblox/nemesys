@@ -8,16 +8,16 @@ function updateLabel(skill: Skill) {
   return revision ? revision.contentHash.slice(0, 7).toUpperCase() : "INDEXED";
 }
 
-export function AtlantisTicker({ skills }: { skills: Skill[] }) {
+export function AtlantysTicker({ skills }: { skills: Skill[] }) {
   const [paused, setPaused] = useState(false);
   const visible = skills.slice(0, 8);
 
   return (
-    <aside className="atlantis-ticker" aria-label="Interdimensional Cable public update ticker">
+    <aside className="atlantys-ticker" aria-label="Interdimensional Cable public update ticker">
       <div className="ticker-station">
         <i aria-hidden="true" />
         <span>INTERDIMENSIONAL CABLE</span>
-        <b>ATLANTIS CURRENT</b>
+        <b>ATLANTYS CURRENT</b>
       </div>
       <div className="ticker-window">
         <div className={`ticker-track ${paused ? "is-paused" : ""}`}>

@@ -16,6 +16,6 @@ source:
   grabber: skills.sh
 assessment:
   status: fixture-only
-  assessed_by: nemesys-tests
+  assessed_by: atlantys-tests
   assessed_at: 2026-07-25
   summary: Test metadata only; consult the public source for current audit results.

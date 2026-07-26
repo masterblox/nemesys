@@ -236,7 +236,7 @@ button { cursor: pointer; }
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
 
-/* Atlantis canonical experience */
+/* Atlantys canonical experience */
 
 :root {
   --ocean: #041522;
@@ -277,7 +277,7 @@ body:has(.portal-entrance) {
   border: 0;
 }
 
-.atlantis-ticker {
+.atlantys-ticker {
   position: fixed;
   z-index: 120;
   inset: 0 0 auto;
@@ -311,7 +311,7 @@ body:has(.portal-entrance) {
 
 .ticker-station b { color: var(--cyan); }
 .ticker-window { overflow: hidden; }
-.ticker-track { display: flex; width: max-content; height: 100%; animation: atlantis-ticker 42s linear infinite; }
+.ticker-track { display: flex; width: max-content; height: 100%; animation: atlantys-ticker 42s linear infinite; }
 .ticker-track.is-paused { animation-play-state: paused; }
 .ticker-copy { display: flex; align-items: center; }
 .ticker-item { display: flex; align-items: center; gap: .75rem; padding: 0 1.25rem; white-space: nowrap; }
@@ -319,7 +319,7 @@ body:has(.portal-entrance) {
 .ticker-item b { color: var(--cyan); }
 .ticker-item em { color: #7f8a8c; font-style: normal; }
 .ticker-item i { color: rgba(0,216,255,.55); font-style: normal; }
-.atlantis-ticker > button { color: var(--cyan); background: transparent; border: 0; border-left: 1px solid rgba(0,216,255,.25); }
+.atlantys-ticker > button { color: var(--cyan); background: transparent; border: 0; border-left: 1px solid rgba(0,216,255,.25); }
 
 .site-header {
   position: sticky;
@@ -336,7 +336,7 @@ body:has(.portal-entrance) {
 
 .brand { grid-template-columns: 38px auto; color: #fff; }
 .brand small { color: var(--cyan); }
-.atlantis-mark {
+.atlantys-mark {
   grid-row: 1 / span 2;
   position: relative;
   width: 36px;
@@ -346,9 +346,9 @@ body:has(.portal-entrance) {
   box-shadow: 0 0 20px rgba(0,216,255,.42), inset 0 0 14px rgba(0,216,255,.2);
   transform: rotate(-12deg);
 }
-.atlantis-mark::before,
-.atlantis-mark::after,
-.atlantis-mark i {
+.atlantys-mark::before,
+.atlantys-mark::after,
+.atlantys-mark i {
   content: "";
   position: absolute;
   top: 50%;
@@ -358,8 +358,8 @@ body:has(.portal-entrance) {
   background: var(--cyan);
   transform: translate(-50%, -50%) rotate(45deg);
 }
-.atlantis-mark::after { transform: translate(-50%, -50%) rotate(-45deg); }
-.atlantis-mark i { width: 5px; height: 5px; border-radius: 50%; box-shadow: 0 0 8px var(--cyan); }
+.atlantys-mark::after { transform: translate(-50%, -50%) rotate(-45deg); }
+.atlantys-mark i { width: 5px; height: 5px; border-radius: 50%; box-shadow: 0 0 8px var(--cyan); }
 .site-header nav a:hover, .site-header nav a:focus-visible { color: var(--cyan); }
 .open-gate {
   min-height: 42px;
@@ -382,7 +382,7 @@ body:has(.portal-entrance) {
 }
 .site-footer strong { color: var(--cyan); letter-spacing: .12em; }
 
-.atlantis-home { position: relative; z-index: 1; overflow: clip; }
+.atlantys-home { position: relative; z-index: 1; overflow: clip; }
 .shell-court {
   position: relative;
   min-height: calc(100svh - var(--ticker-height) - var(--header-height));
@@ -390,7 +390,7 @@ body:has(.portal-entrance) {
   grid-template-columns: minmax(0, .78fr) minmax(28rem, 1.22fr);
   align-items: center;
   padding: clamp(4rem, 8vw, 8rem) clamp(1.2rem, 6vw, 6rem);
-  background: url("/atlantis/atlantis-shell-court.webp") center / cover no-repeat;
+  background: url("/atlantys/atlantys-shell-court.webp") center / cover no-repeat;
   isolation: isolate;
 }
 .shell-court::before {
@@ -484,7 +484,7 @@ body:has(.portal-entrance) {
   position: absolute;
   z-index: -2;
   inset: 0;
-  background: url("/atlantis/atlantis-trench-registry.webp") center top / cover fixed no-repeat;
+  background: url("/atlantys/atlantys-trench-registry.webp") center top / cover fixed no-repeat;
 }
 .deep-registry::before {
   content: "";
@@ -530,7 +530,7 @@ body:has(.portal-entrance) {
   inset: calc(var(--ticker-height) + var(--header-height)) 0 0;
   background:
     linear-gradient(180deg, rgba(2,14,24,.76), rgba(2,10,17,.96)),
-    url("/atlantis/atlantis-trench-registry.webp") center / cover no-repeat;
+    url("/atlantys/atlantys-trench-registry.webp") center / cover no-repeat;
 }
 .detail-hero { border-color: rgba(0,216,255,.24); }
 .detail-hero h1,
@@ -599,7 +599,7 @@ body:has(.portal-entrance) {
 .portal-fluid i { position: absolute; z-index: -1; inset: 12%; border: 1px dashed rgba(151,206,76,.38); border-radius: 50%; animation: spin 18s linear infinite; }
 .portal-fluid i:last-child { inset: 2%; animation-direction: reverse; animation-duration: 27s; }
 
-@keyframes atlantis-ticker { to { transform: translateX(-50%); } }
+@keyframes atlantys-ticker { to { transform: translateX(-50%); } }
 
 @media (max-width: 980px) {
   :root { --header-height: 128px; }
@@ -640,7 +640,7 @@ body:has(.portal-entrance) {
   .site-header { padding-inline: 1rem; }
   .brand { grid-template-columns: 32px auto; font-size: .8rem; }
   .brand small { font-size: .46rem; }
-  .atlantis-mark { width: 30px; }
+  .atlantys-mark { width: 30px; }
   .open-gate { padding: .5rem .6rem; font-size: .56rem; }
   .shell-court {
     min-height: calc(100svh - var(--ticker-height) - var(--header-height));
@@ -648,7 +648,7 @@ body:has(.portal-entrance) {
     flex-direction: column;
     justify-content: flex-end;
     padding: 7rem 1.15rem 2rem;
-    background-image: url("/atlantis/atlantis-shell-court-mobile.webp");
+    background-image: url("/atlantys/atlantys-shell-court-mobile.webp");
     background-position: center 42%;
   }
   .shell-court::before { background: linear-gradient(0deg, rgba(2,14,24,.98) 0 28%, rgba(2,14,24,.58) 58%, rgba(2,14,24,.08)); }
@@ -659,7 +659,7 @@ body:has(.portal-entrance) {
   .descent-seam h2 { font-size: clamp(3.2rem, 14vw, 5rem); }
   .depth-gauge { min-height: 100px; flex-direction: row; border-left: 0; border-top: 1px solid rgba(0,216,255,.35); }
   .deep-registry { padding: 5rem 1rem; }
-  .deep-registry__backdrop { background-image: url("/atlantis/atlantis-trench-registry-mobile.webp"); background-attachment: scroll; }
+  .deep-registry__backdrop { background-image: url("/atlantys/atlantys-trench-registry-mobile.webp"); background-attachment: scroll; }
   .portal-entrance { grid-template-columns: 1fr; align-content: end; padding: 5rem 1.2rem 2rem; }
   .portal-copy h1 { font-size: clamp(3.5rem, 17vw, 6rem); }
   .portal-copy p { font-size: .9rem; }
