@@ -1,0 +1,102 @@
+- generic [ref=f1e1]:
+  - link "Skip to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#view"
+  - generic [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - generic [ref=f1e5]: Interdimensional cable
+      - generic [ref=f1e9]:
+        - generic [ref=f1e10]:
+          - generic [ref=f1e11]: "@masterblox/gdpr-breach-sentinel"
+          - generic [ref=f1e12]: 2.0.0
+        - generic [ref=f1e13]:
+          - generic [ref=f1e14]: "@juridico-labs/pt-contract-review"
+          - generic [ref=f1e15]: 3.3.0
+        - generic [ref=f1e16]:
+          - generic [ref=f1e17]: "@masterblox/fleet-routing-enforce"
+          - generic [ref=f1e18]: 0.9.5
+        - generic [ref=f1e19]:
+          - generic [ref=f1e20]: "@community/changelog-linter"
+          - generic [ref=f1e21]: 1.1.0
+        - generic [ref=f1e22]:
+          - generic [ref=f1e23]: "@juridico-labs/juridico-onboarding"
+          - generic [ref=f1e24]: 2.1.2
+        - generic [ref=f1e25]:
+          - generic [ref=f1e26]: "@masterblox/gdpr-breach-sentinel"
+          - generic [ref=f1e27]: 2.0.0
+        - generic [ref=f1e28]:
+          - generic [ref=f1e29]: "@juridico-labs/pt-contract-review"
+          - generic [ref=f1e30]: 3.3.0
+        - generic [ref=f1e31]:
+          - generic [ref=f1e32]: "@masterblox/fleet-routing-enforce"
+          - generic [ref=f1e33]: 0.9.5
+        - generic [ref=f1e34]:
+          - generic [ref=f1e35]: "@community/changelog-linter"
+          - generic [ref=f1e36]: 1.1.0
+        - generic [ref=f1e37]:
+          - generic [ref=f1e38]: "@juridico-labs/juridico-onboarding"
+          - generic [ref=f1e39]: 2.1.2
+      - button "Pause the updates ticker" [ref=f1e40] [cursor=pointer]: Pause
+    - generic [ref=f1e41]:
+      - complementary [ref=f1e42]:
+        - generic [ref=f1e43]: Nemesys
+        - navigation "Primary" [ref=f1e46]:
+          - button "Feed 2" [ref=f1e553] [cursor=pointer]:
+            - generic [ref=f1e556]: Feed
+            - generic [ref=f1e557]: "2"
+          - button "Registry" [ref=f1e558] [cursor=pointer]
+          - button "My Agents 4" [ref=f1e562] [cursor=pointer]:
+            - generic [ref=f1e565]: My Agents
+            - generic [ref=f1e566]: "4"
+          - button "Settings" [ref=f1e567] [cursor=pointer]
+        - generic [ref=f1e65]:
+          - generic [ref=f1e66]: Fleet
+          - generic [ref=f1e67]:
+            - text: Agents
+            - generic [ref=f1e68]: "4"
+          - generic [ref=f1e69]:
+            - text: Packages tracked
+            - generic [ref=f1e70]: "28"
+          - generic [ref=f1e71]:
+            - text: Behind latest
+            - generic [ref=f1e72]: "3"
+      - main [ref=f1e73]:
+        - generic [ref=f1e75]:
+          - generic [ref=f1e76]:
+            - generic [ref=f1e77]: Search
+            - searchbox "Search" [ref=f1e78]
+            - generic: ⌘K
+          - generic [ref=f1e79]: State
+          - combobox "State" [ref=f1e80] [cursor=pointer]:
+            - option "Ready" [selected]
+            - option "Loading"
+            - option "Empty"
+            - option "Error"
+        - generic [ref=f1e81]:
+          - generic [ref=f1e572]:
+            - heading "Settings" [active] [level=1] [ref=f1e573]
+            - paragraph [ref=f1e574]: Feed delivery, deployment behaviour and interface preferences.
+          - generic [ref=f1e575]:
+            - heading "Notifications" [level=2] [ref=f1e577]
+            - generic [ref=f1e578]:
+              - generic [ref=f1e579]: Alert on breaking changes Notify immediately when a subscribed package publishes a major version.
+              - checkbox "Alert on breaking changes" [checked] [ref=f1e581] [cursor=pointer]
+            - generic [ref=f1e582]:
+              - generic [ref=f1e583]: Daily digest One summary of all minor and patch updates at 09:00 WEST.
+              - checkbox "Daily digest" [checked] [ref=f1e585] [cursor=pointer]
+            - generic [ref=f1e586]:
+              - generic [ref=f1e587]: Telegram broadcast Mirror feed alerts to the fleet channel.
+              - checkbox "Telegram broadcast" [ref=f1e589] [cursor=pointer]
+          - generic [ref=f1e590]:
+            - heading "Deployment" [level=2] [ref=f1e592]
+            - generic [ref=f1e593]:
+              - generic [ref=f1e594]: Auto-pull patch versions Patch releases deploy without review. Minor and major always require review.
+              - checkbox "Auto-pull patch versions" [ref=f1e596] [cursor=pointer]
+            - generic [ref=f1e597]:
+              - generic [ref=f1e598]: Require changelog before publish Reject a publish that has no changelog entry.
+              - checkbox "Require changelog before publish" [checked] [ref=f1e600] [cursor=pointer]
+          - generic [ref=f1e601]:
+            - heading "Interface" [level=2] [ref=f1e603]
+            - generic [ref=f1e604]:
+              - generic [ref=f1e605]: Portal effects Scanlines, glitch badges and the scrolling ticker. Turn off for a flat, quiet interface.
+              - checkbox "Portal effects" [checked] [ref=f1e607] [cursor=pointer]
+  - status [ref=f1e339]

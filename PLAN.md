@@ -2,10 +2,9 @@
 
 **One-liner:** Public update intelligence for agent skills across the multiverse.
 
-Atlantys is the public experience powered by the Atlantys protocol. It is a
-community product for fleet operators who want to discover public
-agent skills, understand what changed, evaluate risk and compatibility, and
-decide whether to install, watch, or skip.
+Atlantys is a community product for fleet operators who want to discover
+public agent skills, understand what changed, evaluate risk and compatibility,
+and decide whether to install, watch, or skip.
 
 ## Canonical experience
 

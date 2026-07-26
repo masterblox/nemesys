@@ -1,0 +1,25 @@
+name: abyssal-security-auditor
+version: 2.1.0
+publisher: demo
+description: Inspects agent permissions below the surface and emits a bounded security assessment.
+runtime: codex
+requires:
+  models:
+    - gpt-5
+  tools:
+    - filesystem
+  skills:
+    - security-review
+  api_keys: []
+permissions:
+  - read_source_files
+  - write_audit_reports
+risk_level: medium
+source:
+  type: adapted
+  grabber: nimbus-labs
+assessment:
+  status: approved
+  assessed_by: atlantys-security-council
+  assessed_at: 2026-07-25
+  summary: Write access is constrained to generated audit reports.

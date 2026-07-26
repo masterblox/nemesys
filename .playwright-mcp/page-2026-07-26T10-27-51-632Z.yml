@@ -1,0 +1,103 @@
+- generic [ref=e1]:
+  - link "Skip to scenario" [ref=e2] [cursor=pointer]:
+    - /url: "#scenarioRoot"
+  - generic "Interdimensional Cable package ticker" [ref=e3]:
+    - generic [ref=e418]: PORTAL COORDINATES
+    - generic [ref=e420]:
+      - generic [ref=e421]:
+        - generic [ref=e422]: GATE OPEN
+        - generic [ref=e423]: "@demo/portal-cartographer"
+        - emphasis [ref=e424]: v1.0.0 v1.0.0 v1.0.0
+        - generic [ref=e425]: LOW
+        - text: ◆
+      - generic [ref=e426]:
+        - generic [ref=e427]: PUBLIC DIMENSION
+        - generic [ref=e428]: "@demo/abyssal-security-auditor"
+        - emphasis [ref=e429]: v2.1.0 v2.1.0 v2.1.0
+        - generic [ref=e430]: MEDIUM
+        - text: ◆
+      - generic [ref=e431]:
+        - generic [ref=e432]: COORDINATES LOCKED
+        - generic [ref=e433]: "@demo/cable-signal-router"
+        - emphasis [ref=e434]: v0.9.3 v0.9.3 v0.9.3
+        - generic [ref=e435]: HIGH
+        - text: ◆
+      - generic [ref=e436]:
+        - generic [ref=e437]: GATE OPEN
+        - generic [ref=e438]: "@demo/portal-cartographer"
+        - emphasis [ref=e439]: v1.0.0 v1.0.0 v1.0.0
+        - generic [ref=e440]: LOW
+        - text: ◆
+      - generic [ref=e441]:
+        - generic [ref=e442]: PUBLIC DIMENSION
+        - generic [ref=e443]: "@demo/abyssal-security-auditor"
+        - emphasis [ref=e444]: v2.1.0 v2.1.0 v2.1.0
+        - generic [ref=e445]: MEDIUM
+        - text: ◆
+      - generic [ref=e446]:
+        - generic [ref=e447]: COORDINATES LOCKED
+        - generic [ref=e448]: "@demo/cable-signal-router"
+        - emphasis [ref=e449]: v0.9.3 v0.9.3 v0.9.3
+        - generic [ref=e450]: HIGH
+        - text: ◆
+    - button "Pause ticker" [ref=e451] [cursor=pointer]: Ⅱ
+  - banner [ref=e4]:
+    - generic [ref=e452]:
+      - link "Nemesys — Interdimensional Cable" [ref=e453] [cursor=pointer]:
+        - /url: "#/cable"
+        - generic [ref=e455]: NEMESYS
+        - generic [ref=e456]: 02 / Dimension gate
+      - button "Toggle dimensions" [ref=e457] [cursor=pointer]
+  - main [active] [ref=e5]:
+    - generic [ref=e461]:
+      - generic [ref=e462]:
+        - generic [ref=e463]: SCENARIO 02 / THE PORTAL
+        - heading [level=1] [ref=e464]:
+          - text: Every skill isa
+          - emphasis [ref=e465]: dimension.
+        - paragraph [ref=e466]: The receiver has locked onto a stable toxic-fluid membrane. Three real manifests are orbiting the gate.
+        - generic [ref=e467]:
+          - link "Enter the current ↓" [ref=e468] [cursor=pointer]:
+            - /url: "#/atlantis"
+            - text: Enter the current
+            - generic [ref=e469]: ↓
+          - link "Return to channel 137" [ref=e470] [cursor=pointer]:
+            - /url: "#/cable"
+        - generic [ref=e471]:
+          - generic [ref=e472]: LIVE SOURCE
+          - code [ref=e473]: ../packages/@demo/**/nemesys.yml
+      - generic: D-137 / MEMBRANE STABLE
+      - generic "Packages floating around the dimensional portal":
+        - article [ref=e474]:
+          - generic [ref=e475]: D-137
+          - generic [ref=e476]:
+            - generic [ref=e477]: "@demo"
+            - generic [ref=e478]: v1.0.0 v1.0.0 v1.0.0
+          - heading "portal-cartographer" [level=2] [ref=e479]
+          - paragraph [ref=e480]: Maps package dependencies across agent runtimes and flags unreachable skill coordinates.
+          - generic [ref=e481]:
+            - generic [ref=e482]: hermes
+            - generic [ref=e483]: low risk
+            - button "Inspect ↗" [ref=e484] [cursor=pointer]
+        - article [ref=e485]:
+          - generic [ref=e486]: D-274
+          - generic [ref=e487]:
+            - generic [ref=e488]: "@demo"
+            - generic [ref=e489]: v2.1.0 v2.1.0 v2.1.0
+          - heading "abyssal-security-auditor" [level=2] [ref=e490]
+          - paragraph [ref=e491]: Inspects agent permissions below the surface and emits a bounded security assessment.
+          - generic [ref=e492]:
+            - generic [ref=e493]: codex
+            - generic [ref=e494]: medium risk
+            - button "Inspect ↗" [ref=e495] [cursor=pointer]
+        - article [ref=e496]:
+          - generic [ref=e497]: D-411
+          - generic [ref=e498]:
+            - generic [ref=e499]: "@demo"
+            - generic [ref=e500]: v0.9.3 v0.9.3 v0.9.3
+          - heading "cable-signal-router" [level=2] [ref=e501]
+          - paragraph [ref=e502]: Routes update broadcasts to subscribed agents without changing the package payload.
+          - generic [ref=e503]:
+            - generic [ref=e504]: hermes
+            - generic [ref=e505]: high risk
+            - button "Inspect ↗" [ref=e506] [cursor=pointer]

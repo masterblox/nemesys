@@ -1,0 +1,179 @@
+- generic [ref=f1e1]:
+  - link "Skip to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#view"
+  - generic [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - generic [ref=f1e5]: Interdimensional cable
+      - generic [ref=f1e9]:
+        - generic [ref=f1e10]:
+          - generic [ref=f1e11]: "@masterblox/gdpr-breach-sentinel"
+          - generic [ref=f1e12]: 2.0.0
+        - generic [ref=f1e13]:
+          - generic [ref=f1e14]: "@juridico-labs/pt-contract-review"
+          - generic [ref=f1e15]: 3.3.0
+        - generic [ref=f1e16]:
+          - generic [ref=f1e17]: "@masterblox/fleet-routing-enforce"
+          - generic [ref=f1e18]: 0.9.5
+        - generic [ref=f1e19]:
+          - generic [ref=f1e20]: "@community/changelog-linter"
+          - generic [ref=f1e21]: 1.1.0
+        - generic [ref=f1e22]:
+          - generic [ref=f1e23]: "@juridico-labs/juridico-onboarding"
+          - generic [ref=f1e24]: 2.1.2
+        - generic [ref=f1e25]:
+          - generic [ref=f1e26]: "@masterblox/gdpr-breach-sentinel"
+          - generic [ref=f1e27]: 2.0.0
+        - generic [ref=f1e28]:
+          - generic [ref=f1e29]: "@juridico-labs/pt-contract-review"
+          - generic [ref=f1e30]: 3.3.0
+        - generic [ref=f1e31]:
+          - generic [ref=f1e32]: "@masterblox/fleet-routing-enforce"
+          - generic [ref=f1e33]: 0.9.5
+        - generic [ref=f1e34]:
+          - generic [ref=f1e35]: "@community/changelog-linter"
+          - generic [ref=f1e36]: 1.1.0
+        - generic [ref=f1e37]:
+          - generic [ref=f1e38]: "@juridico-labs/juridico-onboarding"
+          - generic [ref=f1e39]: 2.1.2
+      - button "Pause the updates ticker" [ref=f1e40] [cursor=pointer]: Pause
+    - generic [ref=f1e41]:
+      - complementary [ref=f1e42]:
+        - generic [ref=f1e43]: Nemesys
+        - navigation "Primary" [ref=f1e46]:
+          - button "Feed 2" [ref=f1e340] [cursor=pointer]:
+            - generic [ref=f1e343]: Feed
+            - generic [ref=f1e344]: "2"
+          - button "Registry" [ref=f1e345] [cursor=pointer]
+          - button "My Agents 4" [ref=f1e349] [cursor=pointer]:
+            - generic [ref=f1e352]: My Agents
+            - generic [ref=f1e353]: "4"
+          - button "Settings" [ref=f1e354] [cursor=pointer]
+        - generic [ref=f1e65]:
+          - generic [ref=f1e66]: Fleet
+          - generic [ref=f1e67]:
+            - text: Agents
+            - generic [ref=f1e68]: "4"
+          - generic [ref=f1e69]:
+            - text: Packages tracked
+            - generic [ref=f1e70]: "28"
+          - generic [ref=f1e71]:
+            - text: Behind latest
+            - generic [ref=f1e72]: "3"
+      - main [ref=f1e73]:
+        - generic [ref=f1e75]:
+          - generic [ref=f1e76]:
+            - generic [ref=f1e77]: Search
+            - searchbox "Search" [ref=f1e78]
+            - generic: ⌘K
+          - generic [ref=f1e79]: State
+          - combobox "State" [ref=f1e80] [cursor=pointer]:
+            - option "Ready" [selected]
+            - option "Loading"
+            - option "Empty"
+            - option "Error"
+        - generic [ref=f1e81]:
+          - generic [ref=f1e358]:
+            - generic [ref=f1e359]:
+              - heading "Registry" [active] [level=1] [ref=f1e360]
+              - paragraph [ref=f1e361]: Every published package, newest version first.
+            - button "Publish package" [ref=f1e362] [cursor=pointer]
+          - table [ref=f1e364]:
+            - caption [ref=f1e365]: Packages in the Nemesys registry
+            - rowgroup [ref=f1e366]:
+              - row [ref=f1e367]:
+                - columnheader "Package" [ref=f1e368]
+                - columnheader "Version" [ref=f1e369]
+                - columnheader "Updated" [ref=f1e370]
+                - columnheader "Installs" [ref=f1e371]
+                - columnheader "Actions" [ref=f1e372]
+            - rowgroup [ref=f1e374]:
+              - row [ref=f1e375]:
+                - cell "@masterblox/fleet-core Base runtime contract every fleet agent implements." [ref=f1e376]:
+                  - generic [ref=f1e377]:
+                    - generic [ref=f1e378]: FC
+                    - generic [ref=f1e380]:
+                      - generic [ref=f1e381]: "@masterblox/fleet-core"
+                      - text: Base runtime contract every fleet agent implements.
+                - cell "3.4.1" [ref=f1e382]
+                - cell "2026-07-22" [ref=f1e383]
+                - cell "5,120" [ref=f1e384]
+                - cell [ref=f1e385]:
+                  - button "Subscribe" [ref=f1e386] [cursor=pointer]
+              - row [ref=f1e387]:
+                - cell "@masterblox/gdpr-breach-sentinel Breach detection and notification-deadline tracking." [ref=f1e388]:
+                  - generic [ref=f1e389]:
+                    - generic [ref=f1e390]: GB
+                    - generic [ref=f1e392]:
+                      - generic [ref=f1e393]: "@masterblox/gdpr-breach-sentinel"
+                      - text: Breach detection and notification-deadline tracking.
+                - cell "2.0.0" [ref=f1e394]
+                - cell "2026-07-25" [ref=f1e395]
+                - cell "214" [ref=f1e396]
+                - cell [ref=f1e397]:
+                  - button "Subscribe" [ref=f1e398] [cursor=pointer]
+              - row [ref=f1e399]:
+                - cell "@juridico-labs/pt-contract-review Portuguese contract clause extraction and risk flags." [ref=f1e400]:
+                  - generic [ref=f1e401]:
+                    - generic [ref=f1e402]: PC
+                    - generic [ref=f1e404]:
+                      - generic [ref=f1e405]: "@juridico-labs/pt-contract-review"
+                      - text: Portuguese contract clause extraction and risk flags.
+                - cell "3.3.0" [ref=f1e406]
+                - cell "2026-07-25" [ref=f1e407]
+                - cell "1,188" [ref=f1e408]
+                - cell [ref=f1e409]:
+                  - button "Subscribe" [ref=f1e410] [cursor=pointer]
+              - row [ref=f1e411]:
+                - cell "@community/changelog-linter Enforces a changelog entry on every published version." [ref=f1e412]:
+                  - generic [ref=f1e413]:
+                    - generic [ref=f1e414]: CL
+                    - generic [ref=f1e416]:
+                      - generic [ref=f1e417]: "@community/changelog-linter"
+                      - text: Enforces a changelog entry on every published version.
+                - cell "1.1.0" [ref=f1e418]
+                - cell "2026-07-24" [ref=f1e419]
+                - cell "3,402" [ref=f1e420]
+                - cell [ref=f1e421]:
+                  - button "Subscribe" [ref=f1e422] [cursor=pointer]
+              - row [ref=f1e423]:
+                - cell "@masterblox/fleet-routing-enforce Capability-based routing rules for agent dispatch." [ref=f1e424]:
+                  - generic [ref=f1e425]:
+                    - generic [ref=f1e426]: FR
+                    - generic [ref=f1e428]:
+                      - generic [ref=f1e429]: "@masterblox/fleet-routing-enforce"
+                      - text: Capability-based routing rules for agent dispatch.
+                - cell "0.9.5" [ref=f1e430]
+                - cell "2026-07-24" [ref=f1e431]
+                - cell "96" [ref=f1e432]
+                - cell [ref=f1e433]:
+                  - button "Subscribe" [ref=f1e434] [cursor=pointer]
+              - row [ref=f1e435]:
+                - cell "@juridico-labs/juridico-onboarding Client intake, KYC and matter-opening flow." [ref=f1e436]:
+                  - generic [ref=f1e437]:
+                    - generic [ref=f1e438]: JO
+                    - generic [ref=f1e440]:
+                      - generic [ref=f1e441]: "@juridico-labs/juridico-onboarding"
+                      - text: Client intake, KYC and matter-opening flow.
+                - cell "2.1.2" [ref=f1e442]
+                - cell "2026-07-23" [ref=f1e443]
+                - cell "640" [ref=f1e444]
+                - cell [ref=f1e445]:
+                  - button "Subscribe" [ref=f1e446] [cursor=pointer]
+          - heading "Collections" [level=2] [ref=f1e447]
+          - table [ref=f1e449]:
+            - caption [ref=f1e450]: Curated package collections
+            - rowgroup [ref=f1e451]:
+              - row [ref=f1e452]:
+                - columnheader "Collection" [ref=f1e453]
+                - columnheader "Publisher" [ref=f1e454]
+                - columnheader "Packages" [ref=f1e455]
+            - rowgroup [ref=f1e456]:
+              - row [ref=f1e457]:
+                - cell "Fleet Essentials" [ref=f1e458]
+                - cell "@masterblox" [ref=f1e459]
+                - cell "6" [ref=f1e460]
+              - row [ref=f1e461]:
+                - cell "Portuguese Legal OS" [ref=f1e462]
+                - cell "@juridico-labs" [ref=f1e463]
+                - cell "11" [ref=f1e464]
+  - status [ref=f1e339]

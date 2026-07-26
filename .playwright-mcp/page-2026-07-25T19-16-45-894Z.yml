@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - link "Skip to scenario" [ref=e2] [cursor=pointer]:
+    - /url: "#scenarioRoot"
+  - generic "Interdimensional Cable package ticker" [ref=e3]
+  - banner [ref=e4]
+  - main [ref=e5]
+  - generic [ref=e7]:
+    - generic "Mr. Meeseeks loading package manifests" [ref=e11]:
+      - img "Mr. Meeseeks loading package manifests" [ref=e13]
+    - generic [ref=e15]:
+      - generic [ref=e16]: TASK / READ REAL MANIFESTS
+      - generic [ref=e17]: Existence is pain, loading manifests…
+      - generic [ref=e18]: packages/@demo/**/nemesys.yml

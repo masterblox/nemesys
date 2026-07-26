@@ -1,0 +1,156 @@
+- generic [active] [ref=f3e1]:
+  - link "Skip to the registry" [ref=f3e2] [cursor=pointer]:
+    - /url: "#registry"
+  - generic "Interdimensional Cable Atlantis package ticker" [ref=f3e3]:
+    - generic [ref=f3e4]:
+      - generic [ref=f3e6]: INTERDIMENSIONAL CABLE
+      - emphasis [ref=f3e7]: ATLANTIS CURRENT
+    - generic [ref=f3e9]:
+      - generic [ref=f3e10]:
+        - generic [ref=f3e11]: CURRENT STABLE
+        - generic [ref=f3e12]: "@demo/portal-cartographer"
+        - emphasis [ref=f3e13]: v1.0.0 v1.0.0 v1.0.0
+        - generic [ref=f3e14]: LOW
+        - text: ◆
+      - generic [ref=f3e15]:
+        - generic [ref=f3e16]: NIMBUS APPROVED
+        - generic [ref=f3e17]: "@demo/abyssal-security-auditor"
+        - emphasis [ref=f3e18]: v2.1.0 v2.1.0 v2.1.0
+        - generic [ref=f3e19]: MEDIUM
+        - text: ◆
+      - generic [ref=f3e20]:
+        - generic [ref=f3e21]: DEPTH 2,100M
+        - generic [ref=f3e22]: "@demo/cable-signal-router"
+        - emphasis [ref=f3e23]: v0.9.3 v0.9.3 v0.9.3
+        - generic [ref=f3e24]: HIGH
+        - text: ◆
+      - generic [ref=f3e25]:
+        - generic [ref=f3e26]: CURRENT STABLE
+        - generic [ref=f3e27]: "@demo/portal-cartographer"
+        - emphasis [ref=f3e28]: v1.0.0 v1.0.0 v1.0.0
+        - generic [ref=f3e29]: LOW
+        - text: ◆
+      - generic [ref=f3e30]:
+        - generic [ref=f3e31]: NIMBUS APPROVED
+        - generic [ref=f3e32]: "@demo/abyssal-security-auditor"
+        - emphasis [ref=f3e33]: v2.1.0 v2.1.0 v2.1.0
+        - generic [ref=f3e34]: MEDIUM
+        - text: ◆
+      - generic [ref=f3e35]:
+        - generic [ref=f3e36]: DEPTH 2,100M
+        - generic [ref=f3e37]: "@demo/cable-signal-router"
+        - emphasis [ref=f3e38]: v0.9.3 v0.9.3 v0.9.3
+        - generic [ref=f3e39]: HIGH
+        - text: ◆
+    - button "Pause ticker" [ref=f3e40] [cursor=pointer]: Ⅱ
+  - banner [ref=f3e41]:
+    - generic [ref=f3e42]:
+      - link "Atlantis — Public Agent Registry" [ref=f3e43] [cursor=pointer]:
+        - /url: "#surface"
+        - generic [ref=f3e45]: ATLANTIS
+        - generic [ref=f3e46]: PUBLIC AGENT REGISTRY
+      - button "Toggle Atlantis navigation" [ref=f3e175] [cursor=pointer]
+  - main [ref=f3e56]:
+    - generic [ref=f3e57]:
+      - generic [ref=f3e58]:
+        - generic [ref=f3e59]:
+          - generic [ref=f3e60]: ATLANTIS / THE SHELL COURT
+          - heading [level=1] [ref=f3e61]:
+            - text: Registrybelow
+            - emphasis [ref=f3e62]: sea level.
+          - paragraph [ref=f3e63]: Public packages report to the shell court before descending into the Mariana archive.
+          - link "Descend to the manifests ↓" [ref=f3e64] [cursor=pointer]:
+            - /url: "#registry"
+            - text: Descend to the manifests
+            - generic [ref=f3e65]: ↓
+        - generic "Ocean authority registry status" [ref=f3e66]:
+          - generic [ref=f3e71]:
+            - text: OCEAN AUTHORITY / SHELL COURT
+            - paragraph [ref=f3e72]: Shell court verified. Trench registry is accepting public manifests.
+      - generic [ref=f3e73]:
+        - generic [ref=f3e74]: SURFACE / 0000M
+        - generic [ref=f3e78]: PRESSURE LOCK
+        - generic [ref=f3e82]: TRENCH / 2100M
+      - generic [ref=f3e83]:
+        - generic [ref=f3e84]:
+          - generic [ref=f3e85]:
+            - generic [ref=f3e86]: MARIANA ARCHIVE / CONCH VAULT
+            - heading [level=2] [ref=f3e87]:
+              - text: Search the
+              - emphasis [ref=f3e88]: deep registry.
+          - paragraph [ref=f3e89]:
+            - text: Atlantis reads the real
+            - code [ref=f3e90]: nemesys.yml
+            - text: manifest protocol. No mock packages crossed the pressure lock.
+        - generic [ref=f3e91]:
+          - search [ref=f3e92]:
+            - generic [ref=f3e95]: Search package manifests
+            - searchbox "Search package manifests" [ref=f3e96]
+            - button "PING CONCH" [ref=f3e97] [cursor=pointer]
+          - group "Filter by package risk" [ref=f3e98]:
+            - button "All currents" [pressed] [ref=f3e99] [cursor=pointer]
+            - button "low risk" [ref=f3e101] [cursor=pointer]
+            - button "medium risk" [ref=f3e103] [cursor=pointer]
+            - button "high risk" [ref=f3e105] [cursor=pointer]
+          - generic [ref=f3e107]: 3 / 3 specimens visible
+        - generic [ref=f3e108]:
+          - article [ref=f3e109]:
+            - generic [ref=f3e112]:
+              - generic [ref=f3e113]: DEPTH / 0840M
+              - generic [ref=f3e114]: low
+            - paragraph [ref=f3e115]: "@demo / hermes"
+            - heading "portal-cartographer" [level=2] [ref=f3e116]
+            - paragraph [ref=f3e117]: Maps package dependencies across agent runtimes and flags unreachable skill coordinates.
+            - generic [ref=f3e118]:
+              - generic [ref=f3e119]:
+                - generic [ref=f3e120]: models
+                - generic [ref=f3e121]: claude-sonnet
+              - generic [ref=f3e122]:
+                - generic [ref=f3e123]: tools
+                - generic [ref=f3e124]: filesystem
+              - generic [ref=f3e125]:
+                - generic [ref=f3e126]: permissions
+                - generic [ref=f3e127]: "1"
+            - generic [ref=f3e128]:
+              - button "Open specimen" [ref=f3e129] [cursor=pointer]
+              - button "Summon package" [ref=f3e130] [cursor=pointer]
+          - article [ref=f3e131]:
+            - generic [ref=f3e134]:
+              - generic [ref=f3e135]: DEPTH / 1470M
+              - generic [ref=f3e136]: medium
+            - paragraph [ref=f3e137]: "@demo / codex"
+            - heading "abyssal-security-auditor" [level=2] [ref=f3e138]
+            - paragraph [ref=f3e139]: Inspects agent permissions below the surface and emits a bounded security assessment.
+            - generic [ref=f3e140]:
+              - generic [ref=f3e141]:
+                - generic [ref=f3e142]: models
+                - generic [ref=f3e143]: gpt-5
+              - generic [ref=f3e144]:
+                - generic [ref=f3e145]: tools
+                - generic [ref=f3e146]: filesystem
+              - generic [ref=f3e147]:
+                - generic [ref=f3e148]: permissions
+                - generic [ref=f3e149]: "2"
+            - generic [ref=f3e150]:
+              - button "Open specimen" [ref=f3e151] [cursor=pointer]
+              - button "Summon package" [ref=f3e152] [cursor=pointer]
+          - article [ref=f3e153]:
+            - generic [ref=f3e156]:
+              - generic [ref=f3e157]: DEPTH / 2100M
+              - generic [ref=f3e158]: high
+            - paragraph [ref=f3e159]: "@demo / hermes"
+            - heading "cable-signal-router" [level=2] [ref=f3e160]
+            - paragraph [ref=f3e161]: Routes update broadcasts to subscribed agents without changing the package payload.
+            - generic [ref=f3e162]:
+              - generic [ref=f3e163]:
+                - generic [ref=f3e164]: models
+                - generic [ref=f3e165]: none
+              - generic [ref=f3e166]:
+                - generic [ref=f3e167]: tools
+                - generic [ref=f3e168]: network
+              - generic [ref=f3e169]:
+                - generic [ref=f3e170]: permissions
+                - generic [ref=f3e171]: "2"
+            - generic [ref=f3e172]:
+              - button "Open specimen" [ref=f3e173] [cursor=pointer]
+              - button "Summon package" [ref=f3e174] [cursor=pointer]
