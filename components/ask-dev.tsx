@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useId, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import type { Assessment, FleetSelection, Skill } from "@/lib/types";
 
 const choices = {
@@ -13,6 +13,8 @@ const emptyFleet: FleetSelection = { runtimes: [], models: [], tools: [], policy
 
 export function AskDev({ skill }: { skill: Skill }) {
   const titleId = useId();
+  const trigger = useRef<HTMLButtonElement>(null);
+  const dialog = useRef<HTMLElement>(null);
   const [open, setOpen] = useState(false);
   const [fleet, setFleet] = useState<FleetSelection>(emptyFleet);
   const [assessment, setAssessment] = useState<Assessment>();
@@ -29,10 +31,33 @@ export function AskDev({ skill }: { skill: Skill }) {
 
   useEffect(() => {
     if (!open) return;
-    const close = (event: KeyboardEvent) => event.key === "Escape" && setOpen(false);
-    document.addEventListener("keydown", close);
-    return () => document.removeEventListener("keydown", close);
+    dialog.current?.querySelector<HTMLElement>("button")?.focus();
+    const handleKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        closeDialog();
+        return;
+      }
+      if (event.key !== "Tab" || !dialog.current) return;
+      const focusable = [...dialog.current.querySelectorAll<HTMLElement>("button:not(:disabled), a[href], input, select")];
+      const first = focusable[0];
+      const last = focusable.at(-1);
+      if (!first || !last) return;
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+    document.addEventListener("keydown", handleKey);
+    return () => document.removeEventListener("keydown", handleKey);
   }, [open]);
+
+  function closeDialog() {
+    setOpen(false);
+    window.requestAnimationFrame(() => trigger.current?.focus());
+  }
 
   function toggle(group: "runtimes" | "models" | "tools", value: string) {
     setFleet((current) => {
@@ -80,13 +105,13 @@ export function AskDev({ skill }: { skill: Skill }) {
 
   return (
     <>
-      <button className="primary-button" onClick={() => setOpen(true)}>Ask Dev</button>
+      <button className="primary-button" ref={trigger} onClick={() => setOpen(true)}>Ask Dev</button>
       {open && (
-        <div className="modal-backdrop" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && setOpen(false)}>
-          <section className="modal" role="dialog" aria-modal="true" aria-labelledby={titleId}>
+        <div className="modal-backdrop" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && closeDialog()}>
+          <section className="modal" ref={dialog} role="dialog" aria-modal="true" aria-labelledby={titleId}>
             <div className="modal-head">
-              <div><span className="eyebrow">Zero-signup fleet check</span><h2 id={titleId}>Will {skill.name} fit?</h2></div>
-              <button className="icon-button" aria-label="Close Ask Dev" onClick={() => setOpen(false)}>×</button>
+              <div><span className="eyebrow">Ask Dev · zero-signup fleet check</span><h2 id={titleId}>Will {skill.name} survive the descent?</h2></div>
+              <button className="icon-button" aria-label="Close Ask Dev" onClick={closeDialog}>×</button>
             </div>
             <p className="privacy-note">Select capability names only. Never enter API keys, prompts, client data, memories, or private repository content. These chips stay in this browser.</p>
             {(Object.keys(choices) as Array<keyof typeof choices>).map((group) => (
@@ -128,7 +153,7 @@ export function AskDev({ skill }: { skill: Skill }) {
               </div>
             </fieldset>
             <button className="primary-button" disabled={loading || !fleet.runtimes.length} onClick={assess}>
-              {loading ? "Scanning public evidence…" : "Run compatibility check"}
+              {loading ? "Scanning public evidence…" : "Ask Dev"}
             </button>
             {error && <p className="error-text" role="alert">{error}</p>}
             {assessment && (

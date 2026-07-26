@@ -7,8 +7,8 @@ export default async function SharePage({ params }: { params: Promise<{ id: stri
   const card = await getShareCard(id);
   if (!card) notFound();
   return (
-    <main className="detail-shell" id="main">
-      <Link className="back-link" href="/">NEMESYS / SHARED VERDICT</Link>
+    <main className="detail-shell" id="main" tabIndex={-1}>
+      <Link className="back-link" href="/">ATLANTIS / SHARED VERDICT</Link>
       <section className="detail-panel" style={{ marginTop: "3rem", maxWidth: 760 }}>
         <span className="eyebrow">Privacy-safe compatibility card</span>
         <h1 style={{ fontSize: "clamp(2.5rem, 7vw, 5.5rem)", marginBottom: ".5rem" }}>{card.skillName}</h1>

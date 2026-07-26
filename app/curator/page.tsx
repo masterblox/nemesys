@@ -9,8 +9,8 @@ export default async function CuratorPage() {
   const identity = await curatorIdentity();
   const items = identity ? await curatorInbox() : [];
   return (
-    <main className="curator-shell" id="main">
-      <Link className="back-link" href="/">← PUBLIC RADAR</Link>
+    <main className="curator-shell" id="main" tabIndex={-1}>
+      <Link className="back-link" href="/">← ATLANTIS PUBLIC REGISTRY</Link>
       <span className="eyebrow">Private signal desk</span>
       <h1>Curator inbox.</h1>
       {!hasDatabase() ? (

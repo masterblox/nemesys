@@ -1,8 +1,10 @@
-# Nemesys Community Update Radar
+# Atlantis Public Agent Registry
 
-Nemesys indexes public agent skills and source repositories, detects content
+Atlantis is the public community experience powered by the Nemesys protocol.
+It indexes public agent skills and source repositories, detects content
 changes, shows readable diffs and audits, and provides a privacy-minimized
-compatibility check.
+compatibility check. Technical contracts such as `nemesys.yml`, package paths,
+CLI commands, and API routes keep the Nemesys name.
 
 ## Local development
 

@@ -11,11 +11,11 @@ export default async function SkillPage({ params }: { params: Promise<{ owner: s
   if (!skill) notFound();
   const latest = skill.revisions[0];
   return (
-    <main className="detail-shell" id="main">
-      <Link className="back-link" href="/">← RETURN TO PUBLIC RADAR</Link>
+    <main className="detail-shell" id="main" tabIndex={-1}>
+      <Link className="back-link" href="/#registry">← RETURN TO DEEP REGISTRY</Link>
       <section className="detail-hero">
         <div>
-          <span className="eyebrow">Verified public skill · {skill.source}</span>
+          <span className="eyebrow">Public specimen · {skill.source}</span>
           <h1>{skill.name}</h1>
           <p>{skill.description}</p>
           <div className="detail-meta">
@@ -32,7 +32,7 @@ export default async function SkillPage({ params }: { params: Promise<{ owner: s
       <div className="detail-grid">
         <div>
           <section className="detail-panel">
-            <span className="section-kicker">Latest transmission</span>
+            <span className="section-kicker">Latest current</span>
             <h2>{latest?.summary || "No revision history yet"}</h2>
             {latest?.diff ? (
               <div className="diff-view">

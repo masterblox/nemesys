@@ -71,11 +71,13 @@ export function RadarDashboard({ catalog }: { catalog: CatalogSnapshot }) {
                 <span className="source-avatar" aria-hidden="true">{skill.creator.slice(0, 2).toUpperCase()}</span>
                 <span className={`status-pill ${skill.auditStatus}`}>{skill.auditStatus === "pass" ? "audit passed" : skill.auditStatus}</span>
               </div>
+              <span className="card-source mono">{skill.source}</span>
               <h3>{skill.name}</h3>
               <p>{skill.description}</p>
               {skill.revisions[0] && <div className="update-note">{skill.revisions[0].summary}</div>}
               <div className="skill-meta">
                 <span>{compactNumber(skill.installs)} installs</span>
+                <span>{skill.riskLevel} risk</span>
                 <span>{age(skill.updatedAt)}</span>
               </div>
               <Link className="card-link" href={skillPath(skill)} aria-label={`Open ${skill.name}`} />
@@ -104,6 +106,7 @@ export function RadarDashboard({ catalog }: { catalog: CatalogSnapshot }) {
               <div>
                 <div className="signal-meta"><span>{signal.creator || "public source"}</span><span>BUZZ {signal.buzzScore}</span></div>
                 <div className="buzz-meter" aria-label={`Buzz score ${signal.buzzScore} out of 100`}><i style={{ width: `${signal.buzzScore}%` }} /></div>
+                <a className="signal-source" href={signal.sourceUrl} target="_blank" rel="noreferrer">Inspect attributed source ↗</a>
               </div>
             </article>
           ))}
