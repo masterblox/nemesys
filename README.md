@@ -38,6 +38,10 @@ Configure the following masked environment variables in the Openship project:
 - `CRON_SECRET`
 - `OPENAI_API_KEY` and `ASSESSMENT_MODEL`
 - `ASSESSMENT_SIGNING_SECRET`
+- `TRUSTED_PROXY_HEADER` set to the client-IP header that Openship overwrites
+  (supported: `x-forwarded-for`, `x-real-ip`, or `cf-connecting-ip`)
+- `TRUSTED_PROXY_HOPS` set to the number of trusted hops when using
+  `x-forwarded-for` (normally `1`)
 - `CURATOR_ALLOWED_X_IDS` containing Carlos's numeric X user ID
 - `CURATOR_SESSION_SECRET`
 - `TOKEN_ENCRYPTION_KEY` as a base64-encoded 32-byte value
