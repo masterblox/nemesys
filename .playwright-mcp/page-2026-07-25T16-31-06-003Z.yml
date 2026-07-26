@@ -1,0 +1,254 @@
+- generic [active] [ref=f4e1]:
+  - link "Skip to content" [ref=f4e2] [cursor=pointer]:
+    - /url: "#view"
+  - generic [ref=f4e3]:
+    - generic [ref=f4e4]:
+      - generic [ref=f4e6]:
+        - generic [ref=f4e7]:
+          - generic [ref=f4e8]: "@masterblox/gdpr-breach-sentinel"
+          - generic [ref=f4e9]: 2.0.0
+        - generic [ref=f4e10]:
+          - generic [ref=f4e11]: "@juridico-labs/pt-contract-review"
+          - generic [ref=f4e12]: 3.3.0
+        - generic [ref=f4e13]:
+          - generic [ref=f4e14]: "@masterblox/fleet-routing-enforce"
+          - generic [ref=f4e15]: 0.9.5
+        - generic [ref=f4e16]:
+          - generic [ref=f4e17]: "@community/changelog-linter"
+          - generic [ref=f4e18]: 1.1.0
+        - generic [ref=f4e19]:
+          - generic [ref=f4e20]: "@juridico-labs/juridico-onboarding"
+          - generic [ref=f4e21]: 2.1.2
+        - generic [ref=f4e22]:
+          - generic [ref=f4e23]: "@masterblox/gdpr-breach-sentinel"
+          - generic [ref=f4e24]: 2.0.0
+        - generic [ref=f4e25]:
+          - generic [ref=f4e26]: "@juridico-labs/pt-contract-review"
+          - generic [ref=f4e27]: 3.3.0
+        - generic [ref=f4e28]:
+          - generic [ref=f4e29]: "@masterblox/fleet-routing-enforce"
+          - generic [ref=f4e30]: 0.9.5
+        - generic [ref=f4e31]:
+          - generic [ref=f4e32]: "@community/changelog-linter"
+          - generic [ref=f4e33]: 1.1.0
+        - generic [ref=f4e34]:
+          - generic [ref=f4e35]: "@juridico-labs/juridico-onboarding"
+          - generic [ref=f4e36]: 2.1.2
+      - button "Pause the updates ticker" [ref=f4e37] [cursor=pointer]: Pause
+    - main [ref=f4e39]:
+      - generic [ref=f4e41]:
+        - generic [ref=f4e42]:
+          - generic [ref=f4e43]: Search
+          - searchbox "Search" [ref=f4e44]
+        - generic [ref=f4e45]: State
+        - combobox "State" [ref=f4e46] [cursor=pointer]:
+          - option "Ready" [selected]
+          - option "Loading"
+          - option "Empty"
+          - option "Error"
+      - generic [ref=f4e47]:
+        - generic [ref=f4e48]:
+          - generic [ref=f4e49]:
+            - heading "Feed" [level=1] [ref=f4e50]
+            - paragraph [ref=f4e51]: Updates published to packages you subscribe to. 2 unread across 4 agents.
+          - button "Mark all read" [ref=f4e52] [cursor=pointer]
+        - group "Filter feed" [ref=f4e53]:
+          - button "All updates" [pressed] [ref=f4e54] [cursor=pointer]
+          - button "Unread" [ref=f4e55] [cursor=pointer]
+          - button "Breaking only" [ref=f4e56] [cursor=pointer]
+        - generic [ref=f4e57]:
+          - article [ref=f4e58]:
+            - generic [ref=f4e59]: GB
+            - generic [ref=f4e61]:
+              - generic [ref=f4e62]:
+                - heading [level=3] [ref=f4e63]:
+                  - button "@masterblox/gdpr-breach-sentinel" [ref=f4e64] [cursor=pointer]
+                - generic [ref=f4e65]: major
+                - generic [ref=f4e66]: new
+              - generic [ref=f4e67]:
+                - generic [ref=f4e68]:
+                  - generic [ref=f4e69]: 1.4.2
+                  - generic [ref=f4e70]: →
+                  - generic [ref=f4e71]: 2.0.0
+                  - generic [ref=f4e72]: upgrade from 1.4.2 to 2.0.0
+                - generic [ref=f4e73]: ·
+                - generic [ref=f4e74]: carlos
+                - generic [ref=f4e75]: ·
+                - time [ref=f4e76]: 3h ago
+                - generic [ref=f4e77]: ·
+                - generic [ref=f4e78]: 18 subscribed
+              - paragraph [ref=f4e79]: Breach-notification clock now tracks per-jurisdiction deadlines.
+              - list [ref=f4e80]:
+                - listitem [ref=f4e81]:
+                  - generic [ref=f4e82]: breaking
+                  - generic [ref=f4e83]: notify() signature takes a jurisdiction code; calls without one now throw at load time.
+                - listitem [ref=f4e84]:
+                  - generic [ref=f4e85]: added
+                  - generic [ref=f4e86]: Per-jurisdiction deadline table for PT, ES, FR, DE (72h vs 24h regimes).
+                - listitem [ref=f4e87]:
+                  - generic [ref=f4e88]: fixed
+                  - generic [ref=f4e89]: Weekend and public-holiday rollover no longer shortens the reporting window.
+              - paragraph [ref=f4e90]:
+                - generic [ref=f4e93]: Requires @masterblox/fleet-core >=3.1.0 — 2 of your agents are below this.
+              - generic [ref=f4e94]:
+                - generic [ref=f4e95]: 7 files changed
+                - generic [ref=f4e96]: "+412"
+                - generic [ref=f4e97]: "-96"
+              - generic [ref=f4e109]:
+                - button "Pull 2.0.0" [ref=f4e110] [cursor=pointer]
+                - button "View diff" [ref=f4e111] [cursor=pointer]
+                - button "Skip update for @masterblox/gdpr-breach-sentinel" [ref=f4e112] [cursor=pointer]:
+                  - text: Skip
+                  - generic [ref=f4e113]: update for @masterblox/gdpr-breach-sentinel
+          - article [ref=f4e114]:
+            - generic [ref=f4e115]: PC
+            - generic [ref=f4e117]:
+              - generic [ref=f4e118]:
+                - heading [level=3] [ref=f4e119]:
+                  - button "@juridico-labs/pt-contract-review" [ref=f4e120] [cursor=pointer]
+                - generic [ref=f4e121]: minor
+                - generic [ref=f4e122]: new
+              - generic [ref=f4e123]:
+                - generic [ref=f4e124]:
+                  - generic [ref=f4e125]: 3.2.0
+                  - generic [ref=f4e126]: →
+                  - generic [ref=f4e127]: 3.3.0
+                  - generic [ref=f4e128]: upgrade from 3.2.0 to 3.3.0
+                - generic [ref=f4e129]: ·
+                - generic [ref=f4e130]: ana.f
+                - generic [ref=f4e131]: ·
+                - time [ref=f4e132]: 4h ago
+                - generic [ref=f4e133]: ·
+                - generic [ref=f4e134]: 63 subscribed
+              - paragraph [ref=f4e135]: Adds clause extraction for Portuguese commercial leases.
+              - list [ref=f4e136]:
+                - listitem [ref=f4e137]:
+                  - generic [ref=f4e138]: added
+                  - generic [ref=f4e139]: Clause extraction for commercial lease templates (arrendamento comercial).
+                - listitem [ref=f4e140]:
+                  - generic [ref=f4e141]: changed
+                  - generic [ref=f4e142]: Confidence scores now returned per clause instead of per document.
+              - generic [ref=f4e143]:
+                - generic [ref=f4e144]: 4 files changed
+                - generic [ref=f4e145]: "+233"
+                - generic [ref=f4e146]: "-41"
+              - generic [ref=f4e158]:
+                - button "Pull 3.3.0" [ref=f4e159] [cursor=pointer]
+                - button "View diff" [ref=f4e160] [cursor=pointer]
+                - button "Skip update for @juridico-labs/pt-contract-review" [ref=f4e161] [cursor=pointer]:
+                  - text: Skip
+                  - generic [ref=f4e162]: update for @juridico-labs/pt-contract-review
+          - article [ref=f4e163]:
+            - generic [ref=f4e164]: FR
+            - generic [ref=f4e166]:
+              - generic [ref=f4e167]:
+                - heading [level=3] [ref=f4e168]:
+                  - button "@masterblox/fleet-routing-enforce" [ref=f4e169] [cursor=pointer]
+                - generic [ref=f4e170]: patch
+              - generic [ref=f4e171]:
+                - generic [ref=f4e172]:
+                  - generic [ref=f4e173]: 0.9.4
+                  - generic [ref=f4e174]: →
+                  - generic [ref=f4e175]: 0.9.5
+                  - generic [ref=f4e176]: upgrade from 0.9.4 to 0.9.5
+                - generic [ref=f4e177]: ·
+                - generic [ref=f4e178]: carlos
+                - generic [ref=f4e179]: ·
+                - time [ref=f4e180]: 18h ago
+                - generic [ref=f4e181]: ·
+                - generic [ref=f4e182]: 12 subscribed
+              - paragraph [ref=f4e183]: Routing table no longer drops agents with empty capability sets.
+              - list [ref=f4e184]:
+                - listitem [ref=f4e185]:
+                  - generic [ref=f4e186]: fixed
+                  - generic [ref=f4e187]: Agents declaring zero capabilities were silently removed from the routing table.
+              - generic [ref=f4e188]:
+                - generic [ref=f4e189]: 1 file changed
+                - generic [ref=f4e190]: "+18"
+                - generic [ref=f4e191]: "-6"
+              - generic [ref=f4e203]:
+                - button "Pull 0.9.5" [ref=f4e204] [cursor=pointer]
+                - button "View diff" [ref=f4e205] [cursor=pointer]
+                - button "Skip update for @masterblox/fleet-routing-enforce" [ref=f4e206] [cursor=pointer]:
+                  - text: Skip
+                  - generic [ref=f4e207]: update for @masterblox/fleet-routing-enforce
+          - article [ref=f4e208]:
+            - generic [ref=f4e209]: CL
+            - generic [ref=f4e211]:
+              - generic [ref=f4e212]:
+                - heading [level=3] [ref=f4e213]:
+                  - button "@community/changelog-linter" [ref=f4e214] [cursor=pointer]
+                - generic [ref=f4e215]: minor
+              - generic [ref=f4e216]:
+                - generic [ref=f4e217]:
+                  - generic [ref=f4e218]: 1.0.7
+                  - generic [ref=f4e219]: →
+                  - generic [ref=f4e220]: 1.1.0
+                  - generic [ref=f4e221]: upgrade from 1.0.7 to 1.1.0
+                - generic [ref=f4e222]: ·
+                - generic [ref=f4e223]: r.sanchez
+                - generic [ref=f4e224]: ·
+                - time [ref=f4e225]: 1d ago
+                - generic [ref=f4e226]: ·
+                - generic [ref=f4e227]: 210 subscribed
+              - paragraph [ref=f4e228]: Rejects a publish when the changelog entry is missing or empty.
+              - list [ref=f4e229]:
+                - listitem [ref=f4e230]:
+                  - generic [ref=f4e231]: added
+                  - generic [ref=f4e232]: Pre-publish hook blocks versions with no changelog entry.
+                - listitem [ref=f4e233]:
+                  - generic [ref=f4e234]: changed
+                  - generic [ref=f4e235]: Keep-a-Changelog headings are now matched case-insensitively.
+                - listitem [ref=f4e236]:
+                  - generic [ref=f4e237]: removed
+                  - generic [ref=f4e238]: "Dropped the legacy `--loose` flag."
+              - generic [ref=f4e239]:
+                - generic [ref=f4e240]: 3 files changed
+                - generic [ref=f4e241]: "+87"
+                - generic [ref=f4e242]: "-152"
+              - generic [ref=f4e254]:
+                - button "Pull 1.1.0" [ref=f4e255] [cursor=pointer]
+                - button "View diff" [ref=f4e256] [cursor=pointer]
+                - button "Skip update for @community/changelog-linter" [ref=f4e257] [cursor=pointer]:
+                  - text: Skip
+                  - generic [ref=f4e258]: update for @community/changelog-linter
+          - article [ref=f4e259]:
+            - generic [ref=f4e260]: JO
+            - generic [ref=f4e262]:
+              - generic [ref=f4e263]:
+                - heading [level=3] [ref=f4e264]:
+                  - button "@juridico-labs/juridico-onboarding" [ref=f4e265] [cursor=pointer]
+                - generic [ref=f4e266]: patch
+              - generic [ref=f4e267]:
+                - generic [ref=f4e268]:
+                  - generic [ref=f4e269]: 2.1.1
+                  - generic [ref=f4e270]: →
+                  - generic [ref=f4e271]: 2.1.2
+                  - generic [ref=f4e272]: upgrade from 2.1.1 to 2.1.2
+                - generic [ref=f4e273]: ·
+                - generic [ref=f4e274]: ana.f
+                - generic [ref=f4e275]: ·
+                - time [ref=f4e276]: 2d ago
+                - generic [ref=f4e277]: ·
+                - generic [ref=f4e278]: 44 subscribed
+              - paragraph [ref=f4e279]: Intake form no longer loses the NIF field on validation errors.
+              - list [ref=f4e280]:
+                - listitem [ref=f4e281]:
+                  - generic [ref=f4e282]: fixed
+                  - generic [ref=f4e283]: NIF field cleared itself when an unrelated field failed validation.
+              - generic [ref=f4e284]:
+                - generic [ref=f4e285]: 2 files changed
+                - generic [ref=f4e286]: "+24"
+                - generic [ref=f4e287]: "-19"
+              - generic [ref=f4e299]:
+                - button "Pull 2.1.2" [ref=f4e300] [cursor=pointer]
+                - button "View diff" [ref=f4e301] [cursor=pointer]
+                - button "Skip update for @juridico-labs/juridico-onboarding" [ref=f4e302] [cursor=pointer]:
+                  - text: Skip
+                  - generic [ref=f4e303]: update for @juridico-labs/juridico-onboarding
+    - navigation "Primary" [ref=f4e304]:
+      - button "Feed" [ref=f4e305] [cursor=pointer]
+      - button "Registry" [ref=f4e309] [cursor=pointer]
+      - button "My Agents" [ref=f4e313] [cursor=pointer]
+      - button "Settings" [ref=f4e317] [cursor=pointer]
+  - status [ref=f4e321]

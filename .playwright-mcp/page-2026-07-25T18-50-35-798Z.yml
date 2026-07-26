@@ -1,0 +1,278 @@
+- generic [ref=e1]:
+  - link "Skip to public registry" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - generic "Recent public package broadcasts" [ref=e4]:
+      - generic [ref=e1650]: Interdimensional cable
+      - generic [ref=e1653]:
+        - generic [ref=e1654]:
+          - generic [ref=e1655]: 🌀 C-137
+          - link "anthropics/skills@frontend-design" [ref=e1656] [cursor=pointer]:
+            - /url: "#/search?q=anthropics%2Fskills%40frontend-design"
+          - generic [ref=e1657]: NEW SIGNAL NEW SIGNAL NEW SIGNAL
+          - emphasis [ref=e1658]: 703.3K
+          - text: ◈
+        - generic [ref=e1659]:
+          - generic [ref=e1660]: 📡 D-99
+          - link "vercel-labs/agent-browser@agent-browser" [ref=e1661] [cursor=pointer]:
+            - /url: "#/search?q=vercel-labs%2Fagent-browser%40agent-browser"
+          - generic [ref=e1662]: TRENDING TRENDING TRENDING
+          - emphasis [ref=e1663]: 577.8K
+          - text: ◈
+        - generic [ref=e1664]:
+          - generic [ref=e1665]: 🛡️ F-IRE
+          - link "firebase/agent-skills@firebase-security-rules-auditor" [ref=e1666] [cursor=pointer]:
+            - /url: "#/search?q=firebase%2Fagent-skills%40firebase-security-rules-auditor"
+          - generic [ref=e1667]: AUDIT PASS AUDIT PASS AUDIT PASS
+          - emphasis [ref=e1668]: 78K
+          - text: ◈
+        - generic [ref=e1669]:
+          - generic [ref=e1670]: 🧪 QA-42
+          - link "anthropics/skills@webapp-testing" [ref=e1671] [cursor=pointer]:
+            - /url: "#/search?q=anthropics%2Fskills%40webapp-testing"
+          - generic [ref=e1672]: INDEXED INDEXED INDEXED
+          - emphasis [ref=e1673]: 121.3K
+          - text: ◈
+        - generic [ref=e1674]:
+          - generic [ref=e1675]: 🔐 S-256
+          - link "openai/skills@security-best-practices" [ref=e1676] [cursor=pointer]:
+            - /url: "#/search?q=openai%2Fskills%40security-best-practices"
+          - generic [ref=e1677]: PUBLIC PUBLIC PUBLIC
+          - emphasis [ref=e1678]: 5.8K
+          - text: ◈
+        - generic [ref=e1679]:
+          - generic [ref=e1680]: 📚 DOC-7
+          - link "github/awesome-copilot@documentation-writer" [ref=e1681] [cursor=pointer]:
+            - /url: "#/search?q=github%2Fawesome-copilot%40documentation-writer"
+          - generic [ref=e1682]: UPLINK UPLINK UPLINK
+          - emphasis [ref=e1683]: 23.7K
+          - text: ◈
+        - generic [ref=e1684]:
+          - generic [ref=e1685]: 🌀 C-137
+          - link "anthropics/skills@frontend-design" [ref=e1686] [cursor=pointer]:
+            - /url: "#/search?q=anthropics%2Fskills%40frontend-design"
+          - generic [ref=e1687]: NEW SIGNAL NEW SIGNAL NEW SIGNAL
+          - emphasis [ref=e1688]: 703.3K
+          - text: ◈
+        - generic [ref=e1689]:
+          - generic [ref=e1690]: 📡 D-99
+          - link "vercel-labs/agent-browser@agent-browser" [ref=e1691] [cursor=pointer]:
+            - /url: "#/search?q=vercel-labs%2Fagent-browser%40agent-browser"
+          - generic [ref=e1692]: TRENDING TRENDING TRENDING
+          - emphasis [ref=e1693]: 577.8K
+          - text: ◈
+        - generic [ref=e1694]:
+          - generic [ref=e1695]: 🛡️ F-IRE
+          - link "firebase/agent-skills@firebase-security-rules-auditor" [ref=e1696] [cursor=pointer]:
+            - /url: "#/search?q=firebase%2Fagent-skills%40firebase-security-rules-auditor"
+          - generic [ref=e1697]: AUDIT PASS AUDIT PASS AUDIT PASS
+          - emphasis [ref=e1698]: 78K
+          - text: ◈
+        - generic [ref=e1699]:
+          - generic [ref=e1700]: 🧪 QA-42
+          - link "anthropics/skills@webapp-testing" [ref=e1701] [cursor=pointer]:
+            - /url: "#/search?q=anthropics%2Fskills%40webapp-testing"
+          - generic [ref=e1702]: INDEXED INDEXED INDEXED
+          - emphasis [ref=e1703]: 121.3K
+          - text: ◈
+        - generic [ref=e1704]:
+          - generic [ref=e1705]: 🔐 S-256
+          - link "openai/skills@security-best-practices" [ref=e1706] [cursor=pointer]:
+            - /url: "#/search?q=openai%2Fskills%40security-best-practices"
+          - generic [ref=e1707]: PUBLIC PUBLIC PUBLIC
+          - emphasis [ref=e1708]: 5.8K
+          - text: ◈
+        - generic [ref=e1709]:
+          - generic [ref=e1710]: 📚 DOC-7
+          - link "github/awesome-copilot@documentation-writer" [ref=e1711] [cursor=pointer]:
+            - /url: "#/search?q=github%2Fawesome-copilot%40documentation-writer"
+          - generic [ref=e1712]: UPLINK UPLINK UPLINK
+          - emphasis [ref=e1713]: 23.7K
+          - text: ◈
+      - button "Pause ticker" [ref=e1714] [cursor=pointer]
+    - banner [ref=e72]:
+      - generic [ref=e1717]:
+        - link "Nemesys home" [ref=e1718] [cursor=pointer]:
+          - /url: "#/home"
+          - generic [ref=e1721]: Nemesys
+          - generic [ref=e1722]: public skills
+        - navigation "Primary" [ref=e1723]:
+          - link "Portal" [ref=e1724] [cursor=pointer]:
+            - /url: "#/home"
+            - generic [ref=e1725]: ◉
+            - text: Portal
+          - link "Cable feed" [ref=e1726] [cursor=pointer]:
+            - /url: "#/feed"
+            - generic [ref=e1727]: ▰
+            - text: Cable feed
+          - link "Citadel registry" [ref=e1728] [cursor=pointer]:
+            - /url: "#/registry"
+            - generic [ref=e1729]: ⌘
+            - text: Citadel registry
+          - link "Publish" [ref=e1730] [cursor=pointer]:
+            - /url: "#/publish"
+            - generic [ref=e1731]: ↥
+            - text: Publish
+        - search [ref=e1732]:
+          - generic [ref=e1733]: Search public skills
+          - searchbox "Search public skills" [ref=e1737]
+          - generic [ref=e1738]: ⌘ K
+        - link "Publish a skill" [ref=e1739] [cursor=pointer]:
+          - /url: "#/publish"
+    - main [active] [ref=e88]:
+      - generic [ref=e1740]:
+        - generic [ref=e1741]:
+          - link "Citadel registry" [ref=e1742] [cursor=pointer]:
+            - /url: "#/registry"
+          - generic [ref=e1743]: /
+          - link "frontend-design" [ref=e1744] [cursor=pointer]:
+            - /url: "#/package/anthropics%2Fskills%40frontend-design"
+          - generic [ref=e1745]: /
+          - generic [ref=e1746]: manifest
+        - generic [ref=e1747]:
+          - generic [ref=e1748]:
+            - generic [ref=e1749]: Anatomy Park · structured public record
+            - heading "Manifest viewer" [level=1] [ref=e1750]
+            - paragraph [ref=e1751]: API-inspired nesting for the exact fields Nemesys can prove from the public CLI signal.
+          - generic "anthropics publisher channel" [ref=e1752]:
+            - img "anthropics publisher channel" [ref=e1754]
+      - generic [ref=e1756]:
+        - generic [ref=e1757]:
+          - generic [ref=e1758]:
+            - generic [ref=e1759]: frontend-design / public-record.json
+            - generic [ref=e1761]: VALID PUBLIC SIGNAL
+          - group "Manifest view mode" [ref=e1762]:
+            - button "Structured" [pressed] [ref=e1763] [cursor=pointer]
+            - button "Raw JSON" [ref=e1764] [cursor=pointer]
+          - button "Copy all" [ref=e1765] [cursor=pointer]
+        - generic [ref=e1769]:
+          - complementary [ref=e1770]:
+            - generic [ref=e1771]: Object map
+            - link "01 specifier" [ref=e1772] [cursor=pointer]:
+              - /url: "#manifest-specifier"
+              - generic [ref=e1773]: "01"
+              - text: specifier
+            - link "02 installs" [ref=e1774] [cursor=pointer]:
+              - /url: "#manifest-installs"
+              - generic [ref=e1775]: "02"
+              - text: installs
+            - link "03 source_url" [ref=e1776] [cursor=pointer]:
+              - /url: "#manifest-source_url"
+              - generic [ref=e1777]: "03"
+              - text: source_url
+            - link "04 source" [ref=e1778] [cursor=pointer]:
+              - /url: "#manifest-source"
+              - generic [ref=e1779]: "04"
+              - text: source
+            - link "05 discovery" [ref=e1780] [cursor=pointer]:
+              - /url: "#manifest-discovery"
+              - generic [ref=e1781]: "05"
+              - text: discovery
+            - link "06 nemesys" [ref=e1782] [cursor=pointer]:
+              - /url: "#manifest-nemesys"
+              - generic [ref=e1783]: "06"
+              - text: nemesys
+            - paragraph [ref=e1788]: Source boundaryPrivate package fields are not inferred.
+          - generic [ref=e1789]:
+            - generic [ref=e1790]:
+              - generic [ref=e1791]:
+                - generic [ref=e1792]: "01"
+                - heading "specifier" [level=2] [ref=e1793]
+                - generic [ref=e1794]: string
+              - generic [ref=e1796]:
+                - generic [ref=e1797]: specifier
+                - generic [ref=e1798]: anthropics/skills@frontend-design
+                - button "Copy specifier value" [ref=e1799] [cursor=pointer]
+            - generic [ref=e1803]:
+              - generic [ref=e1804]:
+                - generic [ref=e1805]: "02"
+                - heading "installs" [level=2] [ref=e1806]
+                - generic [ref=e1807]: string
+              - generic [ref=e1809]:
+                - generic [ref=e1810]: installs
+                - generic [ref=e1811]: 703.3K installs
+                - button "Copy installs value" [ref=e1812] [cursor=pointer]
+            - generic [ref=e1816]:
+              - generic [ref=e1817]:
+                - generic [ref=e1818]: "03"
+                - heading "source_url" [level=2] [ref=e1819]
+                - generic [ref=e1820]: string
+              - generic [ref=e1822]:
+                - generic [ref=e1823]: source_url
+                - generic [ref=e1824]: https://skills.sh/anthropics/skills/frontend-design
+                - button "Copy source_url value" [ref=e1825] [cursor=pointer]
+            - generic [ref=e1829]:
+              - generic [ref=e1830]:
+                - generic [ref=e1831]: "04"
+                - heading "source" [level=2] [ref=e1832]
+                - generic [ref=e1833]: object
+              - generic [ref=e1834]:
+                - generic [ref=e1835]:
+                  - generic [ref=e1836]: type
+                  - generic [ref=e1837]: public
+                  - button "Copy type value" [ref=e1838] [cursor=pointer]
+                - generic [ref=e1842]:
+                  - generic [ref=e1843]: registry
+                  - generic [ref=e1844]: skills.sh
+                  - button "Copy registry value" [ref=e1845] [cursor=pointer]
+                - generic [ref=e1849]:
+                  - generic [ref=e1850]: repository
+                  - generic [ref=e1851]: https://github.com/anthropics/skills
+                  - button "Copy repository value" [ref=e1852] [cursor=pointer]
+            - generic [ref=e1856]:
+              - generic [ref=e1857]:
+                - generic [ref=e1858]: "05"
+                - heading "discovery" [level=2] [ref=e1859]
+                - generic [ref=e1860]: object
+              - generic [ref=e1861]:
+                - generic [ref=e1862]:
+                  - generic [ref=e1863]: command
+                  - generic [ref=e1864]: npx skills find frontend
+                  - button "Copy command value" [ref=e1865] [cursor=pointer]
+                - generic [ref=e1869]:
+                  - generic [ref=e1870]: category
+                  - generic [ref=e1871]: frontend
+                  - button "Copy category value" [ref=e1872] [cursor=pointer]
+                - generic [ref=e1876]:
+                  - generic [ref=e1877]: first_seen
+                  - generic [ref=e1878]: Jan 19, 2026
+                  - button "Copy first_seen value" [ref=e1879] [cursor=pointer]
+            - generic [ref=e1883]:
+              - generic [ref=e1884]:
+                - generic [ref=e1885]: "06"
+                - heading "nemesys" [level=2] [ref=e1886]
+                - generic [ref=e1887]: object
+              - generic [ref=e1888]:
+                - generic [ref=e1889]:
+                  - generic [ref=e1890]: status
+                  - generic [ref=e1891]: indexed
+                  - button "Copy status value" [ref=e1892] [cursor=pointer]
+                - generic [ref=e1896]:
+                  - generic [ref=e1897]: visibility
+                  - generic [ref=e1898]: public
+                  - button "Copy visibility value" [ref=e1899] [cursor=pointer]
+                - generic [ref=e1903]:
+                  - generic [ref=e1904]: assessment
+                  - generic [ref=e1905]: external audit signal available
+                  - button "Copy assessment value" [ref=e1906] [cursor=pointer]
+                - generic [ref=e1910]:
+                  - generic [ref=e1911]: character_channel
+                  - generic [ref=e1912]: rick
+                  - button "Copy character_channel value" [ref=e1913] [cursor=pointer]
+    - contentinfo [ref=e294]:
+      - generic [ref=e1917]:
+        - generic [ref=e1918]:
+          - link "Nemesys" [ref=e1919] [cursor=pointer]:
+            - /url: "#/home"
+          - paragraph [ref=e1923]: Public agent skills, indexed across the finite curve.
+        - generic "Footer" [ref=e1924]:
+          - link "Registry" [ref=e1925] [cursor=pointer]:
+            - /url: "#/registry"
+          - link "Feed" [ref=e1926] [cursor=pointer]:
+            - /url: "#/feed"
+          - link "Publish" [ref=e1927] [cursor=pointer]:
+            - /url: "#/publish"
+          - link "Visual DNA API" [ref=e1928] [cursor=pointer]:
+            - /url: https://rickandmortyapi.com/
+        - paragraph [ref=e1932]: Independent fan-inspired interface. Character data from The Rick and Morty API.
+  - status [ref=e311]

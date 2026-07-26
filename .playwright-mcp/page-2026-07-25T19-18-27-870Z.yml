@@ -1,0 +1,98 @@
+- generic [active] [ref=e1]:
+  - link "Skip to scenario" [ref=e2] [cursor=pointer]:
+    - /url: "#scenarioRoot"
+  - generic "Interdimensional Cable package ticker" [ref=e3]:
+    - generic [ref=e480]: NOW BROADCASTING
+    - generic [ref=e483]:
+      - generic [ref=e484]:
+        - generic [ref=e485]: LIVE
+        - generic [ref=e486]: "@demo/portal-cartographer"
+        - emphasis [ref=e487]: v1.0.0 v1.0.0 v1.0.0
+        - generic [ref=e488]: CH 512
+        - text: ◆
+      - generic [ref=e489]:
+        - generic [ref=e490]: SIGNAL VERIFIED
+        - generic [ref=e491]: "@demo/abyssal-security-auditor"
+        - emphasis [ref=e492]: v2.1.0 v2.1.0 v2.1.0
+        - generic [ref=e493]: CH 97
+        - text: ◆
+      - generic [ref=e494]:
+        - generic [ref=e495]: NO COMMERCIALS
+        - generic [ref=e496]: "@demo/cable-signal-router"
+        - emphasis [ref=e497]: v0.9.3 v0.9.3 v0.9.3
+        - generic [ref=e498]: CH 303
+        - text: ◆
+      - generic [ref=e499]:
+        - generic [ref=e500]: LIVE
+        - generic [ref=e501]: "@demo/portal-cartographer"
+        - emphasis [ref=e502]: v1.0.0 v1.0.0 v1.0.0
+        - generic [ref=e503]: CH 512
+        - text: ◆
+      - generic [ref=e504]:
+        - generic [ref=e505]: SIGNAL VERIFIED
+        - generic [ref=e506]: "@demo/abyssal-security-auditor"
+        - emphasis [ref=e507]: v2.1.0 v2.1.0 v2.1.0
+        - generic [ref=e508]: CH 97
+        - text: ◆
+      - generic [ref=e509]:
+        - generic [ref=e510]: NO COMMERCIALS
+        - generic [ref=e511]: "@demo/cable-signal-router"
+        - emphasis [ref=e512]: v0.9.3 v0.9.3 v0.9.3
+        - generic [ref=e513]: CH 303
+        - text: ◆
+    - button "Pause ticker" [ref=e514] [cursor=pointer]: Ⅱ
+  - banner [ref=e4]:
+    - generic [ref=e515]:
+      - link "Nemesys — The Portal" [ref=e516] [cursor=pointer]:
+        - /url: "#/portal"
+        - generic [ref=e518]: NEMESYS
+        - generic [ref=e519]: 03 / Live updates
+      - navigation "Visual scenarios" [ref=e520]:
+        - link "01 The Portal" [ref=e521] [cursor=pointer]:
+          - /url: "#/portal"
+          - generic [ref=e522]: "01"
+          - text: The Portal
+        - link "02 Atlantis" [ref=e523] [cursor=pointer]:
+          - /url: "#/atlantis"
+          - generic [ref=e524]: "02"
+          - text: Atlantis
+        - link "03 Interdimensional Cable" [ref=e525] [cursor=pointer]:
+          - /url: "#/cable"
+          - generic [ref=e526]: "03"
+          - text: Interdimensional Cable
+      - button "YML Open manifest" [ref=e527] [cursor=pointer]:
+        - generic [ref=e528]: YML
+        - text: Open manifest
+  - main [ref=e5]:
+    - generic [ref=e632]:
+      - generic [ref=e633]:
+        - generic [ref=e634]:
+          - generic [ref=e635]: SCENARIO 03 / INTERDIMENSIONAL CABLE
+          - img "Now broadcasting" [ref=e637]
+          - heading [level=1] [ref=e638]:
+            - text: Don’t adjustyour
+            - emphasis [ref=e639]: agent.
+          - paragraph [ref=e640]: The channel guide is built from the same three manifests. Version, runtime, risk, and permissions become the programming schedule.
+        - generic "Feed controls" [ref=e641]:
+          - generic [ref=e642]: CHANNEL GUIDE / C-137
+          - button "RESTORE SIGNAL" [ref=e643] [cursor=pointer]
+      - generic [ref=e649]:
+        - generic [ref=e650]:
+          - generic [ref=e651]: TIME
+          - generic [ref=e652]: NOW
+          - generic [ref=e653]: +30 MIN
+          - generic [ref=e654]: +1 HR
+        - generic [ref=e655]:
+          - generic [ref=e656]: PUBLIC ACCESS
+          - generic [ref=e657]: 3 CHANNELS LOCKED
+          - generic [ref=e658]: SIGNAL MUTED
+        - generic [ref=e660]:
+          - generic [ref=e661]:
+            - generic "Jerry Smith waiting on the couch" [ref=e662]:
+              - img "Jerry Smith waiting on the couch" [ref=e664]
+            - generic [ref=e670]: •••
+          - generic [ref=e671]:
+            - text: EMPTY STATE / JERRY’S LIVING ROOM
+            - heading "Nothing good is on." [level=2] [ref=e672]
+            - paragraph [ref=e673]: Jerry muted every package channel and is now committed to the couch.
+            - button "Get Jerry off the couch" [ref=e674] [cursor=pointer]

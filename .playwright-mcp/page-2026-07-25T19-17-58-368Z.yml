@@ -1,0 +1,156 @@
+- generic [active] [ref=e1]:
+  - link "Skip to scenario" [ref=e2] [cursor=pointer]:
+    - /url: "#scenarioRoot"
+  - generic "Interdimensional Cable package ticker" [ref=e3]:
+    - generic [ref=e121]: ATLANTIS CURRENT
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - generic [ref=e126]: CURRENT STABLE
+        - generic [ref=e127]: "@demo/portal-cartographer"
+        - emphasis [ref=e128]: v1.0.0 v1.0.0 v1.0.0
+        - generic [ref=e129]: LOW
+        - text: ◆
+      - generic [ref=e130]:
+        - generic [ref=e131]: NIMBUS APPROVED
+        - generic [ref=e132]: "@demo/abyssal-security-auditor"
+        - emphasis [ref=e133]: v2.1.0 v2.1.0 v2.1.0
+        - generic [ref=e134]: MEDIUM
+        - text: ◆
+      - generic [ref=e135]:
+        - generic [ref=e136]: DEPTH 2,100M
+        - generic [ref=e137]: "@demo/cable-signal-router"
+        - emphasis [ref=e138]: v0.9.3 v0.9.3 v0.9.3
+        - generic [ref=e139]: HIGH
+        - text: ◆
+      - generic [ref=e140]:
+        - generic [ref=e141]: CURRENT STABLE
+        - generic [ref=e142]: "@demo/portal-cartographer"
+        - emphasis [ref=e143]: v1.0.0 v1.0.0 v1.0.0
+        - generic [ref=e144]: LOW
+        - text: ◆
+      - generic [ref=e145]:
+        - generic [ref=e146]: NIMBUS APPROVED
+        - generic [ref=e147]: "@demo/abyssal-security-auditor"
+        - emphasis [ref=e148]: v2.1.0 v2.1.0 v2.1.0
+        - generic [ref=e149]: MEDIUM
+        - text: ◆
+      - generic [ref=e150]:
+        - generic [ref=e151]: DEPTH 2,100M
+        - generic [ref=e152]: "@demo/cable-signal-router"
+        - emphasis [ref=e153]: v0.9.3 v0.9.3 v0.9.3
+        - generic [ref=e154]: HIGH
+        - text: ◆
+    - button "Pause ticker" [ref=e155] [cursor=pointer]: Ⅱ
+  - banner [ref=e4]:
+    - generic [ref=e156]:
+      - link "Nemesys — The Portal" [ref=e157] [cursor=pointer]:
+        - /url: "#/portal"
+        - generic [ref=e159]: NEMESYS
+        - generic [ref=e160]: 02 / Registry below
+      - navigation "Visual scenarios" [ref=e161]:
+        - link "01 The Portal" [ref=e162] [cursor=pointer]:
+          - /url: "#/portal"
+          - generic [ref=e163]: "01"
+          - text: The Portal
+        - link "02 Atlantis" [ref=e164] [cursor=pointer]:
+          - /url: "#/atlantis"
+          - generic [ref=e165]: "02"
+          - text: Atlantis
+        - link "03 Interdimensional Cable" [ref=e166] [cursor=pointer]:
+          - /url: "#/cable"
+          - generic [ref=e167]: "03"
+          - text: Interdimensional Cable
+      - button "YML Open manifest" [ref=e168] [cursor=pointer]:
+        - generic [ref=e169]: YML
+        - text: Open manifest
+  - main [ref=e5]:
+    - generic [ref=e377]:
+      - generic [ref=e381]:
+        - generic [ref=e382]:
+          - generic [ref=e383]: SCENARIO 02 / ATLANTIS REGISTRY
+          - heading [level=1] [ref=e384]:
+            - text: Search belowthe
+            - emphasis [ref=e385]: surface.
+          - paragraph [ref=e386]:
+            - text: Every current is a real
+            - code [ref=e387]: nemesys.yml
+            - text: . Filter the specimens by risk, runtime, or the words inside their manifest.
+        - generic [ref=e388]:
+          - generic [ref=e389]: ✦
+          - generic "Mr. Nimbus, registry filter controller" [ref=e390]:
+            - img "Mr. Nimbus, registry filter controller" [ref=e392]
+          - generic [ref=e394]:
+            - text: MR. NIMBUS / FILTER AUTHORITY
+            - paragraph [ref=e395]: I control the police. And, for the moment, this package registry.
+      - generic [ref=e396]:
+        - search [ref=e397]:
+          - generic [ref=e400]: Search package manifests
+          - searchbox "Search package manifests" [ref=e401]
+          - button "PING REGISTRY" [ref=e402] [cursor=pointer]
+        - group "Filter by package risk" [ref=e403]:
+          - button "All currents" [pressed] [ref=e404] [cursor=pointer]
+          - button "low risk" [ref=e406] [cursor=pointer]
+          - button "medium risk" [ref=e408] [cursor=pointer]
+          - button "high risk" [ref=e410] [cursor=pointer]
+        - generic [ref=e412]: 3 / 3 specimens visible
+      - generic [ref=e413]:
+        - article [ref=e414]:
+          - generic [ref=e417]:
+            - generic [ref=e418]: DEPTH / 0840M
+            - generic [ref=e419]: low
+          - paragraph [ref=e420]: "@demo / hermes"
+          - heading "portal-cartographer" [level=2] [ref=e421]
+          - paragraph [ref=e422]: Maps package dependencies across agent runtimes and flags unreachable skill coordinates.
+          - generic [ref=e423]:
+            - generic [ref=e424]:
+              - generic [ref=e425]: models
+              - generic [ref=e426]: claude-sonnet
+            - generic [ref=e427]:
+              - generic [ref=e428]: tools
+              - generic [ref=e429]: filesystem
+            - generic [ref=e430]:
+              - generic [ref=e431]: permissions
+              - generic [ref=e432]: "1"
+          - generic [ref=e433]:
+            - button "Open specimen" [ref=e434] [cursor=pointer]
+            - button "Summon package" [ref=e435] [cursor=pointer]
+        - article [ref=e436]:
+          - generic [ref=e439]:
+            - generic [ref=e440]: DEPTH / 1470M
+            - generic [ref=e441]: medium
+          - paragraph [ref=e442]: "@demo / codex"
+          - heading "abyssal-security-auditor" [level=2] [ref=e443]
+          - paragraph [ref=e444]: Inspects agent permissions below the surface and emits a bounded security assessment.
+          - generic [ref=e445]:
+            - generic [ref=e446]:
+              - generic [ref=e447]: models
+              - generic [ref=e448]: gpt-5
+            - generic [ref=e449]:
+              - generic [ref=e450]: tools
+              - generic [ref=e451]: filesystem
+            - generic [ref=e452]:
+              - generic [ref=e453]: permissions
+              - generic [ref=e454]: "2"
+          - generic [ref=e455]:
+            - button "Open specimen" [ref=e456] [cursor=pointer]
+            - button "Summon package" [ref=e457] [cursor=pointer]
+        - article [ref=e458]:
+          - generic [ref=e461]:
+            - generic [ref=e462]: DEPTH / 2100M
+            - generic [ref=e463]: high
+          - paragraph [ref=e464]: "@demo / hermes"
+          - heading "cable-signal-router" [level=2] [ref=e465]
+          - paragraph [ref=e466]: Routes update broadcasts to subscribed agents without changing the package payload.
+          - generic [ref=e467]:
+            - generic [ref=e468]:
+              - generic [ref=e469]: models
+              - generic [ref=e470]: none
+            - generic [ref=e471]:
+              - generic [ref=e472]: tools
+              - generic [ref=e473]: network
+            - generic [ref=e474]:
+              - generic [ref=e475]: permissions
+              - generic [ref=e476]: "2"
+          - generic [ref=e477]:
+            - button "Open specimen" [ref=e478] [cursor=pointer]
+            - button "Summon package" [ref=e479] [cursor=pointer]

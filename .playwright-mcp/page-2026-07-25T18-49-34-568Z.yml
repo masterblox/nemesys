@@ -1,0 +1,569 @@
+- generic [ref=e1]:
+  - link "Skip to public registry" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - generic "Recent public package broadcasts" [ref=e4]:
+      - generic [ref=e334]: Interdimensional cable
+      - generic [ref=e337]:
+        - generic [ref=e338]:
+          - generic [ref=e339]: 🌀 C-137
+          - link "anthropics/skills@frontend-design" [ref=e340] [cursor=pointer]:
+            - /url: "#/search?q=anthropics%2Fskills%40frontend-design"
+          - generic [ref=e341]: NEW SIGNAL NEW SIGNAL NEW SIGNAL
+          - emphasis [ref=e342]: 703.3K
+          - text: ◈
+        - generic [ref=e343]:
+          - generic [ref=e344]: 📡 D-99
+          - link "vercel-labs/agent-browser@agent-browser" [ref=e345] [cursor=pointer]:
+            - /url: "#/search?q=vercel-labs%2Fagent-browser%40agent-browser"
+          - generic [ref=e346]: TRENDING TRENDING TRENDING
+          - emphasis [ref=e347]: 577.8K
+          - text: ◈
+        - generic [ref=e348]:
+          - generic [ref=e349]: 🛡️ F-IRE
+          - link "firebase/agent-skills@firebase-security-rules-auditor" [ref=e350] [cursor=pointer]:
+            - /url: "#/search?q=firebase%2Fagent-skills%40firebase-security-rules-auditor"
+          - generic [ref=e351]: AUDIT PASS AUDIT PASS AUDIT PASS
+          - emphasis [ref=e352]: 78K
+          - text: ◈
+        - generic [ref=e353]:
+          - generic [ref=e354]: 🧪 QA-42
+          - link "anthropics/skills@webapp-testing" [ref=e355] [cursor=pointer]:
+            - /url: "#/search?q=anthropics%2Fskills%40webapp-testing"
+          - generic [ref=e356]: INDEXED INDEXED INDEXED
+          - emphasis [ref=e357]: 121.3K
+          - text: ◈
+        - generic [ref=e358]:
+          - generic [ref=e359]: 🔐 S-256
+          - link "openai/skills@security-best-practices" [ref=e360] [cursor=pointer]:
+            - /url: "#/search?q=openai%2Fskills%40security-best-practices"
+          - generic [ref=e361]: PUBLIC PUBLIC PUBLIC
+          - emphasis [ref=e362]: 5.8K
+          - text: ◈
+        - generic [ref=e363]:
+          - generic [ref=e364]: 📚 DOC-7
+          - link "github/awesome-copilot@documentation-writer" [ref=e365] [cursor=pointer]:
+            - /url: "#/search?q=github%2Fawesome-copilot%40documentation-writer"
+          - generic [ref=e366]: UPLINK UPLINK UPLINK
+          - emphasis [ref=e367]: 23.7K
+          - text: ◈
+        - generic [ref=e368]:
+          - generic [ref=e369]: 🌀 C-137
+          - link "anthropics/skills@frontend-design" [ref=e370] [cursor=pointer]:
+            - /url: "#/search?q=anthropics%2Fskills%40frontend-design"
+          - generic [ref=e371]: NEW SIGNAL NEW SIGNAL NEW SIGNAL
+          - emphasis [ref=e372]: 703.3K
+          - text: ◈
+        - generic [ref=e373]:
+          - generic [ref=e374]: 📡 D-99
+          - link "vercel-labs/agent-browser@agent-browser" [ref=e375] [cursor=pointer]:
+            - /url: "#/search?q=vercel-labs%2Fagent-browser%40agent-browser"
+          - generic [ref=e376]: TRENDING TRENDING TRENDING
+          - emphasis [ref=e377]: 577.8K
+          - text: ◈
+        - generic [ref=e378]:
+          - generic [ref=e379]: 🛡️ F-IRE
+          - link "firebase/agent-skills@firebase-security-rules-auditor" [ref=e380] [cursor=pointer]:
+            - /url: "#/search?q=firebase%2Fagent-skills%40firebase-security-rules-auditor"
+          - generic [ref=e381]: AUDIT PASS AUDIT PASS AUDIT PASS
+          - emphasis [ref=e382]: 78K
+          - text: ◈
+        - generic [ref=e383]:
+          - generic [ref=e384]: 🧪 QA-42
+          - link "anthropics/skills@webapp-testing" [ref=e385] [cursor=pointer]:
+            - /url: "#/search?q=anthropics%2Fskills%40webapp-testing"
+          - generic [ref=e386]: INDEXED INDEXED INDEXED
+          - emphasis [ref=e387]: 121.3K
+          - text: ◈
+        - generic [ref=e388]:
+          - generic [ref=e389]: 🔐 S-256
+          - link "openai/skills@security-best-practices" [ref=e390] [cursor=pointer]:
+            - /url: "#/search?q=openai%2Fskills%40security-best-practices"
+          - generic [ref=e391]: PUBLIC PUBLIC PUBLIC
+          - emphasis [ref=e392]: 5.8K
+          - text: ◈
+        - generic [ref=e393]:
+          - generic [ref=e394]: 📚 DOC-7
+          - link "github/awesome-copilot@documentation-writer" [ref=e395] [cursor=pointer]:
+            - /url: "#/search?q=github%2Fawesome-copilot%40documentation-writer"
+          - generic [ref=e396]: UPLINK UPLINK UPLINK
+          - emphasis [ref=e397]: 23.7K
+          - text: ◈
+      - button "Pause ticker" [ref=e398] [cursor=pointer]
+    - banner [ref=e72]:
+      - generic [ref=e401]:
+        - link "Nemesys home" [ref=e402] [cursor=pointer]:
+          - /url: "#/home"
+          - generic [ref=e405]: Nemesys
+          - generic [ref=e406]: public skills
+        - navigation "Primary" [ref=e407]:
+          - link "Portal" [ref=e408] [cursor=pointer]:
+            - /url: "#/home"
+            - generic [ref=e409]: ◉
+            - text: Portal
+          - link "Cable feed" [ref=e410] [cursor=pointer]:
+            - /url: "#/feed"
+            - generic [ref=e411]: ▰
+            - text: Cable feed
+          - link "Citadel registry" [ref=e412] [cursor=pointer]:
+            - /url: "#/registry"
+            - generic [ref=e413]: ⌘
+            - text: Citadel registry
+          - link "Publish" [ref=e414] [cursor=pointer]:
+            - /url: "#/publish"
+            - generic [ref=e415]: ↥
+            - text: Publish
+        - search [ref=e416]:
+          - generic [ref=e417]: Search public skills
+          - searchbox "Search public skills" [ref=e421]
+          - generic [ref=e422]: ⌘ K
+        - link "Publish a skill" [ref=e423] [cursor=pointer]:
+          - /url: "#/publish"
+    - main [active] [ref=e88]:
+      - generic [ref=e424]:
+        - generic [ref=e425]:
+          - generic [ref=e426]: Location 03 · public source directory
+          - heading [level=1] [ref=e427]:
+            - text: Citadel of
+            - emphasis [ref=e428]: Public Skills
+          - paragraph [ref=e429]: A dense city index of open agent capabilities. No private fleet state. No client packages. Every door leads back to a public source.
+        - generic [ref=e453]:
+          - generic [ref=e454]: ⌾
+          - generic [ref=e455]:
+            - generic [ref=e456]: Citadel of Ricks
+            - generic [ref=e457]: Space station · dimension unknown
+      - generic [ref=e458]:
+        - search [ref=e459]:
+          - generic [ref=e463]: Filter public skills
+          - searchbox "Filter public skills" [ref=e464]
+        - generic [ref=e465]: 15 public signals visible
+        - generic [ref=e466]:
+          - generic [ref=e467]: Sort
+          - combobox "Sort" [ref=e468] [cursor=pointer]:
+            - option "Most installed" [selected]
+            - option "Name A–Z"
+            - option "Publisher"
+      - generic [ref=e469]:
+        - complementary "Registry districts" [ref=e470]:
+          - generic [ref=e471]: Citadel directory
+          - button "◎ All districts 15 signals" [ref=e472] [cursor=pointer]:
+            - generic [ref=e473]: ◎
+            - generic [ref=e474]:
+              - text: All districts
+              - generic [ref=e475]: 15 signals
+          - button "✦ Design sector 3 signals" [ref=e476] [cursor=pointer]:
+            - generic [ref=e477]: ✦
+            - generic [ref=e478]:
+              - text: Design sector
+              - generic [ref=e479]: 3 signals
+          - button "⌁ Test chambers 3 signals" [ref=e480] [cursor=pointer]:
+            - generic [ref=e481]: ⌁
+            - generic [ref=e482]:
+              - text: Test chambers
+              - generic [ref=e483]: 3 signals
+          - button "⬡ Defense ring 4 signals" [ref=e484] [cursor=pointer]:
+            - generic [ref=e485]: ⬡
+            - generic [ref=e486]:
+              - text: Defense ring
+              - generic [ref=e487]: 4 signals
+          - button "▤ Archive stacks 2 signals" [ref=e488] [cursor=pointer]:
+            - generic [ref=e489]: ▤
+            - generic [ref=e490]:
+              - text: Archive stacks
+              - generic [ref=e491]: 2 signals
+          - button "↯ Transit tubes 3 signals" [ref=e492] [cursor=pointer]:
+            - generic [ref=e493]: ↯
+            - generic [ref=e494]:
+              - text: Transit tubes
+              - generic [ref=e495]: 3 signals
+          - generic [ref=e496]:
+            - generic "Birdperson, public source verifier" [ref=e497]:
+              - img "Birdperson, public source verifier" [ref=e499]
+            - paragraph [ref=e501]: Public sources only.Private development packages never appear here.
+        - generic [ref=e502]:
+          - generic [ref=e503]:
+            - generic [ref=e504]: SECTOR / ALL
+            - generic [ref=e505]: 15 OF 15 RECORDS
+            - generic [ref=e506]: "FINITE CURVE: OPEN"
+          - generic [ref=e507]:
+            - article [ref=e508]:
+              - generic [ref=e509]:
+                - generic "anthropics publisher channel" [ref=e510]:
+                  - img "anthropics publisher channel" [ref=e512]
+                - generic [ref=e514]: frontend
+                - generic [ref=e515]: FEATURED FEATURED FEATURED
+              - generic [ref=e516]:
+                - paragraph [ref=e517]: anthropics/skills
+                - heading [level=3] [ref=e518]:
+                  - link "frontend-design" [ref=e519] [cursor=pointer]:
+                    - /url: "#/package/anthropics%2Fskills%40frontend-design"
+                - paragraph [ref=e520]: Distinctive, production-grade frontend interfaces with intentional visual direction.
+              - generic [ref=e521]:
+                - generic [ref=e522]: design
+                - generic [ref=e523]: frontend
+                - generic [ref=e524]: official
+              - generic [ref=e525]:
+                - generic [ref=e526]: 703.3K installs
+                - generic [ref=e527]: audit signal
+              - generic [ref=e528]:
+                - link "Inspect anatomy" [ref=e529] [cursor=pointer]:
+                  - /url: "#/package/anthropics%2Fskills%40frontend-design"
+                - button "+ Subscribe to frontend-design" [ref=e532] [cursor=pointer]:
+                  - text: +
+                  - generic [ref=e533]: Subscribe to frontend-design
+            - article [ref=e534]:
+              - generic [ref=e535]:
+                - generic "vercel-labs publisher channel" [ref=e536]:
+                  - img "vercel-labs publisher channel" [ref=e538]
+                - generic [ref=e540]: browser
+                - generic [ref=e541]: FEATURED FEATURED FEATURED
+              - generic [ref=e542]:
+                - paragraph [ref=e543]: vercel-labs/agent-browser
+                - heading [level=3] [ref=e544]:
+                  - link "agent-browser" [ref=e545] [cursor=pointer]:
+                    - /url: "#/package/vercel-labs%2Fagent-browser%40agent-browser"
+                - paragraph [ref=e546]: Fast browser automation primitives designed for agent-controlled web workflows.
+              - generic [ref=e547]:
+                - generic [ref=e548]: browser
+                - generic [ref=e549]: automation
+                - generic [ref=e550]: official
+              - generic [ref=e551]:
+                - generic [ref=e552]: 577.8K installs
+                - generic [ref=e553]: audit signal
+              - generic [ref=e554]:
+                - link "Inspect anatomy" [ref=e555] [cursor=pointer]:
+                  - /url: "#/package/vercel-labs%2Fagent-browser%40agent-browser"
+                - button "+ Subscribe to agent-browser" [ref=e558] [cursor=pointer]:
+                  - text: +
+                  - generic [ref=e559]: Subscribe to agent-browser
+            - article [ref=e560]:
+              - generic [ref=e561]:
+                - generic "leonxlnx publisher channel" [ref=e562]:
+                  - img "leonxlnx publisher channel" [ref=e564]
+                - generic [ref=e566]: frontend
+              - generic [ref=e567]:
+                - paragraph [ref=e568]: leonxlnx/taste-skill
+                - heading [level=3] [ref=e569]:
+                  - link "design-taste-frontend" [ref=e570] [cursor=pointer]:
+                    - /url: "#/package/leonxlnx%2Ftaste-skill%40design-taste-frontend"
+                - paragraph [ref=e571]: Taste-driven frontend direction for layouts that feel authored instead of templated.
+              - generic [ref=e572]:
+                - generic [ref=e573]: design
+                - generic [ref=e574]: taste
+                - generic [ref=e575]: frontend
+              - generic [ref=e576]:
+                - generic [ref=e577]: 289K installs
+                - generic [ref=e578]: community
+              - generic [ref=e579]:
+                - link "Inspect anatomy" [ref=e580] [cursor=pointer]:
+                  - /url: "#/package/leonxlnx%2Ftaste-skill%40design-taste-frontend"
+                - button "+ Subscribe to design-taste-frontend" [ref=e583] [cursor=pointer]:
+                  - text: +
+                  - generic [ref=e584]: Subscribe to design-taste-frontend
+            - article [ref=e585]:
+              - generic [ref=e586]:
+                - generic "anthropics publisher channel" [ref=e587]:
+                  - img "anthropics publisher channel" [ref=e589]
+                - generic [ref=e591]: testing
+                - generic [ref=e592]: FEATURED FEATURED FEATURED
+              - generic [ref=e593]:
+                - paragraph [ref=e594]: anthropics/skills
+                - heading [level=3] [ref=e595]:
+                  - link "webapp-testing" [ref=e596] [cursor=pointer]:
+                    - /url: "#/package/anthropics%2Fskills%40webapp-testing"
+                - paragraph [ref=e597]: Browser-driven workflows for testing local web applications and user journeys.
+              - generic [ref=e598]:
+                - generic [ref=e599]: testing
+                - generic [ref=e600]: browser
+                - generic [ref=e601]: official
+              - generic [ref=e602]:
+                - generic [ref=e603]: 121.3K installs
+                - generic [ref=e604]: audit signal
+              - generic [ref=e605]:
+                - link "Inspect anatomy" [ref=e606] [cursor=pointer]:
+                  - /url: "#/package/anthropics%2Fskills%40webapp-testing"
+                - button "+ Subscribe to webapp-testing" [ref=e609] [cursor=pointer]:
+                  - text: +
+                  - generic [ref=e610]: Subscribe to webapp-testing
+            - article [ref=e611]:
+              - generic [ref=e612]:
+                - generic "browser-act publisher channel" [ref=e613]:
+                  - img "browser-act publisher channel" [ref=e615]
+                - generic [ref=e617]: browser
+              - generic [ref=e618]:
+                - paragraph [ref=e619]: browser-act/skills
+                - heading [level=3] [ref=e620]:
+                  - link "browser-act" [ref=e621] [cursor=pointer]:
+                    - /url: "#/package/browser-act%2Fskills%40browser-act"
+                - paragraph [ref=e622]: Composable browser actions for navigation, extraction, and task automation.
+              - generic [ref=e623]:
+                - generic [ref=e624]: browser
+                - generic [ref=e625]: automation
+                - generic [ref=e626]: agent
+              - generic [ref=e627]:
+                - generic [ref=e628]: 107.2K installs
+                - generic [ref=e629]: community
+              - generic [ref=e630]:
+                - link "Inspect anatomy" [ref=e631] [cursor=pointer]:
+                  - /url: "#/package/browser-act%2Fskills%40browser-act"
+                - button "+ Subscribe to browser-act" [ref=e634] [cursor=pointer]:
+                  - text: +
+                  - generic [ref=e635]: Subscribe to browser-act
+            - article [ref=e636]:
+              - generic [ref=e637]:
+                - generic "firebase publisher channel" [ref=e638]:
+                  - img "firebase publisher channel" [ref=e640]
+                - generic [ref=e642]: security
+                - generic [ref=e643]: FEATURED FEATURED FEATURED
+              - generic [ref=e644]:
+                - paragraph [ref=e645]: firebase/agent-skills
+                - heading [level=3] [ref=e646]:
+                  - link "firebase-security-rules-auditor" [ref=e647] [cursor=pointer]:
+                    - /url: "#/package/firebase%2Fagent-skills%40firebase-security-rules-auditor"
+                - paragraph [ref=e648]: Audits Firebase rules for overly broad access and authorization mistakes.
+              - generic [ref=e649]:
+                - generic [ref=e650]: security
+                - generic [ref=e651]: firebase
+                - generic [ref=e652]: audit
+              - generic [ref=e653]:
+                - generic [ref=e654]: 78K installs
+                - generic [ref=e655]: audit signal
+              - generic [ref=e656]:
+                - link "Inspect anatomy" [ref=e657] [cursor=pointer]:
+                  - /url: "#/package/firebase%2Fagent-skills%40firebase-security-rules-auditor"
+                - button "+ Subscribe to firebase-security-rules-auditor" [ref=e660] [cursor=pointer]:
+                  - text: +
+                  - generic [ref=e661]: Subscribe to firebase-security-rules-auditor
+            - article [ref=e662]:
+              - generic [ref=e663]:
+                - generic "pbakaus publisher channel" [ref=e664]:
+                  - img "pbakaus publisher channel" [ref=e666]
+                - generic [ref=e668]: frontend
+              - generic [ref=e669]:
+                - paragraph [ref=e670]: pbakaus/impeccable
+                - heading [level=3] [ref=e671]:
+                  - link "frontend-design" [ref=e672] [cursor=pointer]:
+                    - /url: "#/package/pbakaus%2Fimpeccable%40frontend-design"
+                - paragraph [ref=e673]: A focused design workflow for polishing visual hierarchy, rhythm, and interaction.
+              - generic [ref=e674]:
+                - generic [ref=e675]: design
+                - generic [ref=e676]: polish
+                - generic [ref=e677]: frontend
+              - generic [ref=e678]:
+                - generic [ref=e679]: 54.1K installs
+                - generic [ref=e680]: community
+              - generic [ref=e681]:
+                - link "Inspect anatomy" [ref=e682] [cursor=pointer]:
+                  - /url: "#/package/pbakaus%2Fimpeccable%40frontend-design"
+                - button "+ Subscribe to frontend-design" [ref=e685] [cursor=pointer]:
+                  - text: +
+                  - generic [ref=e686]: Subscribe to frontend-design
+            - article [ref=e687]:
+              - generic [ref=e688]:
+                - generic "wshobson publisher channel" [ref=e689]:
+                  - img "wshobson publisher channel" [ref=e691]
+                - generic [ref=e693]: testing
+              - generic [ref=e694]:
+                - paragraph [ref=e695]: wshobson/agents
+                - heading [level=3] [ref=e696]:
+                  - link "python-testing-patterns" [ref=e697] [cursor=pointer]:
+                    - /url: "#/package/wshobson%2Fagents%40python-testing-patterns"
+                - paragraph [ref=e698]: Reusable testing patterns for reliable Python services, libraries, and agents.
+              - generic [ref=e699]:
+                - generic [ref=e700]: testing
+                - generic [ref=e701]: python
+                - generic [ref=e702]: patterns
+              - generic [ref=e703]:
+                - generic [ref=e704]: 28.2K installs
+                - generic [ref=e705]: community
+              - generic [ref=e706]:
+                - link "Inspect anatomy" [ref=e707] [cursor=pointer]:
+                  - /url: "#/package/wshobson%2Fagents%40python-testing-patterns"
+                - button "+ Subscribe to python-testing-patterns" [ref=e710] [cursor=pointer]:
+                  - text: +
+                  - generic [ref=e711]: Subscribe to python-testing-patterns
+            - article [ref=e712]:
+              - generic [ref=e713]:
+                - generic "github publisher channel" [ref=e714]:
+                  - img "github publisher channel" [ref=e716]
+                - generic [ref=e718]: documentation
+              - generic [ref=e719]:
+                - paragraph [ref=e720]: github/awesome-copilot
+                - heading [level=3] [ref=e721]:
+                  - link "documentation-writer" [ref=e722] [cursor=pointer]:
+                    - /url: "#/package/github%2Fawesome-copilot%40documentation-writer"
+                - paragraph [ref=e723]: Turns technical context into structured, useful documentation for real users.
+              - generic [ref=e724]:
+                - generic [ref=e725]: documentation
+                - generic [ref=e726]: writing
+                - generic [ref=e727]: github
+              - generic [ref=e728]:
+                - generic [ref=e729]: 23.7K installs
+                - generic [ref=e730]: community
+              - generic [ref=e731]:
+                - link "Inspect anatomy" [ref=e732] [cursor=pointer]:
+                  - /url: "#/package/github%2Fawesome-copilot%40documentation-writer"
+                - button "+ Subscribe to documentation-writer" [ref=e735] [cursor=pointer]:
+                  - text: +
+                  - generic [ref=e736]: Subscribe to documentation-writer
+            - article [ref=e737]:
+              - generic [ref=e738]:
+                - generic "better-auth publisher channel" [ref=e739]:
+                  - img "better-auth publisher channel" [ref=e741]
+                - generic [ref=e743]: security
+              - generic [ref=e744]:
+                - paragraph [ref=e745]: better-auth/skills
+                - heading [level=3] [ref=e746]:
+                  - link "better-auth-security-best-practices" [ref=e747] [cursor=pointer]:
+                    - /url: "#/package/better-auth%2Fskills%40better-auth-security-best-practices"
+                - paragraph [ref=e748]: Security review patterns and defensive defaults for Better Auth integrations.
+              - generic [ref=e749]:
+                - generic [ref=e750]: security
+                - generic [ref=e751]: auth
+                - generic [ref=e752]: best-practices
+              - generic [ref=e753]:
+                - generic [ref=e754]: 21.7K installs
+                - generic [ref=e755]: audit signal
+              - generic [ref=e756]:
+                - link "Inspect anatomy" [ref=e757] [cursor=pointer]:
+                  - /url: "#/package/better-auth%2Fskills%40better-auth-security-best-practices"
+                - button "+ Subscribe to better-auth-security-best-practices" [ref=e760] [cursor=pointer]:
+                  - text: +
+                  - generic [ref=e761]: Subscribe to better-auth-security-best-practices
+            - article [ref=e762]:
+              - generic [ref=e763]:
+                - generic "wshobson publisher channel" [ref=e764]:
+                  - img "wshobson publisher channel" [ref=e766]
+                - generic [ref=e768]: testing
+              - generic [ref=e769]:
+                - paragraph [ref=e770]: wshobson/agents
+                - heading [level=3] [ref=e771]:
+                  - link "e2e-testing-patterns" [ref=e772] [cursor=pointer]:
+                    - /url: "#/package/wshobson%2Fagents%40e2e-testing-patterns"
+                - paragraph [ref=e773]: End-to-end test architecture for critical flows across browsers and services.
+              - generic [ref=e774]:
+                - generic [ref=e775]: testing
+                - generic [ref=e776]: e2e
+                - generic [ref=e777]: browser
+              - generic [ref=e778]:
+                - generic [ref=e779]: 19.9K installs
+                - generic [ref=e780]: community
+              - generic [ref=e781]:
+                - link "Inspect anatomy" [ref=e782] [cursor=pointer]:
+                  - /url: "#/package/wshobson%2Fagents%40e2e-testing-patterns"
+                - button "+ Subscribe to e2e-testing-patterns" [ref=e785] [cursor=pointer]:
+                  - text: +
+                  - generic [ref=e786]: Subscribe to e2e-testing-patterns
+            - article [ref=e787]:
+              - generic [ref=e788]:
+                - generic "addyosmani publisher channel" [ref=e789]:
+                  - img "addyosmani publisher channel" [ref=e791]
+                - generic [ref=e793]: documentation
+              - generic [ref=e794]:
+                - paragraph [ref=e795]: addyosmani/agent-skills
+                - heading [level=3] [ref=e796]:
+                  - link "documentation-and-adrs" [ref=e797] [cursor=pointer]:
+                    - /url: "#/package/addyosmani%2Fagent-skills%40documentation-and-adrs"
+                - paragraph [ref=e798]: Creates maintainable documentation and architecture decision records.
+              - generic [ref=e799]:
+                - generic [ref=e800]: documentation
+                - generic [ref=e801]: architecture
+                - generic [ref=e802]: adr
+              - generic [ref=e803]:
+                - generic [ref=e804]: 15.6K installs
+                - generic [ref=e805]: community
+              - generic [ref=e806]:
+                - link "Inspect anatomy" [ref=e807] [cursor=pointer]:
+                  - /url: "#/package/addyosmani%2Fagent-skills%40documentation-and-adrs"
+                - button "+ Subscribe to documentation-and-adrs" [ref=e810] [cursor=pointer]:
+                  - text: +
+                  - generic [ref=e811]: Subscribe to documentation-and-adrs
+            - article [ref=e812]:
+              - generic [ref=e813]:
+                - generic "getsentry publisher channel" [ref=e814]:
+                  - img "getsentry publisher channel" [ref=e816]
+                - generic [ref=e818]: security
+              - generic [ref=e819]:
+                - paragraph [ref=e820]: getsentry/skills
+                - heading [level=3] [ref=e821]:
+                  - link "security-review" [ref=e822] [cursor=pointer]:
+                    - /url: "#/package/getsentry%2Fskills%40security-review"
+                - paragraph [ref=e823]: Structured security review guidance for finding risk before it reaches production.
+              - generic [ref=e824]:
+                - generic [ref=e825]: security
+                - generic [ref=e826]: review
+                - generic [ref=e827]: sentry
+              - generic [ref=e828]:
+                - generic [ref=e829]: 11.6K installs
+                - generic [ref=e830]: audit signal
+              - generic [ref=e831]:
+                - link "Inspect anatomy" [ref=e832] [cursor=pointer]:
+                  - /url: "#/package/getsentry%2Fskills%40security-review"
+                - button "+ Subscribe to security-review" [ref=e835] [cursor=pointer]:
+                  - text: +
+                  - generic [ref=e836]: Subscribe to security-review
+            - article [ref=e837]:
+              - generic [ref=e838]:
+                - generic "firecrawl publisher channel" [ref=e839]:
+                  - img "firecrawl publisher channel" [ref=e841]
+                - generic [ref=e843]: browser
+              - generic [ref=e844]:
+                - paragraph [ref=e845]: firecrawl/cli
+                - heading [level=3] [ref=e846]:
+                  - link "firecrawl-browser" [ref=e847] [cursor=pointer]:
+                    - /url: "#/package/firecrawl%2Fcli%40firecrawl-browser"
+                - paragraph [ref=e848]: Browser and extraction workflows powered by the Firecrawl command line.
+              - generic [ref=e849]:
+                - generic [ref=e850]: browser
+                - generic [ref=e851]: crawl
+                - generic [ref=e852]: data
+              - generic [ref=e853]:
+                - generic [ref=e854]: 11.3K installs
+                - generic [ref=e855]: community
+              - generic [ref=e856]:
+                - link "Inspect anatomy" [ref=e857] [cursor=pointer]:
+                  - /url: "#/package/firecrawl%2Fcli%40firecrawl-browser"
+                - button "+ Subscribe to firecrawl-browser" [ref=e860] [cursor=pointer]:
+                  - text: +
+                  - generic [ref=e861]: Subscribe to firecrawl-browser
+            - article [ref=e862]:
+              - generic [ref=e863]:
+                - generic "openai publisher channel" [ref=e864]:
+                  - img "openai publisher channel" [ref=e866]
+                - generic [ref=e868]: security
+              - generic [ref=e869]:
+                - paragraph [ref=e870]: openai/skills
+                - heading [level=3] [ref=e871]:
+                  - link "security-best-practices" [ref=e872] [cursor=pointer]:
+                    - /url: "#/package/openai%2Fskills%40security-best-practices"
+                - paragraph [ref=e873]: Secure-by-default implementation guidance for common application stacks.
+              - generic [ref=e874]:
+                - generic [ref=e875]: security
+                - generic [ref=e876]: official
+                - generic [ref=e877]: best-practices
+              - generic [ref=e878]:
+                - generic [ref=e879]: 5.8K installs
+                - generic [ref=e880]: audit signal
+              - generic [ref=e881]:
+                - link "Inspect anatomy" [ref=e882] [cursor=pointer]:
+                  - /url: "#/package/openai%2Fskills%40security-best-practices"
+                - button "+ Subscribe to security-best-practices" [ref=e885] [cursor=pointer]:
+                  - text: +
+                  - generic [ref=e886]: Subscribe to security-best-practices
+    - contentinfo [ref=e294]:
+      - generic [ref=e887]:
+        - generic [ref=e888]:
+          - link "Nemesys" [ref=e889] [cursor=pointer]:
+            - /url: "#/home"
+          - paragraph [ref=e893]: Public agent skills, indexed across the finite curve.
+        - generic "Footer" [ref=e894]:
+          - link "Registry" [ref=e895] [cursor=pointer]:
+            - /url: "#/registry"
+          - link "Feed" [ref=e896] [cursor=pointer]:
+            - /url: "#/feed"
+          - link "Publish" [ref=e897] [cursor=pointer]:
+            - /url: "#/publish"
+          - link "Visual DNA API" [ref=e898] [cursor=pointer]:
+            - /url: https://rickandmortyapi.com/
+        - paragraph [ref=e902]: Independent fan-inspired interface. Character data from The Rick and Morty API.
+  - status [ref=e311]

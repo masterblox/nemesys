@@ -1,0 +1,5 @@
+[   27474ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:55080/missing-krombopulos.png:0
+[  152043ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://127.0.0.1:55080/packages/@demo/portal-cartographer/v1.0.0/nemesys.yml:0
+[  152043ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://127.0.0.1:55080/packages/@demo/abyssal-security-auditor/v2.1.0/nemesys.yml:0
+[  152043ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://127.0.0.1:55080/packages/@demo/cable-signal-router/v0.9.3/nemesys.yml:0
+[  216908ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://rickandmortyapi.com/api/character/avatar/121.jpeg:0
